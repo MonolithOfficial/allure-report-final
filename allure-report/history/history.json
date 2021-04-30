@@ -1,1 +1,251 @@
-{ }
+{
+  "e61010acb9117decf06e6761ca2b1c2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dfd30c91ff67af5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800067095,
+        "stop" : 1619800067591,
+        "duration" : 496
+      }
+    } ]
+  },
+  "e24627152c47e7d96616ebce2f8a80ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "663a60a1c9ee28ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800052784,
+        "stop" : 1619800058375,
+        "duration" : 5591
+      }
+    } ]
+  },
+  "c501cf2c3c9485d7f72f63e2588eb298" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36dba3eb2b825944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800058679,
+        "stop" : 1619800058943,
+        "duration" : 264
+      }
+    } ]
+  },
+  "a4c547be2e71f6a12347861541bbeb3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76034e389499338f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800066487,
+        "stop" : 1619800067095,
+        "duration" : 608
+      }
+    } ]
+  },
+  "1b36e87a87c3e1f8d6632a164783eaf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5abd097d11e8a3fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800051627,
+        "stop" : 1619800052139,
+        "duration" : 512
+      }
+    } ]
+  },
+  "4cc262cd92460e286bc0787e2d087918" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e8991fa71f1af5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800052139,
+        "stop" : 1619800052443,
+        "duration" : 304
+      }
+    } ]
+  },
+  "de7785ef83c5be1e30f12322fa50b4d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b1ad982e504e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800059231,
+        "stop" : 1619800059535,
+        "duration" : 304
+      }
+    } ]
+  },
+  "1ae13647e986e2fafa82036be6079a6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "416844fe814280c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800058951,
+        "stop" : 1619800059231,
+        "duration" : 280
+      }
+    } ]
+  },
+  "a215a5913eae04fd6198bb6335e3d5e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b2716e96fd8b311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800052451,
+        "stop" : 1619800052776,
+        "duration" : 325
+      }
+    } ]
+  },
+  "4741913665602e6617aacf9eec0d98e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e40e4efad0e58ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800058391,
+        "stop" : 1619800058671,
+        "duration" : 280
+      }
+    } ]
+  },
+  "d10b146bafe7595f82bb58eaa1c53007" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a6e789a5ace0b5d",
+      "status" : "failed",
+      "statusDetails" : "expected [false] but found [true]",
+      "time" : {
+        "start" : 1619800065575,
+        "stop" : 1619800066479,
+        "duration" : 904
+      }
+    } ]
+  },
+  "342bf8b6b09b7b90d99f2a393a838291" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8321968bd32d25a",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619800065215.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619800065215.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
+      "time" : {
+        "start" : 1619800059543,
+        "stop" : 1619800065543,
+        "duration" : 6000
+      }
+    } ]
+  },
+  "59cf34f3f833b794a0ad4e591600aa0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7babfc6bb3258aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619800037487,
+        "stop" : 1619800051395,
+        "duration" : 13908
+      }
+    } ]
+  }
+}
