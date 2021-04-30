@@ -1,44 +1,44 @@
 {
-  "uid" : "af510cf9ce0275b4",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "752d4a47f626c313",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1619791669794,
-    "stop" : 1619791670102,
-    "duration" : 308
+    "start" : 1619792943704,
+    "stop" : 1619792944016,
+    "duration" : 312
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1619791669794,
-        "stop" : 1619791670102,
-        "duration" : 308
+        "start" : 1619792943704,
+        "stop" : 1619792944016,
+        "duration" : 312
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "16880@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -79,7 +79,7 @@
     "value" : "Generate token for unauthorized user"
   }, {
     "name" : "story",
-    "value" : "Checks if the given user is authorized, after generating token"
+    "value" : "Generates the token for given user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af510cf9ce0275b4.json",
+  "source" : "752d4a47f626c313.json",
   "parameterValues" : [ ]
 }

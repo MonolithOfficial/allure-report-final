@@ -1,131 +1,131 @@
 [ {
-  "uid" : "4f4de55a0e379033",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1619791661546,
-    "stop" : 1619791661811,
-    "duration" : 265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "127a0bbaf280a4ff",
+  "uid" : "752d4a47f626c313",
   "name" : "Generate Token",
   "time" : {
-    "start" : 1619791669486,
-    "stop" : 1619791669778,
-    "duration" : 292
+    "start" : 1619792943704,
+    "stop" : 1619792944016,
+    "duration" : 312
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "845dbd5fdc22b91e",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1619791657401,
-    "stop" : 1619791657666,
-    "duration" : 265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af510cf9ce0275b4",
-  "name" : "User is now authorized",
-  "time" : {
-    "start" : 1619791669794,
-    "stop" : 1619791670102,
-    "duration" : 308
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "420def031f7c8b2d",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1619791657666,
-    "stop" : 1619791657977,
-    "duration" : 311
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13ec9bb11e69c6f5",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1619791656931,
-    "stop" : 1619791657401,
-    "duration" : 470
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ac857fb343e8233",
-  "name" : "User is not authorized",
-  "time" : {
-    "start" : 1619791669192,
-    "stop" : 1619791669486,
-    "duration" : 294
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "48a58e43828d0372",
+  "uid" : "70de48611db0a43c",
   "name" : "Add an user",
   "time" : {
-    "start" : 1619791662372,
-    "stop" : 1619791662669,
-    "duration" : 297
+    "start" : 1619792936524,
+    "stop" : 1619792936836,
+    "duration" : 312
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "af844f9ea350107e",
+  "uid" : "4268e84e6800b25a",
+  "name" : "User is now authorized",
+  "time" : {
+    "start" : 1619792944022,
+    "stop" : 1619792944285,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b0e1c38d21bc1b2",
   "name" : "NegativeScenario",
   "time" : {
-    "start" : 1619791661827,
-    "stop" : 1619791662106,
-    "duration" : 279
+    "start" : 1619792935670,
+    "stop" : 1619792935970,
+    "duration" : 300
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e57ca864741804e",
+  "uid" : "f840078d54a4f069",
   "name" : "NegativeScenario",
   "time" : {
-    "start" : 1619791662110,
-    "stop" : 1619791662357,
-    "duration" : 247
+    "start" : 1619792936251,
+    "stop" : 1619792936524,
+    "duration" : 273
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "936858bd0993603f",
-  "name" : "GetBooksDataFromUIAndAPITest",
-  "time" : {
-    "start" : 1619791657982,
-    "stop" : 1619791661546,
-    "duration" : 3564
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "356f018fce5bba60",
-  "name" : "GOBTest",
-  "time" : {
-    "start" : 1619791647342,
-    "stop" : 1619791656801,
-    "duration" : 9459
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "202a65a0dc284ae4",
+  "uid" : "2c44465772eecc3a",
   "name" : "getUserLoginAddBook",
   "time" : {
-    "start" : 1619791662669,
-    "stop" : 1619791669160,
-    "duration" : 6491
+    "start" : 1619792936836,
+    "stop" : 1619792943376,
+    "duration" : 6540
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a6fc334007d1a05",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1619792931706,
+    "stop" : 1619792932051,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb72fda763bdb6c",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1619792930952,
+    "stop" : 1619792931425,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2cb1517dbd0641",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1619792931425,
+    "stop" : 1619792931691,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16dd9993b3653c9",
+  "name" : "User is not authorized",
+  "time" : {
+    "start" : 1619792943407,
+    "stop" : 1619792943688,
+    "duration" : 281
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0be16c57700716e",
+  "name" : "GOBTest",
+  "time" : {
+    "start" : 1619792922627,
+    "stop" : 1619792930818,
+    "duration" : 8191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dc9d8c6455d48b0",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1619792935976,
+    "stop" : 1619792936236,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed45c960ca9811c0",
+  "name" : "GetBooksDataFromUIAndAPITest",
+  "time" : {
+    "start" : 1619792932051,
+    "stop" : 1619792935670,
+    "duration" : 3619
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

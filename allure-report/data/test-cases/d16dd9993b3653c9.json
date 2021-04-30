@@ -1,12 +1,12 @@
 {
-  "uid" : "1ac857fb343e8233",
+  "uid" : "d16dd9993b3653c9",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619791669192,
-    "stop" : 1619791669486,
-    "duration" : 294
+    "start" : 1619792943407,
+    "stop" : 1619792943688,
+    "duration" : 281
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,31 +24,31 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619791669193,
-        "stop" : 1619791669486,
-        "duration" : 293
+        "start" : 1619792943407,
+        "stop" : 1619792943688,
+        "duration" : 281
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "eae323d28ba9d5a4",
+      "uid" : "33e06f437031d11e",
       "name" : "Screenshot",
-      "source" : "eae323d28ba9d5a4.png",
+      "source" : "33e06f437031d11e.png",
       "type" : "image/png",
-      "size" : 109682
+      "size" : 110172
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "16880@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,11 +82,11 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, before generating token"
-  }, {
     "name" : "epic",
     "value" : "Generate Token"
+  }, {
+    "name" : "story",
+    "value" : "Checks if the given user is authorized, before generating token"
   }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "1ac857fb343e8233.json",
+  "source" : "d16dd9993b3653c9.json",
   "parameterValues" : [ ]
 }

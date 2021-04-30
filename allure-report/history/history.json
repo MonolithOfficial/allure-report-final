@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "936858bd0993603f",
+      "uid" : "ed45c960ca9811c0",
       "status" : "passed",
       "time" : {
-        "start" : 1619791657982,
-        "stop" : 1619791661546,
-        "duration" : 3564
+        "start" : 1619792932051,
+        "stop" : 1619792935670,
+        "duration" : 3619
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af510cf9ce0275b4",
+      "uid" : "4268e84e6800b25a",
       "status" : "passed",
       "time" : {
-        "start" : 1619791669794,
-        "stop" : 1619791670102,
-        "duration" : 308
+        "start" : 1619792944022,
+        "stop" : 1619792944285,
+        "duration" : 263
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af844f9ea350107e",
+      "uid" : "9dc9d8c6455d48b0",
       "status" : "passed",
       "time" : {
-        "start" : 1619791661827,
-        "stop" : 1619791662106,
-        "duration" : 279
+        "start" : 1619792935976,
+        "stop" : 1619792936236,
+        "duration" : 260
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "127a0bbaf280a4ff",
+      "uid" : "752d4a47f626c313",
       "status" : "passed",
       "time" : {
-        "start" : 1619791669486,
-        "stop" : 1619791669778,
-        "duration" : 292
+        "start" : 1619792943704,
+        "stop" : 1619792944016,
+        "duration" : 312
       }
     } ]
   },
@@ -85,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "13ec9bb11e69c6f5",
+      "uid" : "deb72fda763bdb6c",
       "status" : "passed",
       "time" : {
-        "start" : 1619791656931,
-        "stop" : 1619791657401,
-        "duration" : 470
+        "start" : 1619792930952,
+        "stop" : 1619792931425,
+        "duration" : 473
       }
     } ]
   },
@@ -104,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "845dbd5fdc22b91e",
+      "uid" : "4d2cb1517dbd0641",
       "status" : "passed",
       "time" : {
-        "start" : 1619791657401,
-        "stop" : 1619791657666,
-        "duration" : 265
+        "start" : 1619792931425,
+        "stop" : 1619792931691,
+        "duration" : 266
       }
     } ]
   },
@@ -123,31 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48a58e43828d0372",
+      "uid" : "70de48611db0a43c",
       "status" : "passed",
       "time" : {
-        "start" : 1619791662372,
-        "stop" : 1619791662669,
-        "duration" : 297
-      }
-    } ]
-  },
-  "1ae13647e986e2fafa82036be6079a6a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6e57ca864741804e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619791662110,
-        "stop" : 1619791662357,
-        "duration" : 247
+        "start" : 1619792936524,
+        "stop" : 1619792936836,
+        "duration" : 312
       }
     } ]
   },
@@ -161,12 +142,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "420def031f7c8b2d",
+      "uid" : "8a6fc334007d1a05",
       "status" : "passed",
       "time" : {
-        "start" : 1619791657666,
-        "stop" : 1619791657977,
-        "duration" : 311
+        "start" : 1619792931706,
+        "stop" : 1619792932051,
+        "duration" : 345
+      }
+    } ]
+  },
+  "1ae13647e986e2fafa82036be6079a6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f840078d54a4f069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619792936251,
+        "stop" : 1619792936524,
+        "duration" : 273
       }
     } ]
   },
@@ -180,12 +180,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f4de55a0e379033",
+      "uid" : "9b0e1c38d21bc1b2",
       "status" : "passed",
       "time" : {
-        "start" : 1619791661546,
-        "stop" : 1619791661811,
-        "duration" : 265
+        "start" : 1619792935670,
+        "stop" : 1619792935970,
+        "duration" : 300
       }
     } ]
   },
@@ -199,32 +199,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ac857fb343e8233",
+      "uid" : "d16dd9993b3653c9",
       "status" : "failed",
       "statusDetails" : "expected [false] but found [true]",
       "time" : {
-        "start" : 1619791669192,
-        "stop" : 1619791669486,
-        "duration" : 294
-      }
-    } ]
-  },
-  "59cf34f3f833b794a0ad4e591600aa0e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "356f018fce5bba60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619791647342,
-        "stop" : 1619791656801,
-        "duration" : 9459
+        "start" : 1619792943407,
+        "stop" : 1619792943688,
+        "duration" : 281
       }
     } ]
   },
@@ -238,13 +219,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "202a65a0dc284ae4",
+      "uid" : "2c44465772eecc3a",
       "status" : "failed",
-      "statusDetails" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619791668927.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619791668927.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619792943163.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619792943163.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
       "time" : {
-        "start" : 1619791662669,
-        "stop" : 1619791669160,
-        "duration" : 6491
+        "start" : 1619792936836,
+        "stop" : 1619792943376,
+        "duration" : 6540
+      }
+    } ]
+  },
+  "59cf34f3f833b794a0ad4e591600aa0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0be16c57700716e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619792922627,
+        "stop" : 1619792930818,
+        "duration" : 8191
       }
     } ]
   }
