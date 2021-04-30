@@ -1,0 +1,99 @@
+{
+  "uid" : "65a0c50d1bf0ded9",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
+  "time" : {
+    "start" : 1619793908096,
+    "stop" : 1619793908387,
+    "duration" : 291
+  },
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Authorize the user",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get response for 'GenerateToken' request",
+      "time" : {
+        "start" : 1619793908097,
+        "stop" : 1619793908387,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "generateToken"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BSJ5I2T"
+  }, {
+    "name" : "thread",
+    "value" : "9652@DESKTOP-BSJ5I2T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Generates the token for given user"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65a0c50d1bf0ded9.json",
+  "parameterValues" : [ ]
+}

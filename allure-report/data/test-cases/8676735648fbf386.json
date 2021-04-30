@@ -1,0 +1,189 @@
+{
+  "uid" : "8676735648fbf386",
+  "name" : "GOBTest",
+  "fullName" : "Tests.GOBTest",
+  "historyId" : "59cf34f3f833b794a0ad4e591600aa0e",
+  "time" : {
+    "start" : 1619793879265,
+    "stop" : 1619793892316,
+    "duration" : 13051
+  },
+  "description" : "This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data",
+  "descriptionHtml" : "<p>This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "moving to the information page",
+      "time" : {
+        "start" : 1619793886875,
+        "stop" : 1619793888072,
+        "duration" : 1197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Grabbing ISBN",
+      "time" : {
+        "start" : 1619793888093,
+        "stop" : 1619793888148,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Grabbing all UI Values",
+      "time" : {
+        "start" : 1619793888148,
+        "stop" : 1619793888515,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "throws API grabbed information into BookAPI",
+      "time" : {
+        "start" : 1619793888530,
+        "stop" : 1619793890439,
+        "duration" : 1909
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "FBD",
+        "value" : "frontend.pages.FirstBookDetails@395ac2e5"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Asserts Book via 2 objects, one containing data from API another from UI",
+      "time" : {
+        "start" : 1619793890442,
+        "stop" : 1619793890449,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "bookAPI",
+        "value" : "backend.models.responses.Book@6a9e88f1"
+      }, {
+        "name" : "book",
+        "value" : "backend.models.responses.Book@22edca96"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Asserts Book via Query and the UI Object directly",
+      "time" : {
+        "start" : 1619793890449,
+        "stop" : 1619793892291,
+        "duration" : 1842
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "book",
+        "value" : "backend.models.responses.Book@22edca96"
+      }, {
+        "name" : "FBD",
+        "value" : "frontend.pages.FirstBookDetails@395ac2e5"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "GOBTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BSJ5I2T"
+  }, {
+    "name" : "thread",
+    "value" : "9652@DESKTOP-BSJ5I2T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Get a book from the Site and the API and Compare the data sets"
+  }, {
+    "name" : "epic",
+    "value" : "Books"
+  }, {
+    "name" : "feature",
+    "value" : "Get a Single Book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8676735648fbf386.json",
+  "parameterValues" : [ ]
+}
