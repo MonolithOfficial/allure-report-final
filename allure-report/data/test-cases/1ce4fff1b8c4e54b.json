@@ -1,12 +1,12 @@
 {
-  "uid" : "e4cb28b33e280304",
+  "uid" : "1ce4fff1b8c4e54b",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
   "historyId" : "1ae13647e986e2fafa82036be6079a6a",
   "time" : {
-    "start" : 1619785070548,
-    "stop" : 1619785070803,
-    "duration" : 255
+    "start" : 1619786511576,
+    "stop" : 1619786511857,
+    "duration" : 281
   },
   "description" : "Tests user web service with dataprovider",
   "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1619785070548,
-        "stop" : 1619785070548,
+        "start" : 1619786511576,
+        "stop" : 1619786511576,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,30 +34,30 @@
         "name" : "password",
         "value" : ""
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1619785070548,
-        "stop" : 1619785070803,
-        "duration" : 255
+        "start" : 1619786511576,
+        "stop" : 1619786511841,
+        "duration" : 265
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1619785070803,
-        "stop" : 1619785070803,
+        "start" : 1619786511857,
+        "stop" : 1619786511857,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,17 +70,17 @@
         "name" : "expectedMessage",
         "value" : "UserName and Password required."
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 3,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7036@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "16436@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e4cb28b33e280304.json",
+  "source" : "1ce4fff1b8c4e54b.json",
   "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }
