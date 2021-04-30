@@ -1,44 +1,44 @@
 {
-  "uid" : "b599b9a5ddd93329",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "d05fdcfc14137c8c",
+  "name" : "Add an user",
+  "fullName" : "Tests.getBooksForUser",
+  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1619794321980,
-    "stop" : 1619794322236,
-    "duration" : 256
+    "start" : 1619796397147,
+    "stop" : 1619796397443,
+    "duration" : 296
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Get books for current user",
+  "descriptionHtml" : "<p>Get books for current user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Get books for current user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1619794321980,
-        "stop" : 1619794322236,
-        "duration" : 256
+        "start" : 1619796397147,
+        "stop" : 1619796397443,
+        "duration" : 296
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "getBooksForUser"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "13584@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15824@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -73,13 +73,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Checks if the given user is authorized, after generating token"
-  }, {
-    "name" : "feature",
-    "value" : "Generate token for unauthorized user"
+    "value" : "Adds an user and gets the list of books"
   }, {
     "name" : "epic",
     "value" : "Generate Token"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b599b9a5ddd93329.json",
+  "source" : "d05fdcfc14137c8c.json",
   "parameterValues" : [ ]
 }

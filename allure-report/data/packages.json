@@ -5,169 +5,169 @@
     "name" : "Tests",
     "children" : [ {
       "name" : "GOBTest",
-      "uid" : "af0265abd193e7e6",
+      "uid" : "eb23d5eab2e4b7c",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794300099,
-        "stop" : 1619794309356,
-        "duration" : 9257
+        "start" : 1619796380195,
+        "stop" : 1619796390074,
+        "duration" : 9879
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "GenerateTokenTest",
-      "uid" : "a6178a80cfdaf9d0",
+      "uid" : "5775213c318e6aec",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794309606,
-        "stop" : 1619794310063,
-        "duration" : 457
+        "start" : 1619796390230,
+        "stop" : 1619796390719,
+        "duration" : 489
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
     }, {
       "name" : "GenerateTokenTest",
-      "uid" : "b39a4a32fd699330",
+      "uid" : "3e35245b48829e9e",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794310063,
-        "stop" : 1619794310345,
-        "duration" : 282
+        "start" : 1619796390727,
+        "stop" : 1619796391007,
+        "duration" : 280
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "tttt", "", "400" ]
     }, {
       "name" : "GenerateTokenTest",
-      "uid" : "3633ff11af5d7d7f",
+      "uid" : "6a75c5105a363d4f",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794310345,
-        "stop" : 1619794310657,
-        "duration" : 312
+        "start" : 1619796391015,
+        "stop" : 1619796391306,
+        "duration" : 291
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
     }, {
       "name" : "GetBooksDataFromUIAndAPITest",
-      "uid" : "214bb77a9179e36b",
+      "uid" : "7e80a03f9216aeb3",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794310657,
-        "stop" : 1619794313826,
-        "duration" : 3169
+        "start" : 1619796391306,
+        "stop" : 1619796396256,
+        "duration" : 4950
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "NegativeScenario",
-      "uid" : "a1b963dca0ff617c",
+      "uid" : "b81670861325d0a5",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794313826,
-        "stop" : 1619794314133,
-        "duration" : 307
+        "start" : 1619796396272,
+        "stop" : 1619796396585,
+        "duration" : 313
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
     }, {
       "name" : "NegativeScenario",
-      "uid" : "f1a933486b89876b",
+      "uid" : "dcafc962d11cabf9",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794314138,
-        "stop" : 1619794314404,
-        "duration" : 266
+        "start" : 1619796396585,
+        "stop" : 1619796396860,
+        "duration" : 275
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
     }, {
       "name" : "NegativeScenario",
-      "uid" : "4ed212a4ff774563",
+      "uid" : "68d5073e5fa5dd7c",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794314404,
-        "stop" : 1619794314670,
-        "duration" : 266
+        "start" : 1619796396860,
+        "stop" : 1619796397139,
+        "duration" : 279
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
     }, {
       "name" : "getBooksForUser",
-      "uid" : "e6fa8c21667a63f3",
+      "uid" : "d05fdcfc14137c8c",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794314685,
-        "stop" : 1619794314980,
-        "duration" : 295
+        "start" : 1619796397147,
+        "stop" : 1619796397443,
+        "duration" : 296
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getUserLoginAddBook",
-      "uid" : "bbc2fbbdc3bcfba3",
+      "uid" : "c0837ee413a7018",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "failed",
       "time" : {
-        "start" : 1619794314984,
-        "stop" : 1619794321367,
-        "duration" : 6383
+        "start" : 1619796397451,
+        "stop" : 1619796404165,
+        "duration" : 6714
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "unauthorizedUser",
-      "uid" : "287c060454cbb815",
+      "uid" : "cd4d997c2b3466db",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "failed",
       "time" : {
-        "start" : 1619794321379,
-        "stop" : 1619794321673,
-        "duration" : 294
+        "start" : 1619796404165,
+        "stop" : 1619796404431,
+        "duration" : 266
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "generateToken",
-      "uid" : "6bbdc9e1a7461c35",
+      "uid" : "6dc2dd1efd9d34de",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794321677,
-        "stop" : 1619794321975,
-        "duration" : 298
+        "start" : 1619796404431,
+        "stop" : 1619796404743,
+        "duration" : 312
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "authorizedUser",
-      "uid" : "b599b9a5ddd93329",
+      "uid" : "fbdb053e0516a0d2",
       "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
       "status" : "passed",
       "time" : {
-        "start" : 1619794321980,
-        "stop" : 1619794322236,
-        "duration" : 256
+        "start" : 1619796404743,
+        "stop" : 1619796405052,
+        "duration" : 309
       },
       "flaky" : false,
       "newFailed" : false,

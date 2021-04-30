@@ -1,12 +1,12 @@
 {
-  "uid" : "a6178a80cfdaf9d0",
+  "uid" : "3e35245b48829e9e",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
-  "historyId" : "1b36e87a87c3e1f8d6632a164783eaf9",
+  "historyId" : "4cc262cd92460e286bc0787e2d087918",
   "time" : {
-    "start" : 1619794309606,
-    "stop" : 1619794310063,
-    "duration" : 457
+    "start" : 1619796390727,
+    "stop" : 1619796391007,
+    "duration" : 280
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619794309606,
-        "stop" : 1619794310048,
-        "duration" : 442
+        "start" : 1619796390727,
+        "stop" : 1619796391007,
+        "duration" : 280
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,22 +32,22 @@
         "value" : "tttt"
       }, {
         "name" : "password",
-        "value" : "TestAutomation1@#1"
+        "value" : ""
       }, {
         "name" : "statusCode",
-        "value" : "200"
+        "value" : "400"
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "13584@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15824@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -98,10 +98,10 @@
     "value" : "tttt"
   }, {
     "name" : "arg1",
-    "value" : "TestAutomation1@#1"
+    "value" : ""
   }, {
     "name" : "arg2",
-    "value" : "200"
+    "value" : "400"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a6178a80cfdaf9d0.json",
-  "parameterValues" : [ "tttt", "TestAutomation1@#1", "200" ]
+  "source" : "3e35245b48829e9e.json",
+  "parameterValues" : [ "tttt", "", "400" ]
 }
