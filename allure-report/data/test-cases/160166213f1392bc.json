@@ -1,12 +1,12 @@
 {
-  "uid" : "4d2cb1517dbd0641",
+  "uid" : "160166213f1392bc",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
   "historyId" : "4cc262cd92460e286bc0787e2d087918",
   "time" : {
-    "start" : 1619792931425,
-    "stop" : 1619792931691,
-    "duration" : 266
+    "start" : 1619793772964,
+    "stop" : 1619793773273,
+    "duration" : 309
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619792931425,
-        "stop" : 1619792931691,
-        "duration" : 266
+        "start" : 1619793772964,
+        "stop" : 1619793773273,
+        "duration" : 309
       },
       "status" : "passed",
       "steps" : [ ],
@@ -39,15 +39,15 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "10264@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,14 +81,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "GenerateToken"
-  }, {
     "name" : "feature",
     "value" : "Negative Cases"
   }, {
     "name" : "epic",
     "value" : "Generate Token"
+  }, {
+    "name" : "story",
+    "value" : "GenerateToken"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4d2cb1517dbd0641.json",
+  "source" : "160166213f1392bc.json",
   "parameterValues" : [ "tttt", "", "400" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "a0be16c57700716e",
+  "uid" : "968276bed1b46b00",
   "name" : "GOBTest",
   "fullName" : "Tests.GOBTest",
   "historyId" : "59cf34f3f833b794a0ad4e591600aa0e",
   "time" : {
-    "start" : 1619792922627,
-    "stop" : 1619792930818,
-    "duration" : 8191
+    "start" : 1619793747576,
+    "stop" : 1619793772200,
+    "duration" : 24624
   },
   "description" : "This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data",
   "descriptionHtml" : "<p>This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "moving to the information page",
       "time" : {
-        "start" : 1619792928113,
-        "stop" : 1619792928703,
-        "duration" : 590
+        "start" : 1619793764887,
+        "stop" : 1619793766660,
+        "duration" : 1773
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,14 +30,14 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Grabbing ISBN",
       "time" : {
-        "start" : 1619792928716,
-        "stop" : 1619792928799,
-        "duration" : 83
+        "start" : 1619793766673,
+        "stop" : 1619793766945,
+        "duration" : 272
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,14 +45,14 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Grabbing all UI Values",
       "time" : {
-        "start" : 1619792928799,
-        "stop" : 1619792929007,
-        "duration" : 208
+        "start" : 1619793766945,
+        "stop" : 1619793768396,
+        "duration" : 1451
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,75 +60,75 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "throws API grabbed information into BookAPI",
       "time" : {
-        "start" : 1619792929015,
-        "stop" : 1619792930078,
-        "duration" : 1063
+        "start" : 1619793768396,
+        "stop" : 1619793770821,
+        "duration" : 2425
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "FBD",
-        "value" : "frontend.pages.FirstBookDetails@4248608d"
+        "value" : "frontend.pages.FirstBookDetails@5c452e69"
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Asserts Book via 2 objects, one containing data from API another from UI",
       "time" : {
-        "start" : 1619792930078,
-        "stop" : 1619792930078,
-        "duration" : 0
+        "start" : 1619793770821,
+        "stop" : 1619793770826,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "bookAPI",
-        "value" : "backend.models.responses.Book@56c95789"
+        "value" : "backend.models.responses.Book@340b7fca"
       }, {
         "name" : "book",
-        "value" : "backend.models.responses.Book@65dff28b"
+        "value" : "backend.models.responses.Book@4ab8c3c0"
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Asserts Book via Query and the UI Object directly",
       "time" : {
-        "start" : 1619792930078,
-        "stop" : 1619792930803,
-        "duration" : 725
+        "start" : 1619793770826,
+        "stop" : 1619793772183,
+        "duration" : 1357
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "book",
-        "value" : "backend.models.responses.Book@65dff28b"
+        "value" : "backend.models.responses.Book@4ab8c3c0"
       }, {
         "name" : "FBD",
-        "value" : "frontend.pages.FirstBookDetails@4248608d"
+        "value" : "frontend.pages.FirstBookDetails@5c452e69"
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 6,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -154,7 +154,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "10264@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -162,14 +162,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Get a book from the Site and the API and Compare the data sets"
+    "name" : "feature",
+    "value" : "Get a Single Book"
   }, {
     "name" : "epic",
     "value" : "Books"
   }, {
-    "name" : "feature",
-    "value" : "Get a Single Book"
+    "name" : "story",
+    "value" : "Get a book from the Site and the API and Compare the data sets"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -184,6 +184,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0be16c57700716e.json",
+  "source" : "968276bed1b46b00.json",
   "parameterValues" : [ ]
 }

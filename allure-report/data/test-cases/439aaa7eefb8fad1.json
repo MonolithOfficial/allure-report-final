@@ -1,12 +1,12 @@
 {
-  "uid" : "f840078d54a4f069",
+  "uid" : "439aaa7eefb8fad1",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
   "historyId" : "1ae13647e986e2fafa82036be6079a6a",
   "time" : {
-    "start" : 1619792936251,
-    "stop" : 1619792936524,
-    "duration" : 273
+    "start" : 1619793784385,
+    "stop" : 1619793784656,
+    "duration" : 271
   },
   "description" : "Tests user web service with dataprovider",
   "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1619792936251,
-        "stop" : 1619792936251,
+        "start" : 1619793784385,
+        "stop" : 1619793784385,
         "duration" : 0
       },
       "status" : "passed",
@@ -36,14 +36,14 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1619792936251,
-        "stop" : 1619792936524,
-        "duration" : 273
+        "start" : 1619793784385,
+        "stop" : 1619793784656,
+        "duration" : 271
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,13 +51,13 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1619792936524,
-        "stop" : 1619792936524,
+        "start" : 1619793784656,
+        "stop" : 1619793784656,
         "duration" : 0
       },
       "status" : "passed",
@@ -72,15 +72,15 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 3,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "10264@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,14 +114,14 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "feature",
+    "value" : "Negative Scenario"
+  }, {
     "name" : "epic",
     "value" : "Post User"
   }, {
     "name" : "story",
     "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
-  }, {
-    "name" : "feature",
-    "value" : "Negative Scenario"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f840078d54a4f069.json",
+  "source" : "439aaa7eefb8fad1.json",
   "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }

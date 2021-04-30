@@ -1,12 +1,12 @@
 {
-  "uid" : "70de48611db0a43c",
+  "uid" : "f809be5348b22c18",
   "name" : "Add an user",
   "fullName" : "Tests.getBooksForUser",
   "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1619792936524,
-    "stop" : 1619792936836,
-    "duration" : 312
+    "start" : 1619793784661,
+    "stop" : 1619793784967,
+    "duration" : 306
   },
   "description" : "Get books for current user",
   "descriptionHtml" : "<p>Get books for current user</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1619792936524,
-        "stop" : 1619792936836,
-        "duration" : 312
+        "start" : 1619793784662,
+        "stop" : 1619793784967,
+        "duration" : 305
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,15 +30,15 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11216@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "10264@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "70de48611db0a43c.json",
+  "source" : "f809be5348b22c18.json",
   "parameterValues" : [ ]
 }
