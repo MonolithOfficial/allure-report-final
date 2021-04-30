@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619796403894.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619796403894.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
+      "name" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619796566531.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619796566531.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
       "children" : [ {
         "name" : "getUserLoginAddBook",
-        "uid" : "c0837ee413a7018",
-        "parentUid" : "c83dc30ba7a086dfb0aeffd7a426daba",
+        "uid" : "47afc53f95db462b",
+        "parentUid" : "49068b2149c8e42e0217ce92619b6858",
         "status" : "failed",
         "time" : {
-          "start" : 1619796397451,
-          "stop" : 1619796404165,
-          "duration" : 6714
+          "start" : 1619796560100,
+          "stop" : 1619796566808,
+          "duration" : 6708
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c83dc30ba7a086dfb0aeffd7a426daba"
+      "uid" : "49068b2149c8e42e0217ce92619b6858"
     }, {
       "name" : "expected [false] but found [true]",
       "children" : [ {
         "name" : "User is not authorized",
-        "uid" : "cd4d997c2b3466db",
+        "uid" : "2e853448cb6fe779",
         "parentUid" : "8afcdb650a270c0a437f91131ddb6645",
         "status" : "failed",
         "time" : {
-          "start" : 1619796404165,
-          "stop" : 1619796404431,
-          "duration" : 266
+          "start" : 1619796566823,
+          "stop" : 1619796567129,
+          "duration" : 306
         },
         "flaky" : false,
         "newFailed" : false,

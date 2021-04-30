@@ -1,12 +1,12 @@
 {
-  "uid" : "3e35245b48829e9e",
+  "uid" : "3c5fc38dc15c4a5b",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
   "historyId" : "4cc262cd92460e286bc0787e2d087918",
   "time" : {
-    "start" : 1619796390727,
-    "stop" : 1619796391007,
-    "duration" : 280
+    "start" : 1619796553784,
+    "stop" : 1619796554046,
+    "duration" : 262
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619796390727,
-        "stop" : 1619796391007,
-        "duration" : 280
+        "start" : 1619796553784,
+        "stop" : 1619796554046,
+        "duration" : 262
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,17 +37,17 @@
         "name" : "statusCode",
         "value" : "400"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15824@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "13464@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,11 +84,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "feature",
-    "value" : "Negative Cases"
-  }, {
     "name" : "story",
     "value" : "GenerateToken"
+  }, {
+    "name" : "feature",
+    "value" : "Negative Cases"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3e35245b48829e9e.json",
+  "source" : "3c5fc38dc15c4a5b.json",
   "parameterValues" : [ "tttt", "", "400" ]
 }
