@@ -1,12 +1,12 @@
 {
-  "uid" : "da994a3f7a6a0cac",
+  "uid" : "3633ff11af5d7d7f",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
   "historyId" : "a215a5913eae04fd6198bb6335e3d5e3",
   "time" : {
-    "start" : 1619793893514,
-    "stop" : 1619793893825,
-    "duration" : 311
+    "start" : 1619794310345,
+    "stop" : 1619794310657,
+    "duration" : 312
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619793893514,
-        "stop" : 1619793893823,
-        "duration" : 309
+        "start" : 1619794310345,
+        "stop" : 1619794310657,
+        "duration" : 312
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,15 +37,15 @@
         "name" : "statusCode",
         "value" : "200"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 1,
+    "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9652@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "13584@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "da994a3f7a6a0cac.json",
+  "source" : "3633ff11af5d7d7f.json",
   "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
 }

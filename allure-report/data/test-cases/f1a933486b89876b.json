@@ -1,12 +1,12 @@
 {
-  "uid" : "8ebc6e48fc687844",
+  "uid" : "f1a933486b89876b",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
   "historyId" : "c501cf2c3c9485d7f72f63e2588eb298",
   "time" : {
-    "start" : 1619793899913,
-    "stop" : 1619793900198,
-    "duration" : 285
+    "start" : 1619794314138,
+    "stop" : 1619794314404,
+    "duration" : 266
   },
   "description" : "Tests user web service with dataprovider",
   "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1619793899913,
-        "stop" : 1619793899914,
-        "duration" : 1
+        "start" : 1619794314139,
+        "stop" : 1619794314139,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,30 +34,30 @@
         "name" : "password",
         "value" : "Auto@2"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1619793899914,
-        "stop" : 1619793900197,
-        "duration" : 283
+        "start" : 1619794314139,
+        "stop" : 1619794314404,
+        "duration" : 265
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1619793900198,
-        "stop" : 1619793900198,
+        "start" : 1619794314404,
+        "stop" : 1619794314404,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,15 +70,15 @@
         "name" : "expectedMessage",
         "value" : "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 3,
+    "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9652@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "13584@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8ebc6e48fc687844.json",
+  "source" : "f1a933486b89876b.json",
   "parameterValues" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
 }
