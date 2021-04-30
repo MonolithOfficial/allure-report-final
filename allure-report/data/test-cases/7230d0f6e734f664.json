@@ -1,12 +1,12 @@
 {
-  "uid" : "252fb0b696184619",
+  "uid" : "7230d0f6e734f664",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619786518728,
-    "stop" : 1619786519001,
-    "duration" : 273
+    "start" : 1619790121843,
+    "stop" : 1619790122121,
+    "duration" : 278
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619786518743,
-        "stop" : 1619786518985,
-        "duration" : 242
+        "start" : 1619790121843,
+        "stop" : 1619790122117,
+        "duration" : 274
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,11 +38,11 @@
       "stepsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "51f2c08afcedf2bc",
+      "uid" : "b4ac5ae93a9615e9",
       "name" : "Screenshot",
-      "source" : "51f2c08afcedf2bc.png",
+      "source" : "b4ac5ae93a9615e9.png",
       "type" : "image/png",
-      "size" : 110465
+      "size" : 110027
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "16436@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "16124@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,11 +85,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "feature",
-    "value" : "Generate token for unauthorized user"
-  }, {
     "name" : "story",
     "value" : "Checks if the given user is authorized, before generating token"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "252fb0b696184619.json",
+  "source" : "7230d0f6e734f664.json",
   "parameterValues" : [ ]
 }

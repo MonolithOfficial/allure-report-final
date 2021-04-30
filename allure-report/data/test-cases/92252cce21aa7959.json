@@ -1,12 +1,12 @@
 {
-  "uid" : "7907bf2f291a335",
+  "uid" : "92252cce21aa7959",
   "name" : "User is now authorized",
   "fullName" : "Tests.authorizedUser",
   "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
   "time" : {
-    "start" : 1619786519298,
-    "stop" : 1619786519532,
-    "duration" : 234
+    "start" : 1619790122423,
+    "stop" : 1619790122685,
+    "duration" : 262
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619786519298,
-        "stop" : 1619786519532,
-        "duration" : 234
+        "start" : 1619790122423,
+        "stop" : 1619790122685,
+        "duration" : 262
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "16436@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "16124@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -72,14 +72,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "epic",
-    "value" : "Generate Token"
-  }, {
     "name" : "story",
     "value" : "Checks if the given user is authorized, after generating token"
   }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7907bf2f291a335.json",
+  "source" : "92252cce21aa7959.json",
   "parameterValues" : [ ]
 }
