@@ -4,21 +4,21 @@
     "uid" : "76792ac41856d3b07e291a15774523c5",
     "name" : "Books",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
     "uid" : "5f72f693e10b85c0d34843adb3b5f562",
     "name" : "Generate Token",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 2
     }
