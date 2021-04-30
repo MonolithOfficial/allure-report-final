@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619797243870.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619797243870.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
-      "children" : [ {
-        "name" : "getUserLoginAddBook",
-        "uid" : "d86e971ebc36dfa8",
-        "parentUid" : "440daf3b53ea97eb9c1f033d9126ea0d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619797238430,
-          "stop" : 1619797244159,
-          "duration" : 5729
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "440daf3b53ea97eb9c1f033d9126ea0d"
-    }, {
-      "name" : "expected [false] but found [true]",
-      "children" : [ {
-        "name" : "User is not authorized",
-        "uid" : "de23f2e5a209215",
-        "parentUid" : "8afcdb650a270c0a437f91131ddb6645",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619797244199,
-          "stop" : 1619797244495,
-          "duration" : 296
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8afcdb650a270c0a437f91131ddb6645"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
