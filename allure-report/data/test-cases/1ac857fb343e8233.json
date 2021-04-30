@@ -1,12 +1,12 @@
 {
-  "uid" : "7230d0f6e734f664",
+  "uid" : "1ac857fb343e8233",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619790121843,
-    "stop" : 1619790122121,
-    "duration" : 278
+    "start" : 1619791669192,
+    "stop" : 1619791669486,
+    "duration" : 294
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619790121843,
-        "stop" : 1619790122117,
-        "duration" : 274
+        "start" : 1619791669193,
+        "stop" : 1619791669486,
+        "duration" : 293
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,21 +34,21 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "b4ac5ae93a9615e9",
+      "uid" : "eae323d28ba9d5a4",
       "name" : "Screenshot",
-      "source" : "b4ac5ae93a9615e9.png",
+      "source" : "eae323d28ba9d5a4.png",
       "type" : "image/png",
-      "size" : 110027
+      "size" : 109682
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : true,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "16124@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "16880@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,11 +82,11 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "epic",
-    "value" : "Generate Token"
-  }, {
     "name" : "story",
     "value" : "Checks if the given user is authorized, before generating token"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
   }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "7230d0f6e734f664.json",
+  "source" : "1ac857fb343e8233.json",
   "parameterValues" : [ ]
 }
