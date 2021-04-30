@@ -1,28 +1,28 @@
 {
-  "uid" : "ec37e0317c83c9b7",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "e9ed04edf5ef0550",
+  "name" : "Add an user",
+  "fullName" : "Tests.getBooksForUser",
+  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1619800164437,
-    "stop" : 1619800164721,
-    "duration" : 284
+    "start" : 1619800714745,
+    "stop" : 1619800715033,
+    "duration" : 288
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Get books for current user",
+  "descriptionHtml" : "<p>Get books for current user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Get books for current user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1619800164437,
-        "stop" : 1619800164721,
-        "duration" : 284
+        "start" : 1619800714745,
+        "stop" : 1619800715033,
+        "duration" : 288
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "getBooksForUser"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -75,11 +75,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
+    "name" : "story",
+    "value" : "Adds an user and gets the list of books"
+  }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
-  }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, after generating token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ec37e0317c83c9b7.json",
+  "source" : "e9ed04edf5ef0550.json",
   "parameterValues" : [ ]
 }

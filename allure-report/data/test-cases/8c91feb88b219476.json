@@ -1,28 +1,28 @@
 {
-  "uid" : "ca609e9aa5cb9a7c",
-  "name" : "Add an user",
-  "fullName" : "Tests.getBooksForUser",
-  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
+  "uid" : "8c91feb88b219476",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1619800156924,
-    "stop" : 1619800157187,
-    "duration" : 263
+    "start" : 1619800722298,
+    "stop" : 1619800722610,
+    "duration" : 312
   },
-  "description" : "Get books for current user",
-  "descriptionHtml" : "<p>Get books for current user</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Get books for current user",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'User' request",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1619800156924,
-        "stop" : 1619800157187,
-        "duration" : 263
+        "start" : 1619800722298,
+        "stop" : 1619800722610,
+        "duration" : 312
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "getBooksForUser"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -79,7 +79,7 @@
     "value" : "Generate Token"
   }, {
     "name" : "story",
-    "value" : "Adds an user and gets the list of books"
+    "value" : "Generates the token for given user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca609e9aa5cb9a7c.json",
+  "source" : "8c91feb88b219476.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "f46ed8ed599b97ba",
+  "uid" : "b3f196a703585c06",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619800163848,
-    "stop" : 1619800164145,
-    "duration" : 297
+    "start" : 1619800722026,
+    "stop" : 1619800722290,
+    "duration" : 264
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619800163848,
-        "stop" : 1619800164145,
-        "duration" : 297
+        "start" : 1619800722026,
+        "stop" : 1619800722282,
+        "duration" : 256
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,11 +38,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "f1f2ea1c9217a948",
+      "uid" : "7e3d7e5544fb56f4",
       "name" : "Screenshot",
-      "source" : "f1f2ea1c9217a948.png",
+      "source" : "7e3d7e5544fb56f4.png",
       "type" : "image/png",
-      "size" : 110586
+      "size" : 109922
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : true,
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,14 +82,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Generate token for unauthorized user"
-  }, {
     "name" : "epic",
     "value" : "Generate Token"
   }, {
     "name" : "story",
     "value" : "Checks if the given user is authorized, before generating token"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "f46ed8ed599b97ba.json",
+  "source" : "b3f196a703585c06.json",
   "parameterValues" : [ ]
 }

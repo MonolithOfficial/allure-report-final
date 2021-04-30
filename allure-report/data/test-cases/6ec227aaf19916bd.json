@@ -1,12 +1,12 @@
 {
-  "uid" : "837b0e43483a04e1",
+  "uid" : "6ec227aaf19916bd",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
-  "historyId" : "1b36e87a87c3e1f8d6632a164783eaf9",
+  "historyId" : "a215a5913eae04fd6198bb6335e3d5e3",
   "time" : {
-    "start" : 1619800151067,
-    "stop" : 1619800151508,
-    "duration" : 441
+    "start" : 1619800709065,
+    "stop" : 1619800709415,
+    "duration" : 350
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,19 +20,19 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619800151069,
-        "stop" : 1619800151508,
-        "duration" : 439
+        "start" : 1619800709065,
+        "stop" : 1619800709415,
+        "duration" : 350
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "tttt"
+        "value" : "alinatkabladze"
       }, {
         "name" : "password",
-        "value" : "TestAutomation1@#1"
+        "value" : "Automation@!@1234"
       }, {
         "name" : "statusCode",
         "value" : "200"
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -95,10 +95,10 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "tttt"
+    "value" : "alinatkabladze"
   }, {
     "name" : "arg1",
-    "value" : "TestAutomation1@#1"
+    "value" : "Automation@!@1234"
   }, {
     "name" : "arg2",
     "value" : "200"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "837b0e43483a04e1.json",
-  "parameterValues" : [ "tttt", "TestAutomation1@#1", "200" ]
+  "source" : "6ec227aaf19916bd.json",
+  "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
 }
