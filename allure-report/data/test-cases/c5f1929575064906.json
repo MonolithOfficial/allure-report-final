@@ -1,5 +1,5 @@
 {
-  "uid" : "f170afaaa156a63",
+  "uid" : "c5f1929575064906",
   "name" : "GetBooksDataFromUIAndAPITest",
   "fullName" : "Tests.GetBooksDataFromUIAndAPITest",
   "historyId" : "e24627152c47e7d96616ebce2f8a80ac",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Get Book Authors From BookStore",
       "time" : {
@@ -43,10 +43,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Get Book Publishers From BookStore",
       "time" : {
@@ -58,10 +58,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate title from BookStore and API",
       "time" : {
@@ -76,10 +76,10 @@
         "name" : "uiTitle",
         "value" : "[\r\n\t<a href=\"/books?book=9781449325862\" type>Git Pocket Guide</a>,\r\n\t<a href=\"/books?book=9781449331818\" type>Learning JavaScript Design Patterns</a>,\r\n\t<a href=\"/books?book=9781449337711\" type>Designing Evolvable Web APIs with ASP.NET</a>,\r\n\t<a href=\"/books?book=9781449365035\" type>Speaking JavaScript</a>,\r\n\t<a href=\"/books?book=9781491904244\" type>You Don't Know JS</a>,\r\n\t<a href=\"/books?book=9781491950296\" type>Programming JavaScript Applications</a>,\r\n\t<a href=\"/books?book=9781593275846\" type>Eloquent JavaScript, Second Edition</a>,\r\n\t<a href=\"/books?book=9781593277574\" type>Understanding ECMAScript 6</a>\r\n]"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate author from BookStore and API",
       "time" : {
@@ -94,10 +94,10 @@
         "name" : "uiAuthor",
         "value" : "[\r\n\t<div class=\"rt-td\" role=\"gridcell\">Richard E. Silverman</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Addy Osmani</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Glenn Block et al.</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Axel Rauschmayer</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Kyle Simpson</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Eric Elliott</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Marijn Haverbeke</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Nicholas C. Zakas</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>\r\n]"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate publisher from BookStore and API",
       "time" : {
@@ -112,17 +112,17 @@
         "name" : "uiPublisher",
         "value" : "[\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">No Starch Press</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">No Starch Press</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>\r\n]"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 6,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f170afaaa156a63.json",
+  "source" : "c5f1929575064906.json",
   "parameterValues" : [ ]
 }

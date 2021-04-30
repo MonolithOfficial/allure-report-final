@@ -1,5 +1,5 @@
 {
-  "uid" : "77d17ca880ebde3e",
+  "uid" : "ae4311ffb58b34c3",
   "name" : "Generate Token",
   "fullName" : "Tests.generateToken",
   "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
@@ -28,17 +28,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "77d17ca880ebde3e.json",
+  "source" : "ae4311ffb58b34c3.json",
   "parameterValues" : [ ]
 }

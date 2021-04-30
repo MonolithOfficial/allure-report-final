@@ -1,5 +1,5 @@
 {
-  "uid" : "665a3ae28e0bc75a",
+  "uid" : "8c98fc084f94d19a",
   "name" : "GOBTest",
   "fullName" : "Tests.GOBTest",
   "historyId" : "59cf34f3f833b794a0ad4e591600aa0e",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Grabbing ISBN",
       "time" : {
@@ -43,10 +43,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Grabbing all UI Values",
       "time" : {
@@ -58,10 +58,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "throws API grabbed information into BookAPI",
       "time" : {
@@ -76,10 +76,10 @@
         "name" : "FBD",
         "value" : "frontend.pages.FirstBookDetails@78854721"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Asserts Book via 2 objects, one containing data from API another from UI",
       "time" : {
@@ -97,10 +97,10 @@
         "name" : "book",
         "value" : "backend.models.responses.Book@1548dc37"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Asserts Book via Query and the UI Object directly",
       "time" : {
@@ -118,17 +118,17 @@
         "name" : "FBD",
         "value" : "frontend.pages.FirstBookDetails@78854721"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 6,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -184,6 +184,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "665a3ae28e0bc75a.json",
+  "source" : "8c98fc084f94d19a.json",
   "parameterValues" : [ ]
 }

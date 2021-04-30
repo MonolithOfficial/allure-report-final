@@ -1,6 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "Books",
     "children" : [ {
@@ -9,7 +8,7 @@
         "name" : "Get a book from the Site and the API and Compare the data sets",
         "children" : [ {
           "name" : "GOBTest",
-          "uid" : "665a3ae28e0bc75a",
+          "uid" : "8c98fc084f94d19a",
           "parentUid" : "a18f0835fdb8e001e8647b82de4c39ff",
           "status" : "passed",
           "time" : {
@@ -30,7 +29,7 @@
         "name" : "Validate that the data on the website and API is the same",
         "children" : [ {
           "name" : "GetBooksDataFromUIAndAPITest",
-          "uid" : "f170afaaa156a63",
+          "uid" : "c5f1929575064906",
           "parentUid" : "b28c49b198ab3d5fe51d72108ea9028f",
           "status" : "passed",
           "time" : {
@@ -55,7 +54,7 @@
         "name" : "GenerateToken",
         "children" : [ {
           "name" : "GenerateTokenTest",
-          "uid" : "cc9f871b8ff8768a",
+          "uid" : "f86faf4c597d1e8b",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
@@ -68,7 +67,7 @@
           "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "b642b774689c22e3",
+          "uid" : "16650d4c19c9ff42",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
@@ -81,7 +80,7 @@
           "parameters" : [ "tttt", "", "400" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "f1d549eb208e0326",
+          "uid" : "b39d0ff177c621f7",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
@@ -102,7 +101,7 @@
         "name" : "Adds an user and gets the list of books",
         "children" : [ {
           "name" : "Add an user",
-          "uid" : "d87cf55580cb86ac",
+          "uid" : "3a92054f3d0fd1e6",
           "parentUid" : "23ca83cff5d495371ebb117289b3706c",
           "status" : "passed",
           "time" : {
@@ -119,7 +118,7 @@
         "name" : "Checks if the given user is authorized, before generating token",
         "children" : [ {
           "name" : "User is not authorized",
-          "uid" : "2f12e9dc6e673f06",
+          "uid" : "75d9321325395bba",
           "parentUid" : "aaaf9de83a609701533aa444a91d384a",
           "status" : "passed",
           "time" : {
@@ -136,7 +135,7 @@
         "name" : "Generates the token for given user",
         "children" : [ {
           "name" : "Generate Token",
-          "uid" : "77d17ca880ebde3e",
+          "uid" : "ae4311ffb58b34c3",
           "parentUid" : "408f4f730badbb21cb01003b40ee8525",
           "status" : "passed",
           "time" : {
@@ -153,7 +152,7 @@
         "name" : "Checks if the given user is authorized, after generating token",
         "children" : [ {
           "name" : "User is now authorized",
-          "uid" : "b89d8191083aa50f",
+          "uid" : "5168ad32a7435739",
           "parentUid" : "7331e5e5de13b343dd8dbf78ac90722c",
           "status" : "passed",
           "time" : {
@@ -178,7 +177,7 @@
         "name" : "Sends email and password, gets response and validates it, gets data from dataprovider",
         "children" : [ {
           "name" : "NegativeScenario",
-          "uid" : "8979018e545f7ae0",
+          "uid" : "18618cd5ba1d3ddc",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
@@ -191,7 +190,7 @@
           "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "b48f897d5746312",
+          "uid" : "d237f518b6b249ad",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
@@ -204,7 +203,7 @@
           "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "66efe43988219bd0",
+          "uid" : "3497f3c3e828977",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
@@ -221,5 +220,6 @@
       "uid" : "a1a708b4ea37c06eedd30e76445029b9"
     } ],
     "uid" : "1e62c7e57ef6e15f2b4901f1b88e20c7"
-  } ]
+  } ],
+  "name" : "behaviors"
 }
