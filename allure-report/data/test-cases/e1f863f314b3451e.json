@@ -1,0 +1,117 @@
+{
+  "uid" : "e1f863f314b3451e",
+  "name" : "GenerateTokenTest",
+  "fullName" : "Tests.GenerateTokenTest",
+  "historyId" : "4cc262cd92460e286bc0787e2d087918",
+  "time" : {
+    "start" : 1619774637557,
+    "stop" : 1619774637832,
+    "duration" : 275
+  },
+  "description" : "Description: Generate Token main test, 3 iterations with validations",
+  "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Description: Generate Token main test, 3 iterations with validations",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GenerateTokenStep",
+      "time" : {
+        "start" : 1619774637557,
+        "stop" : 1619774637831,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "tttt"
+      }, {
+        "name" : "password",
+        "value" : ""
+      }, {
+        "name" : "statusCode",
+        "value" : "400"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "GenerateTokenTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BSJ5I2T"
+  }, {
+    "name" : "thread",
+    "value" : "9480@DESKTOP-BSJ5I2T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Negative Cases"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
+  }, {
+    "name" : "story",
+    "value" : "GenerateToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "tttt"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "400"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1f863f314b3451e.json",
+  "parameterValues" : [ "tttt", "", "400" ]
+}

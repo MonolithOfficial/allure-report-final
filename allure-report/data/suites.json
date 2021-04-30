@@ -1,5 +1,173 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "Tests",
+        "children" : [ {
+          "name" : "GOBTest",
+          "uid" : "4c8264ae4b0b6be9",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774628614,
+            "stop" : 1619774636916,
+            "duration" : 8302
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "faaa23fddf95769",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774637082,
+            "stop" : 1619774637549,
+            "duration" : 467
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "e1f863f314b3451e",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774637557,
+            "stop" : 1619774637832,
+            "duration" : 275
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "", "400" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "216273412adceea9",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774637838,
+            "stop" : 1619774638152,
+            "duration" : 314
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+        }, {
+          "name" : "GetBooksDataFromUIAndAPITest",
+          "uid" : "edd920f02c3893d0",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774638157,
+            "stop" : 1619774641655,
+            "duration" : 3498
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "2ef6c5a21b81bdeb",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774641665,
+            "stop" : 1619774642201,
+            "duration" : 536
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "ba53e64fd2bfe10",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774642208,
+            "stop" : 1619774642729,
+            "duration" : 521
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "306ecbea0e91069f",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774642734,
+            "stop" : 1619774643245,
+            "duration" : 511
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+        }, {
+          "name" : "Add an user",
+          "uid" : "e48fc23f3fbe7532",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774643249,
+            "stop" : 1619774643513,
+            "duration" : 264
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User is not authorized",
+          "uid" : "1d5794b04ac01346",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774643517,
+            "stop" : 1619774643785,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Generate Token",
+          "uid" : "94d28c50c270b75b",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774643790,
+            "stop" : 1619774644076,
+            "duration" : 286
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User is now authorized",
+          "uid" : "7612964d45fb9ed0",
+          "parentUid" : "71f5aa1e380eb3209440648072ed5906",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619774644081,
+            "stop" : 1619774644374,
+            "duration" : 293
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "71f5aa1e380eb3209440648072ed5906"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
 }
