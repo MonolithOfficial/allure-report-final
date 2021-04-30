@@ -1,5 +1,5 @@
 {
-  "uid" : "f86faf4c597d1e8b",
+  "uid" : "ab0af1e7cc83a9bc",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
   "historyId" : "1b36e87a87c3e1f8d6632a164783eaf9",
@@ -37,17 +37,17 @@
         "name" : "statusCode",
         "value" : "200"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f86faf4c597d1e8b.json",
+  "source" : "ab0af1e7cc83a9bc.json",
   "parameterValues" : [ "tttt", "TestAutomation1@#1", "200" ]
 }

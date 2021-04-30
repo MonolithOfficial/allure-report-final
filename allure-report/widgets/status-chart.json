@@ -1,35 +1,5 @@
 [ {
-  "uid" : "3497f3c3e828977",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1619772654450,
-    "stop" : 1619772655280,
-    "duration" : 830
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f86faf4c597d1e8b",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1619772645914,
-    "stop" : 1619772646354,
-    "duration" : 440
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b39d0ff177c621f7",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1619772646832,
-    "stop" : 1619772647257,
-    "duration" : 425
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75d9321325395bba",
+  "uid" : "b71f285aac89cd28",
   "name" : "User is not authorized",
   "time" : {
     "start" : 1619772655762,
@@ -39,17 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3a92054f3d0fd1e6",
-  "name" : "Add an user",
+  "uid" : "9bd5ed23136e5923",
+  "name" : "GenerateTokenTest",
   "time" : {
-    "start" : 1619772655284,
-    "stop" : 1619772655757,
-    "duration" : 473
+    "start" : 1619772646832,
+    "stop" : 1619772647257,
+    "duration" : 425
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5168ad32a7435739",
+  "uid" : "c663ae1cf4c94fa1",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1619772654450,
+    "stop" : 1619772655280,
+    "duration" : 830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9959953780431f3",
   "name" : "User is now authorized",
   "time" : {
     "start" : 1619772656342,
@@ -59,37 +39,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d237f518b6b249ad",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1619772653202,
-    "stop" : 1619772654445,
-    "duration" : 1243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18618cd5ba1d3ddc",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1619772651608,
-    "stop" : 1619772653197,
-    "duration" : 1589
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae4311ffb58b34c3",
-  "name" : "Generate Token",
-  "time" : {
-    "start" : 1619772656033,
-    "stop" : 1619772656337,
-    "duration" : 304
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5f1929575064906",
+  "uid" : "b4f844fcde9a1acc",
   "name" : "GetBooksDataFromUIAndAPITest",
   "time" : {
     "start" : 1619772647262,
@@ -99,7 +49,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "16650d4c19c9ff42",
+  "uid" : "e3910b35cf3c943d",
   "name" : "GenerateTokenTest",
   "time" : {
     "start" : 1619772646362,
@@ -109,12 +59,62 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8c98fc084f94d19a",
+  "uid" : "9d677fb820820d8e",
   "name" : "GOBTest",
   "time" : {
     "start" : 1619772629227,
     "stop" : 1619772645736,
     "duration" : 16509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b075af90db696342",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1619772651608,
+    "stop" : 1619772653197,
+    "duration" : 1589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a5195703f280dfa",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1619772653202,
+    "stop" : 1619772654445,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab0af1e7cc83a9bc",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1619772645914,
+    "stop" : 1619772646354,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e926ed10d17c637",
+  "name" : "Generate Token",
+  "time" : {
+    "start" : 1619772656033,
+    "stop" : 1619772656337,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57c2521ba8ed1b34",
+  "name" : "Add an user",
+  "time" : {
+    "start" : 1619772655284,
+    "stop" : 1619772655757,
+    "duration" : 473
   },
   "status" : "passed",
   "severity" : "normal"

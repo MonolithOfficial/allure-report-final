@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "Surefire suite",
     "children" : [ {
@@ -8,7 +9,7 @@
         "name" : "Tests",
         "children" : [ {
           "name" : "GOBTest",
-          "uid" : "8c98fc084f94d19a",
+          "uid" : "9d677fb820820d8e",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -21,7 +22,7 @@
           "parameters" : [ ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "f86faf4c597d1e8b",
+          "uid" : "ab0af1e7cc83a9bc",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -34,7 +35,7 @@
           "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "16650d4c19c9ff42",
+          "uid" : "e3910b35cf3c943d",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -47,7 +48,7 @@
           "parameters" : [ "tttt", "", "400" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "b39d0ff177c621f7",
+          "uid" : "9bd5ed23136e5923",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -60,7 +61,7 @@
           "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
         }, {
           "name" : "GetBooksDataFromUIAndAPITest",
-          "uid" : "c5f1929575064906",
+          "uid" : "b4f844fcde9a1acc",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -73,7 +74,7 @@
           "parameters" : [ ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "18618cd5ba1d3ddc",
+          "uid" : "b075af90db696342",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -86,7 +87,7 @@
           "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "d237f518b6b249ad",
+          "uid" : "1a5195703f280dfa",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -99,7 +100,7 @@
           "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "3497f3c3e828977",
+          "uid" : "c663ae1cf4c94fa1",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -112,7 +113,7 @@
           "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
         }, {
           "name" : "Add an user",
-          "uid" : "3a92054f3d0fd1e6",
+          "uid" : "57c2521ba8ed1b34",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -125,7 +126,7 @@
           "parameters" : [ ]
         }, {
           "name" : "User is not authorized",
-          "uid" : "75d9321325395bba",
+          "uid" : "b71f285aac89cd28",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -138,7 +139,7 @@
           "parameters" : [ ]
         }, {
           "name" : "Generate Token",
-          "uid" : "ae4311ffb58b34c3",
+          "uid" : "3e926ed10d17c637",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -151,7 +152,7 @@
           "parameters" : [ ]
         }, {
           "name" : "User is now authorized",
-          "uid" : "5168ad32a7435739",
+          "uid" : "a9959953780431f3",
           "parentUid" : "71f5aa1e380eb3209440648072ed5906",
           "status" : "passed",
           "time" : {
@@ -168,6 +169,5 @@
       "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
     } ],
     "uid" : "940a09faf31371a51747026c9d178f0a"
-  } ],
-  "name" : "suites"
+  } ]
 }

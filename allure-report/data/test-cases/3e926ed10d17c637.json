@@ -1,44 +1,44 @@
 {
-  "uid" : "3a92054f3d0fd1e6",
-  "name" : "Add an user",
-  "fullName" : "Tests.getBooksForUser",
-  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
+  "uid" : "3e926ed10d17c637",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1619772655284,
-    "stop" : 1619772655757,
-    "duration" : 473
+    "start" : 1619772656033,
+    "stop" : 1619772656337,
+    "duration" : 304
   },
-  "description" : "Get books for current user",
-  "descriptionHtml" : "<p>Get books for current user</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Get books for current user",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'User' request",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1619772655285,
-        "stop" : 1619772655757,
-        "duration" : 472
+        "start" : 1619772656033,
+        "stop" : 1619772656337,
+        "duration" : 304
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "getBooksForUser"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -76,7 +76,7 @@
     "value" : "Generate token for unauthorized user"
   }, {
     "name" : "story",
-    "value" : "Adds an user and gets the list of books"
+    "value" : "Generates the token for given user"
   }, {
     "name" : "epic",
     "value" : "Generate Token"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a92054f3d0fd1e6.json",
+  "source" : "3e926ed10d17c637.json",
   "parameterValues" : [ ]
 }

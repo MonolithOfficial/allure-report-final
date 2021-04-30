@@ -1,5 +1,5 @@
 {
-  "uid" : "3497f3c3e828977",
+  "uid" : "c663ae1cf4c94fa1",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
   "historyId" : "1ae13647e986e2fafa82036be6079a6a",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
@@ -51,10 +51,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ {
@@ -64,17 +64,17 @@
         "name" : "expectedMessage",
         "value" : "UserName and Password required."
       } ],
-      "hasContent" : true,
-      "stepsCount" : 1,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 3,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -142,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3497f3c3e828977.json",
+  "source" : "c663ae1cf4c94fa1.json",
   "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }
