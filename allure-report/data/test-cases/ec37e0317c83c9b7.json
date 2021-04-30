@@ -1,28 +1,28 @@
 {
-  "uid" : "76034e389499338f",
-  "name" : "Generate Token",
-  "fullName" : "Tests.generateToken",
-  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
+  "uid" : "ec37e0317c83c9b7",
+  "name" : "User is now authorized",
+  "fullName" : "Tests.authorizedUser",
+  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
   "time" : {
-    "start" : 1619800066487,
-    "stop" : 1619800067095,
-    "duration" : 608
+    "start" : 1619800164437,
+    "stop" : 1619800164721,
+    "duration" : 284
   },
-  "description" : "Authorize the user",
-  "descriptionHtml" : "<p>Authorize the user</p>\n",
+  "description" : "Check user authorization",
+  "descriptionHtml" : "<p>Check user authorization</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Authorize the user",
+    "description" : "Check user authorization",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'GenerateToken' request",
+      "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619800066487,
-        "stop" : 1619800067095,
-        "duration" : 608
+        "start" : 1619800164437,
+        "stop" : 1619800164721,
+        "duration" : 284
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,7 +49,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "generateToken"
+    "value" : "authorizedUser"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,7 +64,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15652@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -79,7 +79,7 @@
     "value" : "Generate token for unauthorized user"
   }, {
     "name" : "story",
-    "value" : "Generates the token for given user"
+    "value" : "Checks if the given user is authorized, after generating token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "76034e389499338f.json",
+  "source" : "ec37e0317c83c9b7.json",
   "parameterValues" : [ ]
 }

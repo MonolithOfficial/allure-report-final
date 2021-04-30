@@ -1,12 +1,12 @@
 {
-  "uid" : "9a6e789a5ace0b5d",
+  "uid" : "f46ed8ed599b97ba",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619800065575,
-    "stop" : 1619800066479,
-    "duration" : 904
+    "start" : 1619800163848,
+    "stop" : 1619800164145,
+    "duration" : 297
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619800065575,
-        "stop" : 1619800066471,
-        "duration" : 896
+        "start" : 1619800163848,
+        "stop" : 1619800164145,
+        "duration" : 297
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,11 +38,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "6e2a35c906fb94fb",
+      "uid" : "f1f2ea1c9217a948",
       "name" : "Screenshot",
-      "source" : "6e2a35c906fb94fb.png",
+      "source" : "f1f2ea1c9217a948.png",
       "type" : "image/png",
-      "size" : 110353
+      "size" : 110586
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : true,
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15652@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "9a6e789a5ace0b5d.json",
+  "source" : "f46ed8ed599b97ba.json",
   "parameterValues" : [ ]
 }

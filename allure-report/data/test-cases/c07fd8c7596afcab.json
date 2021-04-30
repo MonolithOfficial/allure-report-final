@@ -1,12 +1,12 @@
 {
-  "uid" : "663a60a1c9ee28ef",
+  "uid" : "c07fd8c7596afcab",
   "name" : "GetBooksDataFromUIAndAPITest",
   "fullName" : "Tests.GetBooksDataFromUIAndAPITest",
   "historyId" : "e24627152c47e7d96616ebce2f8a80ac",
   "time" : {
-    "start" : 1619800052784,
-    "stop" : 1619800058375,
-    "duration" : 5591
+    "start" : 1619800152398,
+    "stop" : 1619800156067,
+    "duration" : 3669
   },
   "description" : "Get books data from ui and api ,validate title,author and publisher.",
   "descriptionHtml" : "<p>Get books data from ui and api ,validate title,author and publisher.</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Get Book Titles From BookStore",
       "time" : {
-        "start" : 1619800053608,
-        "stop" : 1619800053616,
-        "duration" : 8
+        "start" : 1619800152928,
+        "stop" : 1619800152928,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,8 +35,8 @@
     }, {
       "name" : "Get Book Authors From BookStore",
       "time" : {
-        "start" : 1619800053616,
-        "stop" : 1619800053616,
+        "start" : 1619800152938,
+        "stop" : 1619800152938,
         "duration" : 0
       },
       "status" : "passed",
@@ -50,8 +50,8 @@
     }, {
       "name" : "Get Book Publishers From BookStore",
       "time" : {
-        "start" : 1619800053616,
-        "stop" : 1619800053616,
+        "start" : 1619800152938,
+        "stop" : 1619800152938,
         "duration" : 0
       },
       "status" : "passed",
@@ -65,16 +65,16 @@
     }, {
       "name" : "Validate title from BookStore and API",
       "time" : {
-        "start" : 1619800054928,
-        "stop" : 1619800055208,
-        "duration" : 280
+        "start" : 1619800152987,
+        "stop" : 1619800153357,
+        "duration" : 370
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "uiTitle",
-        "value" : "[\r\n\t<a href=\"/books?book=9781449325862\" type>Git Pocket Guide</a>,\r\n\t<a href=\"/books?book=9781449331818\" type>Learning JavaScript Design Patterns</a>,\r\n\t<a href=\"/books?book=9781449337711\" type>Designing Evolvable Web APIs with ASP.NET</a>,\r\n\t<a href=\"/books?book=9781449365035\" type>Speaking JavaScript</a>,\r\n\t<a href=\"/books?book=9781491904244\" type>You Don't Know JS</a>,\r\n\t<a href=\"/books?book=9781491950296\" type>Programming JavaScript Applications</a>,\r\n\t<a href=\"/books?book=9781593275846\" type>Eloquent JavaScript, Second Edition</a>,\r\n\t<a href=\"/books?book=9781593277574\" type>Understanding ECMAScript 6</a>\r\n]"
+        "value" : "[]"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -83,9 +83,9 @@
     }, {
       "name" : "Validate author from BookStore and API",
       "time" : {
-        "start" : 1619800056544,
-        "stop" : 1619800056824,
-        "duration" : 280
+        "start" : 1619800154687,
+        "stop" : 1619800154907,
+        "duration" : 220
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,9 +101,9 @@
     }, {
       "name" : "Validate publisher from BookStore and API",
       "time" : {
-        "start" : 1619800058112,
-        "stop" : 1619800058375,
-        "duration" : 263
+        "start" : 1619800155848,
+        "stop" : 1619800156067,
+        "duration" : 219
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,7 +148,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15652@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9348@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -156,14 +156,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Get all books"
+    "name" : "epic",
+    "value" : "Books"
   }, {
     "name" : "story",
     "value" : "Validate that the data on the website and API is the same"
   }, {
-    "name" : "epic",
-    "value" : "Books"
+    "name" : "feature",
+    "value" : "Get all books"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "663a60a1c9ee28ef.json",
+  "source" : "c07fd8c7596afcab.json",
   "parameterValues" : [ ]
 }
