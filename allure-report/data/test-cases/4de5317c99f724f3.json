@@ -1,12 +1,12 @@
 {
-  "uid" : "a8a38a2a970bd51",
+  "uid" : "4de5317c99f724f3",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
-  "historyId" : "4cc262cd92460e286bc0787e2d087918",
+  "historyId" : "a215a5913eae04fd6198bb6335e3d5e3",
   "time" : {
-    "start" : 1619800708715,
-    "stop" : 1619800709055,
-    "duration" : 340
+    "start" : 1619850559944,
+    "stop" : 1619850560428,
+    "duration" : 484
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,34 +20,34 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1619800708715,
-        "stop" : 1619800709055,
-        "duration" : 340
+        "start" : 1619850559944,
+        "stop" : 1619850560427,
+        "duration" : 483
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "tttt"
+        "value" : "alinatkabladze"
       }, {
         "name" : "password",
-        "value" : ""
+        "value" : "Automation@!@1234"
       }, {
         "name" : "statusCode",
-        "value" : "400"
+        "value" : "200"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9420@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,27 +81,27 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "story",
+    "value" : "GenerateToken"
+  }, {
     "name" : "feature",
     "value" : "Negative Cases"
   }, {
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "story",
-    "value" : "GenerateToken"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "tttt"
+    "value" : "alinatkabladze"
   }, {
     "name" : "arg1",
-    "value" : ""
+    "value" : "Automation@!@1234"
   }, {
     "name" : "arg2",
-    "value" : "400"
+    "value" : "200"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a8a38a2a970bd51.json",
-  "parameterValues" : [ "tttt", "", "400" ]
+  "source" : "4de5317c99f724f3.json",
+  "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
 }

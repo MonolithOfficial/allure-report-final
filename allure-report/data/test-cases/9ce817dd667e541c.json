@@ -1,12 +1,12 @@
 {
-  "uid" : "b3f196a703585c06",
+  "uid" : "9ce817dd667e541c",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619800722026,
-    "stop" : 1619800722290,
-    "duration" : 264
+    "start" : 1619850573000,
+    "stop" : 1619850573269,
+    "duration" : 269
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619800722026,
-        "stop" : 1619800722282,
-        "duration" : 256
+        "start" : 1619850573000,
+        "stop" : 1619850573264,
+        "duration" : 264
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,21 +34,21 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "7e3d7e5544fb56f4",
+      "uid" : "7e3772d30928367f",
       "name" : "Screenshot",
-      "source" : "7e3d7e5544fb56f4.png",
+      "source" : "7e3772d30928367f.png",
       "type" : "image/png",
-      "size" : 109922
+      "size" : 110540
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
-    "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9420@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,11 +85,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, before generating token"
-  }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
+  }, {
+    "name" : "story",
+    "value" : "Checks if the given user is authorized, before generating token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "b3f196a703585c06.json",
+  "source" : "9ce817dd667e541c.json",
   "parameterValues" : [ ]
 }

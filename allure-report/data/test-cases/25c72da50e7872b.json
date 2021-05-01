@@ -1,12 +1,12 @@
 {
-  "uid" : "823a7737e7adc832",
+  "uid" : "25c72da50e7872b",
   "name" : "GetBooksDataFromUIAndAPITest",
   "fullName" : "Tests.GetBooksDataFromUIAndAPITest",
   "historyId" : "e24627152c47e7d96616ebce2f8a80ac",
   "time" : {
-    "start" : 1619800709425,
-    "stop" : 1619800713865,
-    "duration" : 4440
+    "start" : 1619850560433,
+    "stop" : 1619850565078,
+    "duration" : 4645
   },
   "description" : "Get books data from ui and api ,validate title,author and publisher.",
   "descriptionHtml" : "<p>Get books data from ui and api ,validate title,author and publisher.</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Get Book Titles From BookStore",
       "time" : {
-        "start" : 1619800709950,
-        "stop" : 1619800709956,
+        "start" : 1619850560858,
+        "stop" : 1619850560864,
         "duration" : 6
       },
       "status" : "passed",
@@ -30,13 +30,13 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Get Book Authors From BookStore",
       "time" : {
-        "start" : 1619800709956,
-        "stop" : 1619800709956,
+        "start" : 1619850560864,
+        "stop" : 1619850560864,
         "duration" : 0
       },
       "status" : "passed",
@@ -45,13 +45,13 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Get Book Publishers From BookStore",
       "time" : {
-        "start" : 1619800709956,
-        "stop" : 1619800709956,
+        "start" : 1619850560864,
+        "stop" : 1619850560864,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,32 +60,32 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Validate title from BookStore and API",
       "time" : {
-        "start" : 1619800710000,
-        "stop" : 1619800710596,
-        "duration" : 596
+        "start" : 1619850562096,
+        "stop" : 1619850562356,
+        "duration" : 260
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "uiTitle",
-        "value" : "[]"
+        "value" : "[\r\n\t<a href=\"/books?book=9781449325862\" type>Git Pocket Guide</a>,\r\n\t<a href=\"/books?book=9781449331818\" type>Learning JavaScript Design Patterns</a>,\r\n\t<a href=\"/books?book=9781449337711\" type>Designing Evolvable Web APIs with ASP.NET</a>,\r\n\t<a href=\"/books?book=9781449365035\" type>Speaking JavaScript</a>,\r\n\t<a href=\"/books?book=9781491904244\" type>You Don't Know JS</a>,\r\n\t<a href=\"/books?book=9781491950296\" type>Programming JavaScript Applications</a>,\r\n\t<a href=\"/books?book=9781593275846\" type>Eloquent JavaScript, Second Edition</a>,\r\n\t<a href=\"/books?book=9781593277574\" type>Understanding ECMAScript 6</a>\r\n]"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Validate author from BookStore and API",
       "time" : {
-        "start" : 1619800712059,
-        "stop" : 1619800712319,
-        "duration" : 260
+        "start" : 1619850563532,
+        "stop" : 1619850563773,
+        "duration" : 241
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,14 +96,14 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Validate publisher from BookStore and API",
       "time" : {
-        "start" : 1619800713586,
-        "stop" : 1619800713865,
-        "duration" : 279
+        "start" : 1619850564851,
+        "stop" : 1619850565078,
+        "duration" : 227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,15 +114,15 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,7 +148,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7964@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9420@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -159,11 +159,11 @@
     "name" : "feature",
     "value" : "Get all books"
   }, {
-    "name" : "story",
-    "value" : "Validate that the data on the website and API is the same"
-  }, {
     "name" : "epic",
     "value" : "Books"
+  }, {
+    "name" : "story",
+    "value" : "Validate that the data on the website and API is the same"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "823a7737e7adc832.json",
+  "source" : "25c72da50e7872b.json",
   "parameterValues" : [ ]
 }
