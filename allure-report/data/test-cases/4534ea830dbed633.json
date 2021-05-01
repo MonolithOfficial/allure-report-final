@@ -1,12 +1,12 @@
 {
-  "uid" : "9ce817dd667e541c",
+  "uid" : "4534ea830dbed633",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1619850573000,
-    "stop" : 1619850573269,
-    "duration" : 269
+    "start" : 1619851394052,
+    "stop" : 1619851394327,
+    "duration" : 275
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -24,31 +24,31 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1619850573000,
-        "stop" : 1619850573264,
-        "duration" : 264
+        "start" : 1619851394053,
+        "stop" : 1619851394323,
+        "duration" : 270
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "7e3772d30928367f",
+      "uid" : "b18369f51f3f8f71",
       "name" : "Screenshot",
-      "source" : "7e3772d30928367f.png",
+      "source" : "b18369f51f3f8f71.png",
       "type" : "image/png",
-      "size" : 110540
+      "size" : 110441
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : true,
-    "attachmentsCount" : 1,
+    "stepsCount" : 1,
     "hasContent" : true,
-    "stepsCount" : 1
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -74,7 +74,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9420@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15584@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -108,6 +108,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "9ce817dd667e541c.json",
+  "source" : "4534ea830dbed633.json",
   "parameterValues" : [ ]
 }
