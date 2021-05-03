@@ -1,5 +1,296 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Generate Token",
+    "children" : [ {
+      "name" : "Negative Cases",
+      "children" : [ {
+        "name" : "GenerateToken",
+        "children" : [ {
+          "name" : "GenerateTokenTest",
+          "uid" : "b32ad16e756a71c5",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074392441,
+            "stop" : 1620074394388,
+            "duration" : 1947
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "99444197aac8083a",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074394515,
+            "stop" : 1620074394877,
+            "duration" : 362
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "tttt", "", "400" ]
+        }, {
+          "name" : "GenerateTokenTest",
+          "uid" : "48f7c0df19bc439d",
+          "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074394886,
+            "stop" : 1620074395209,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+        } ],
+        "uid" : "c8bc9255e2887fb35b184141ebf6f252"
+      } ],
+      "uid" : "894a0a15744b01122b2a5b182e4b5ebf"
+    }, {
+      "name" : "Generate token for unauthorized user",
+      "children" : [ {
+        "name" : "Adds an user and gets the list of books",
+        "children" : [ {
+          "name" : "Add an user",
+          "uid" : "756c12cc47a7d3c8",
+          "parentUid" : "23ca83cff5d495371ebb117289b3706c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074395219,
+            "stop" : 1620074395561,
+            "duration" : 342
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "23ca83cff5d495371ebb117289b3706c"
+      }, {
+        "name" : "Checks if the given user is authorized, before generating token",
+        "children" : [ {
+          "name" : "User is not authorized",
+          "uid" : "3a999b1dc06862fa",
+          "parentUid" : "aaaf9de83a609701533aa444a91d384a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074409689,
+            "stop" : 1620074409970,
+            "duration" : 281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aaaf9de83a609701533aa444a91d384a"
+      }, {
+        "name" : "Generates the token for given user",
+        "children" : [ {
+          "name" : "Generate Token",
+          "uid" : "f273c93cc3a0177b",
+          "parentUid" : "408f4f730badbb21cb01003b40ee8525",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074409897,
+            "stop" : 1620074410213,
+            "duration" : 316
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "408f4f730badbb21cb01003b40ee8525"
+      }, {
+        "name" : "Checks if the given user is authorized, after generating token",
+        "children" : [ {
+          "name" : "User is now authorized",
+          "uid" : "dfbf858b07c6b8e4",
+          "parentUid" : "7331e5e5de13b343dd8dbf78ac90722c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074409976,
+            "stop" : 1620074410250,
+            "duration" : 274
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7331e5e5de13b343dd8dbf78ac90722c"
+      } ],
+      "uid" : "a2bebf2ba7cda5ffeec7bab3a309032a"
+    } ],
+    "uid" : "5f72f693e10b85c0d34843adb3b5f562"
+  }, {
+    "name" : "Books",
+    "children" : [ {
+      "name" : "Get all books",
+      "children" : [ {
+        "name" : "Validate that the data on the website and API is the same",
+        "children" : [ {
+          "name" : "GetBooksDataFromUIAndAPITest",
+          "uid" : "bf465d7b5d5d0e2a",
+          "parentUid" : "b28c49b198ab3d5fe51d72108ea9028f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074392441,
+            "stop" : 1620074413868,
+            "duration" : 21427
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b28c49b198ab3d5fe51d72108ea9028f"
+      } ],
+      "uid" : "b73b4659f3b193195d5d5a3f624c3db6"
+    }, {
+      "name" : "Get a Single Book",
+      "children" : [ {
+        "name" : "Get a book from the Site and the API and Compare the data sets",
+        "children" : [ {
+          "name" : "GOBTest",
+          "uid" : "e96a475189f065f8",
+          "parentUid" : "a18f0835fdb8e001e8647b82de4c39ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074395569,
+            "stop" : 1620074409883,
+            "duration" : 14314
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a18f0835fdb8e001e8647b82de4c39ff"
+      } ],
+      "uid" : "b8ab4532b9012348f55b39e001d4b82c"
+    }, {
+      "name" : "login and validate add book",
+      "children" : [ {
+        "name" : "validate test",
+        "children" : [ {
+          "name" : "getUserLoginAddBook",
+          "uid" : "6b7c6ba745379572",
+          "parentUid" : "785190113ee51a790546b5cb734fa6ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074410219,
+            "stop" : 1620074416635,
+            "duration" : 6416
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "785190113ee51a790546b5cb734fa6ea"
+      } ],
+      "uid" : "3660a799feb05d67dbc03fe42a3cc071"
+    } ],
+    "uid" : "76792ac41856d3b07e291a15774523c5"
+  }, {
+    "name" : "Post User",
+    "children" : [ {
+      "name" : "Negative Scenario",
+      "children" : [ {
+        "name" : "Sends email and password, gets response and validates it, gets data from dataprovider",
+        "children" : [ {
+          "name" : "NegativeScenario",
+          "uid" : "c1b99eff1c29bd70",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074392441,
+            "stop" : 1620074394425,
+            "duration" : 1984
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "526f1c63c283266f",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074394541,
+            "stop" : 1620074394879,
+            "duration" : 338
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
+        }, {
+          "name" : "NegativeScenario",
+          "uid" : "ea9ef482376bfa33",
+          "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074394888,
+            "stop" : 1620074395178,
+            "duration" : 290
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+        } ],
+        "uid" : "4f36e8a696d1ad9de5c3db351a1f76ee"
+      } ],
+      "uid" : "a1a708b4ea37c06eedd30e76445029b9"
+    } ],
+    "uid" : "1e62c7e57ef6e15f2b4901f1b88e20c7"
+  }, {
+    "name" : "Search feature UI - Get Books API",
+    "children" : [ {
+      "name" : "Test cases to compare UI and API results.",
+      "children" : [ {
+        "name" : "Find all books by publisher from the Site (UI) and API and compare them.",
+        "children" : [ {
+          "name" : "booksListSizeByPublisher",
+          "uid" : "f6731e2b58b930db",
+          "parentUid" : "2fd7c77da6c102dde7d0220fbbc317bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074395192,
+            "stop" : 1620074409680,
+            "duration" : 14488
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2fd7c77da6c102dde7d0220fbbc317bd"
+      } ],
+      "uid" : "8c02d30b690aa39410ff827415e35c30"
+    } ],
+    "uid" : "bef49176593b18eb2483ef56641197d8"
+  }, {
+    "name" : "Users and Authorization",
+    "children" : [ {
+      "name" : "Delete user",
+      "children" : [ {
+        "name" : "Deleting user and validating with UI as well with API",
+        "children" : [ {
+          "name" : "userDeleteAndValidate",
+          "uid" : "18e2269df5387c3e",
+          "parentUid" : "0cf8b436a132226af77f261252754305",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620074416648,
+            "stop" : 1620074423539,
+            "duration" : 6891
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0cf8b436a132226af77f261252754305"
+      } ],
+      "uid" : "5e4f699a0eee8830eb313956eb0e33c1"
+    } ],
+    "uid" : "12c37f9efa6e8913e5d3c2d718a879a4"
+  } ]
 }

@@ -1,1 +1,151 @@
-[ ]
+[ {
+  "uid" : "99444197aac8083a",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620074394515,
+    "stop" : 1620074394877,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6731e2b58b930db",
+  "name" : "booksListSizeByPublisher",
+  "time" : {
+    "start" : 1620074395192,
+    "stop" : 1620074409680,
+    "duration" : 14488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a999b1dc06862fa",
+  "name" : "User is not authorized",
+  "time" : {
+    "start" : 1620074409689,
+    "stop" : 1620074409970,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "756c12cc47a7d3c8",
+  "name" : "Add an user",
+  "time" : {
+    "start" : 1620074395219,
+    "stop" : 1620074395561,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b32ad16e756a71c5",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620074392441,
+    "stop" : 1620074394388,
+    "duration" : 1947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e96a475189f065f8",
+  "name" : "GOBTest",
+  "time" : {
+    "start" : 1620074395569,
+    "stop" : 1620074409883,
+    "duration" : 14314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea9ef482376bfa33",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620074394888,
+    "stop" : 1620074395178,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48f7c0df19bc439d",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620074394886,
+    "stop" : 1620074395209,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b7c6ba745379572",
+  "name" : "getUserLoginAddBook",
+  "time" : {
+    "start" : 1620074410219,
+    "stop" : 1620074416635,
+    "duration" : 6416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfbf858b07c6b8e4",
+  "name" : "User is now authorized",
+  "time" : {
+    "start" : 1620074409976,
+    "stop" : 1620074410250,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18e2269df5387c3e",
+  "name" : "userDeleteAndValidate",
+  "time" : {
+    "start" : 1620074416648,
+    "stop" : 1620074423539,
+    "duration" : 6891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "526f1c63c283266f",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620074394541,
+    "stop" : 1620074394879,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf465d7b5d5d0e2a",
+  "name" : "GetBooksDataFromUIAndAPITest",
+  "time" : {
+    "start" : 1620074392441,
+    "stop" : 1620074413868,
+    "duration" : 21427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1b99eff1c29bd70",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620074392441,
+    "stop" : 1620074394425,
+    "duration" : 1984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f273c93cc3a0177b",
+  "name" : "Generate Token",
+  "time" : {
+    "start" : 1620074409897,
+    "stop" : 1620074410213,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

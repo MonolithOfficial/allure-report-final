@@ -1,5 +1,204 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "GenerateTokenTest",
+      "uid" : "b32ad16e756a71c5",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074392441,
+        "stop" : 1620074394388,
+        "duration" : 1947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
+    }, {
+      "name" : "GetBooksDataFromUIAndAPITest",
+      "uid" : "bf465d7b5d5d0e2a",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074392441,
+        "stop" : 1620074413868,
+        "duration" : 21427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "NegativeScenario",
+      "uid" : "c1b99eff1c29bd70",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074392441,
+        "stop" : 1620074394425,
+        "duration" : 1984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+    }, {
+      "name" : "GenerateTokenTest",
+      "uid" : "99444197aac8083a",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074394515,
+        "stop" : 1620074394877,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "tttt", "", "400" ]
+    }, {
+      "name" : "NegativeScenario",
+      "uid" : "526f1c63c283266f",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074394541,
+        "stop" : 1620074394879,
+        "duration" : 338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
+    }, {
+      "name" : "GenerateTokenTest",
+      "uid" : "48f7c0df19bc439d",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074394886,
+        "stop" : 1620074395209,
+        "duration" : 323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+    }, {
+      "name" : "NegativeScenario",
+      "uid" : "ea9ef482376bfa33",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074394888,
+        "stop" : 1620074395178,
+        "duration" : 290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+    }, {
+      "name" : "booksListSizeByPublisher",
+      "uid" : "f6731e2b58b930db",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074395192,
+        "stop" : 1620074409680,
+        "duration" : 14488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getBooksForUser",
+      "uid" : "756c12cc47a7d3c8",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074395219,
+        "stop" : 1620074395561,
+        "duration" : 342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GOBTest",
+      "uid" : "e96a475189f065f8",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074395569,
+        "stop" : 1620074409883,
+        "duration" : 14314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unauthorizedUser",
+      "uid" : "3a999b1dc06862fa",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074409689,
+        "stop" : 1620074409970,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "generateToken",
+      "uid" : "f273c93cc3a0177b",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074409897,
+        "stop" : 1620074410213,
+        "duration" : 316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "authorizedUser",
+      "uid" : "dfbf858b07c6b8e4",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074409976,
+        "stop" : 1620074410250,
+        "duration" : 274
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getUserLoginAddBook",
+      "uid" : "6b7c6ba745379572",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074410219,
+        "stop" : 1620074416635,
+        "duration" : 6416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userDeleteAndValidate",
+      "uid" : "18e2269df5387c3e",
+      "parentUid" : "fc39173c9dc08e281c680147b63fcad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620074416648,
+        "stop" : 1620074423539,
+        "duration" : 6891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ]
 }
