@@ -1,47 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "WebDriverException: chrome not reachable\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619854213570.0.html\r\nTimeout: 4 s.\r\nCaused by: WebDriverException: chrome not reachable",
-      "children" : [ {
-        "name" : "GetBooksDataFromUIAndAPITest",
-        "uid" : "2dc9579ba7a2cd8b",
-        "parentUid" : "3be080651f4402746c47ffb0ff0ee9ab",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619854140507,
-          "stop" : 1619854221764,
-          "duration" : 81257
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3be080651f4402746c47ffb0ff0ee9ab"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "chrome not reachable\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-BSJ5I2T', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/login\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\monolith\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://demoqa.com\nSession ID: 292237a3c988d1b342ce5d7d496dd52d",
-      "children" : [ {
-        "name" : "getUserLoginAddBook",
-        "uid" : "12fc1a945719eea5",
-        "parentUid" : "242e766f224ae1e5e3127eab9dfaeb27",
-        "status" : "broken",
-        "time" : {
-          "start" : 1619854222889,
-          "stop" : 1619854235198,
-          "duration" : 12309
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "242e766f224ae1e5e3127eab9dfaeb27"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

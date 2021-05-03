@@ -1,12 +1,12 @@
 {
-  "uid" : "1e5df8e686762baa",
+  "uid" : "447c483a3c1dea50",
   "name" : "Add an user",
   "fullName" : "Tests.getBooksForUser",
   "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1619854222577,
-    "stop" : 1619854222874,
-    "duration" : 297
+    "start" : 1620052176151,
+    "stop" : 1620052176457,
+    "duration" : 306
   },
   "description" : "Get books for current user",
   "descriptionHtml" : "<p>Get books for current user</p>\n",
@@ -20,25 +20,58 @@
     "steps" : [ {
       "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1619854222577,
-        "stop" : 1619854222874,
-        "duration" : 297
+        "start" : 1620052176151,
+        "stop" : 1620052176455,
+        "duration" : 304
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validates that list is empty",
+      "time" : {
+        "start" : 1620052176455,
+        "stop" : 1620052176456,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate Username",
+      "time" : {
+        "start" : 1620052176456,
+        "stop" : 1620052176456,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "user0000000001660759598"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : true,
-    "stepsCount" : 1
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -64,7 +97,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "6964@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "12276@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -75,11 +108,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "feature",
-    "value" : "Generate token for unauthorized user"
-  }, {
     "name" : "story",
     "value" : "Adds an user and gets the list of books"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -94,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1e5df8e686762baa.json",
+  "source" : "447c483a3c1dea50.json",
   "parameterValues" : [ ]
 }
