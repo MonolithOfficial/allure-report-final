@@ -1,12 +1,12 @@
 {
-  "uid" : "64a68bc862ca8ee6",
+  "uid" : "5fd1a923fbe49a56",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
   "historyId" : "1ae13647e986e2fafa82036be6079a6a",
   "time" : {
-    "start" : 1620053210328,
-    "stop" : 1620053210624,
-    "duration" : 296
+    "start" : 1620053471653,
+    "stop" : 1620053472401,
+    "duration" : 748
   },
   "description" : "Tests user web service with dataprovider",
   "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1620053210328,
-        "stop" : 1620053210328,
+        "start" : 1620053471653,
+        "stop" : 1620053471653,
         "duration" : 0
       },
       "status" : "passed",
@@ -41,9 +41,9 @@
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1620053210328,
-        "stop" : 1620053210623,
-        "duration" : 295
+        "start" : 1620053471653,
+        "stop" : 1620053472401,
+        "duration" : 748
       },
       "status" : "passed",
       "steps" : [ ],
@@ -56,8 +56,8 @@
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1620053210623,
-        "stop" : 1620053210623,
+        "start" : 1620053472401,
+        "stop" : 1620053472401,
         "duration" : 0
       },
       "status" : "passed",
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,14 +114,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
-  }, {
     "name" : "feature",
     "value" : "Negative Scenario"
   }, {
     "name" : "epic",
     "value" : "Post User"
+  }, {
+    "name" : "story",
+    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "64a68bc862ca8ee6.json",
+  "source" : "5fd1a923fbe49a56.json",
   "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }

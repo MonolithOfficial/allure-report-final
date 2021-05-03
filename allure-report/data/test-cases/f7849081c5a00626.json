@@ -1,12 +1,12 @@
 {
-  "uid" : "73bc813708836e6a",
+  "uid" : "f7849081c5a00626",
   "name" : "getUserLoginAddBook",
   "fullName" : "Tests.getUserLoginAddBook",
   "historyId" : "342bf8b6b09b7b90d99f2a393a838291",
   "time" : {
-    "start" : 1620053216705,
-    "stop" : 1620053220827,
-    "duration" : 4122
+    "start" : 1620053478385,
+    "stop" : 1620053482086,
+    "duration" : 3701
   },
   "description" : "login user, add book, validate book with title",
   "descriptionHtml" : "<p>login user, add book, validate book with title</p>\n",
@@ -18,18 +18,18 @@
     "description" : "login user, add book, validate book with title",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user000000000813543535",
+      "name" : "Enter username user0000000001149372362",
       "time" : {
-        "start" : 1620053217039,
-        "stop" : 1620053217203,
-        "duration" : 164
+        "start" : 1620053478707,
+        "stop" : 1620053478876,
+        "duration" : 169
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user000000000813543535"
+        "value" : "user0000000001149372362"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -38,8 +38,8 @@
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620053217203,
-        "stop" : 1620053217363,
+        "start" : 1620053478876,
+        "stop" : 1620053479036,
         "duration" : 160
       },
       "status" : "passed",
@@ -54,18 +54,18 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "check username: user000000000813543535",
+      "name" : "check username: user0000000001149372362",
       "time" : {
-        "start" : 1620053217452,
-        "stop" : 1620053217916,
-        "duration" : 464
+        "start" : 1620053479120,
+        "stop" : 1620053479587,
+        "duration" : 467
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user000000000813543535"
+        "value" : "user0000000001149372362"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -74,9 +74,9 @@
     }, {
       "name" : "scroll to book store",
       "time" : {
-        "start" : 1620053217917,
-        "stop" : 1620053217952,
-        "duration" : 35
+        "start" : 1620053479587,
+        "stop" : 1620053479619,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -89,9 +89,9 @@
     }, {
       "name" : "jump to book store",
       "time" : {
-        "start" : 1620053217953,
-        "stop" : 1620053218070,
-        "duration" : 117
+        "start" : 1620053479619,
+        "stop" : 1620053479735,
+        "duration" : 116
       },
       "status" : "passed",
       "steps" : [ ],
@@ -104,9 +104,9 @@
     }, {
       "name" : "scroll to YouDontKnowJS",
       "time" : {
-        "start" : 1620053218070,
-        "stop" : 1620053218325,
-        "duration" : 255
+        "start" : 1620053479736,
+        "stop" : 1620053479988,
+        "duration" : 252
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,9 +119,9 @@
     }, {
       "name" : "click 'you don't know JS'",
       "time" : {
-        "start" : 1620053218325,
-        "stop" : 1620053218769,
-        "duration" : 444
+        "start" : 1620053479988,
+        "stop" : 1620053480420,
+        "duration" : 432
       },
       "status" : "passed",
       "steps" : [ ],
@@ -134,9 +134,9 @@
     }, {
       "name" : "scroll to add book",
       "time" : {
-        "start" : 1620053218770,
-        "stop" : 1620053218811,
-        "duration" : 41
+        "start" : 1620053480420,
+        "stop" : 1620053480466,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
@@ -149,9 +149,9 @@
     }, {
       "name" : "add book",
       "time" : {
-        "start" : 1620053218811,
-        "stop" : 1620053218909,
-        "duration" : 98
+        "start" : 1620053480466,
+        "stop" : 1620053480544,
+        "duration" : 78
       },
       "status" : "passed",
       "steps" : [ ],
@@ -164,9 +164,9 @@
     }, {
       "name" : "validate popup text: Book added to your collection.",
       "time" : {
-        "start" : 1620053218909,
-        "stop" : 1620053219139,
-        "duration" : 230
+        "start" : 1620053480544,
+        "stop" : 1620053480775,
+        "duration" : 231
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,9 +182,9 @@
     }, {
       "name" : "accept popup",
       "time" : {
-        "start" : 1620053219139,
-        "stop" : 1620053219144,
-        "duration" : 5
+        "start" : 1620053480775,
+        "stop" : 1620053480783,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,9 +197,9 @@
     }, {
       "name" : "scroll to profile",
       "time" : {
-        "start" : 1620053219145,
-        "stop" : 1620053219187,
-        "duration" : 42
+        "start" : 1620053480783,
+        "stop" : 1620053480820,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,9 +212,9 @@
     }, {
       "name" : "jump to profile",
       "time" : {
-        "start" : 1620053219187,
-        "stop" : 1620053219295,
-        "duration" : 108
+        "start" : 1620053480820,
+        "stop" : 1620053480924,
+        "duration" : 104
       },
       "status" : "passed",
       "steps" : [ ],
@@ -227,9 +227,9 @@
     }, {
       "name" : "validate book title",
       "time" : {
-        "start" : 1620053219295,
-        "stop" : 1620053219622,
-        "duration" : 327
+        "start" : 1620053480924,
+        "stop" : 1620053481238,
+        "duration" : 314
       },
       "status" : "passed",
       "steps" : [ ],
@@ -271,7 +271,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -301,6 +301,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "73bc813708836e6a.json",
+  "source" : "f7849081c5a00626.json",
   "parameterValues" : [ ]
 }

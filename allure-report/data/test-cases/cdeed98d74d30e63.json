@@ -1,28 +1,28 @@
 {
-  "uid" : "8c3893ffcfc9e9e9",
-  "name" : "lastBookTitleValue",
-  "fullName" : "Tests.lastBookTitleValue",
-  "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
+  "uid" : "cdeed98d74d30e63",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1620053212440,
-    "stop" : 1620053213416,
-    "duration" : 976
+    "start" : 1620053477805,
+    "stop" : 1620053478097,
+    "duration" : 292
   },
-  "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
-  "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "UI - return all books list",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1620053212893,
-        "stop" : 1620053212893,
-        "duration" : 0
+        "start" : 1620053477805,
+        "stop" : 1620053478096,
+        "duration" : 291
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,18 +33,36 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
+      "name" : "Validate GenerateToken status",
       "time" : {
-        "start" : 1620053213011,
-        "stop" : 1620053213416,
-        "duration" : 405
+        "start" : 1620053478096,
+        "stop" : 1620053478096,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "lastBookTitleInUI",
-        "value" : "Understanding ECMAScript 6"
+        "name" : "status",
+        "value" : "Success"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Validate GenerateToken result",
+      "time" : {
+        "start" : 1620053478096,
+        "stop" : 1620053478096,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "result",
+        "value" : "User authorized successfully."
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -55,7 +73,7 @@
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 2,
+    "stepsCount" : 3,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -67,7 +85,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "lastBookTitleValue"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -82,7 +100,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,13 +109,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Get books last item from the Site (UI) and API and compare them."
+    "value" : "Generates the token for given user"
   }, {
     "name" : "epic",
-    "value" : "Search feature UI - Get Books API"
+    "value" : "Generate Token"
   }, {
     "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8c3893ffcfc9e9e9.json",
+  "source" : "cdeed98d74d30e63.json",
   "parameterValues" : [ ]
 }

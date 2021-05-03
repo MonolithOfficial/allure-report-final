@@ -1,28 +1,28 @@
 {
-  "uid" : "2acee7835cb24649",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "57cce46418bddee7",
+  "name" : "lastBookTitleValue",
+  "fullName" : "Tests.lastBookTitleValue",
+  "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620053216424,
-    "stop" : 1620053216701,
-    "duration" : 277
+    "start" : 1620053474725,
+    "stop" : 1620053475598,
+    "duration" : 873
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
+  "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620053216424,
-        "stop" : 1620053216700,
-        "duration" : 276
+        "start" : 1620053475114,
+        "stop" : 1620053475114,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,18 +33,18 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Validate user Authorization",
+      "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
       "time" : {
-        "start" : 1620053216701,
-        "stop" : 1620053216701,
-        "duration" : 0
+        "start" : 1620053475225,
+        "stop" : 1620053475596,
+        "duration" : 371
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "true"
+        "name" : "lastBookTitleInUI",
+        "value" : "Understanding ECMAScript 6"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -67,7 +67,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "lastBookTitleValue"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,14 +90,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "epic",
-    "value" : "Generate Token"
-  }, {
     "name" : "feature",
-    "value" : "Generate token for unauthorized user"
+    "value" : "Test cases to compare UI and API results."
   }, {
     "name" : "story",
-    "value" : "Checks if the given user is authorized, after generating token"
+    "value" : "Get books last item from the Site (UI) and API and compare them."
+  }, {
+    "name" : "epic",
+    "value" : "Search feature UI - Get Books API"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2acee7835cb24649.json",
+  "source" : "57cce46418bddee7.json",
   "parameterValues" : [ ]
 }
