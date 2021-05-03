@@ -1,12 +1,12 @@
 {
-  "uid" : "75751a78ce60a73f",
+  "uid" : "8c3893ffcfc9e9e9",
   "name" : "lastBookTitleValue",
   "fullName" : "Tests.lastBookTitleValue",
   "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620052176461,
-    "stop" : 1620052177451,
-    "duration" : 990
+    "start" : 1620053212440,
+    "stop" : 1620053213416,
+    "duration" : 976
   },
   "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
   "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
@@ -20,24 +20,24 @@
     "steps" : [ {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620052176932,
-        "stop" : 1620052176932,
+        "start" : 1620053212893,
+        "stop" : 1620053212893,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
       "time" : {
-        "start" : 1620052177056,
-        "stop" : 1620052177451,
-        "duration" : 395
+        "start" : 1620053213011,
+        "stop" : 1620053213416,
+        "duration" : 405
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,17 +46,17 @@
         "name" : "lastBookTitleInUI",
         "value" : "Understanding ECMAScript 6"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 2,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "12276@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -93,11 +93,11 @@
     "name" : "story",
     "value" : "Get books last item from the Site (UI) and API and compare them."
   }, {
-    "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
-  }, {
     "name" : "epic",
     "value" : "Search feature UI - Get Books API"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases to compare UI and API results."
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "75751a78ce60a73f.json",
+  "source" : "8c3893ffcfc9e9e9.json",
   "parameterValues" : [ ]
 }

@@ -1,77 +1,62 @@
 {
-  "uid" : "447c483a3c1dea50",
-  "name" : "Add an user",
-  "fullName" : "Tests.getBooksForUser",
-  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
+  "uid" : "2acee7835cb24649",
+  "name" : "User is now authorized",
+  "fullName" : "Tests.authorizedUser",
+  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
   "time" : {
-    "start" : 1620052176151,
-    "stop" : 1620052176457,
-    "duration" : 306
+    "start" : 1620053216424,
+    "stop" : 1620053216701,
+    "duration" : 277
   },
-  "description" : "Get books for current user",
-  "descriptionHtml" : "<p>Get books for current user</p>\n",
+  "description" : "Check user authorization",
+  "descriptionHtml" : "<p>Check user authorization</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Get books for current user",
+    "description" : "Check user authorization",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'User' request",
+      "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1620052176151,
-        "stop" : 1620052176455,
-        "duration" : 304
+        "start" : 1620053216424,
+        "stop" : 1620053216700,
+        "duration" : 276
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Validates that list is empty",
-      "time" : {
-        "start" : 1620052176455,
-        "stop" : 1620052176456,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
-      "name" : "Validate Username",
+      "name" : "Validate user Authorization",
       "time" : {
-        "start" : 1620052176456,
-        "stop" : 1620052176456,
+        "start" : 1620053216701,
+        "stop" : 1620053216701,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "username",
-        "value" : "user0000000001660759598"
+        "name" : "isAuthorized",
+        "value" : "true"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 2,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +67,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "getBooksForUser"
+    "value" : "authorizedUser"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -97,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "12276@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "14416@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -108,11 +93,11 @@
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "story",
-    "value" : "Adds an user and gets the list of books"
-  }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
+  }, {
+    "name" : "story",
+    "value" : "Checks if the given user is authorized, after generating token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -127,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "447c483a3c1dea50.json",
+  "source" : "2acee7835cb24649.json",
   "parameterValues" : [ ]
 }
