@@ -1,12 +1,12 @@
 {
-  "uid" : "861d053d6ec2908f",
+  "uid" : "6ac87849e3de17b1",
   "name" : "GOBTest",
   "fullName" : "Tests.GOBTest",
   "historyId" : "59cf34f3f833b794a0ad4e591600aa0e",
   "time" : {
-    "start" : 1620053475608,
-    "stop" : 1620053477481,
-    "duration" : 1873
+    "start" : 1620053821472,
+    "stop" : 1620053823880,
+    "duration" : 2408
   },
   "description" : "This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data",
   "descriptionHtml" : "<p>This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "moving to the information page",
       "time" : {
-        "start" : 1620053475965,
-        "stop" : 1620053476440,
-        "duration" : 475
+        "start" : 1620053821833,
+        "stop" : 1620053822571,
+        "duration" : 738
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +35,9 @@
     }, {
       "name" : "Grabbing ISBN",
       "time" : {
-        "start" : 1620053476441,
-        "stop" : 1620053476490,
-        "duration" : 49
+        "start" : 1620053822572,
+        "stop" : 1620053822604,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,9 +50,9 @@
     }, {
       "name" : "Grabbing all UI Values",
       "time" : {
-        "start" : 1620053476490,
-        "stop" : 1620053476660,
-        "duration" : 170
+        "start" : 1620053822605,
+        "stop" : 1620053822861,
+        "duration" : 256
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,19 +65,19 @@
     }, {
       "name" : "Asserts Book via Query and the UI Object directly",
       "time" : {
-        "start" : 1620053476672,
-        "stop" : 1620053477480,
-        "duration" : 808
+        "start" : 1620053822872,
+        "stop" : 1620053823880,
+        "duration" : 1008
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "book",
-        "value" : "backend.models.responses.Book@56d5a50f"
+        "value" : "backend.models.responses.Book@606cb314"
       }, {
         "name" : "FBD",
-        "value" : "frontend.pages.BookDetailsPage@72d9bd09"
+        "value" : "frontend.pages.BookDetailsPage@3e8742de"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -115,7 +115,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -123,14 +123,14 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "story",
+    "value" : "Get a book from the Site and the API and Compare the data sets"
+  }, {
     "name" : "epic",
     "value" : "Books"
   }, {
     "name" : "feature",
     "value" : "Get a Single Book"
-  }, {
-    "name" : "story",
-    "value" : "Get a book from the Site and the API and Compare the data sets"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "861d053d6ec2908f.json",
+  "source" : "6ac87849e3de17b1.json",
   "parameterValues" : [ ]
 }

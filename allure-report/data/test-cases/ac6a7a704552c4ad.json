@@ -1,12 +1,12 @@
 {
-  "uid" : "57cce46418bddee7",
+  "uid" : "ac6a7a704552c4ad",
   "name" : "lastBookTitleValue",
   "fullName" : "Tests.lastBookTitleValue",
   "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620053474725,
-    "stop" : 1620053475598,
-    "duration" : 873
+    "start" : 1620053820507,
+    "stop" : 1620053821458,
+    "duration" : 951
   },
   "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
   "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620053475114,
-        "stop" : 1620053475114,
+        "start" : 1620053820901,
+        "stop" : 1620053820901,
         "duration" : 0
       },
       "status" : "passed",
@@ -35,9 +35,9 @@
     }, {
       "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
       "time" : {
-        "start" : 1620053475225,
-        "stop" : 1620053475596,
-        "duration" : 371
+        "start" : 1620053821047,
+        "stop" : 1620053821456,
+        "duration" : 409
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,14 +90,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
+    "name" : "epic",
+    "value" : "Search feature UI - Get Books API"
   }, {
     "name" : "story",
     "value" : "Get books last item from the Site (UI) and API and compare them."
   }, {
-    "name" : "epic",
-    "value" : "Search feature UI - Get Books API"
+    "name" : "feature",
+    "value" : "Test cases to compare UI and API results."
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "57cce46418bddee7.json",
+  "source" : "ac6a7a704552c4ad.json",
   "parameterValues" : [ ]
 }

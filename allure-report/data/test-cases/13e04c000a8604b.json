@@ -1,49 +1,28 @@
 {
-  "uid" : "5fd1a923fbe49a56",
-  "name" : "NegativeScenario",
-  "fullName" : "Tests.NegativeScenario",
-  "historyId" : "1ae13647e986e2fafa82036be6079a6a",
+  "uid" : "13e04c000a8604b",
+  "name" : "Add an user",
+  "fullName" : "Tests.getBooksForUser",
+  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1620053471653,
-    "stop" : 1620053472401,
-    "duration" : 748
+    "start" : 1620053820205,
+    "stop" : 1620053820501,
+    "duration" : 296
   },
-  "description" : "Tests user web service with dataprovider",
-  "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
+  "description" : "Get books for current user",
+  "descriptionHtml" : "<p>Get books for current user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Tests user web service with dataprovider",
+    "description" : "Get books for current user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Sends User Request with email and password",
+      "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1620053471653,
-        "stop" : 1620053471653,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "email",
-        "value" : "alinatkabladze"
-      }, {
-        "name" : "password",
-        "value" : ""
-      } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Gets Response and deserilizes it",
-      "time" : {
-        "start" : 1620053471653,
-        "stop" : 1620053472401,
-        "duration" : 748
+        "start" : 1620053820205,
+        "stop" : 1620053820499,
+        "duration" : 294
       },
       "status" : "passed",
       "steps" : [ ],
@@ -54,21 +33,33 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Validates Response Code and Message",
+      "name" : "Validates that list is empty",
       "time" : {
-        "start" : 1620053472401,
-        "stop" : 1620053472401,
+        "start" : 1620053820500,
+        "stop" : 1620053820500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate Username",
+      "time" : {
+        "start" : 1620053820501,
+        "stop" : 1620053820501,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "expectedCode",
-        "value" : "1200"
-      }, {
-        "name" : "expectedMessage",
-        "value" : "UserName and Password required."
+        "name" : "username",
+        "value" : "user000000000692930563"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -91,7 +82,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "NegativeScenario"
+    "value" : "getBooksForUser"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -106,7 +97,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,31 +105,19 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Negative Scenario"
-  }, {
     "name" : "epic",
-    "value" : "Post User"
+    "value" : "Generate Token"
   }, {
     "name" : "story",
-    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
+    "value" : "Adds an user and gets the list of books"
+  }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "arg0",
-    "value" : "alinatkabladze"
-  }, {
-    "name" : "arg1",
-    "value" : ""
-  }, {
-    "name" : "arg2",
-    "value" : "1200"
-  }, {
-    "name" : "arg3",
-    "value" : "UserName and Password required."
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -148,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5fd1a923fbe49a56.json",
-  "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+  "source" : "13e04c000a8604b.json",
+  "parameterValues" : [ ]
 }

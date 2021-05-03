@@ -1,12 +1,12 @@
 {
-  "uid" : "d0fb78e5fa6b7479",
+  "uid" : "bf04aa03c0576539",
   "name" : "userDeleteAndValidate",
   "fullName" : "Tests.userDeleteAndValidate",
   "historyId" : "ee843f48650f418464c449fb41152c24",
   "time" : {
-    "start" : 1620053482092,
-    "stop" : 1620053488676,
-    "duration" : 6584
+    "start" : 1620053831448,
+    "stop" : 1620053845568,
+    "duration" : 14120
   },
   "description" : "deletes user and validates",
   "descriptionHtml" : "<p>deletes user and validates</p>\n",
@@ -18,18 +18,18 @@
     "description" : "deletes user and validates",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user0000000001149372362",
+      "name" : "Enter username user000000000692930563",
       "time" : {
-        "start" : 1620053486248,
-        "stop" : 1620053486463,
-        "duration" : 215
+        "start" : 1620053837336,
+        "stop" : 1620053838025,
+        "duration" : 689
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000001149372362"
+        "value" : "user000000000692930563"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -38,9 +38,9 @@
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620053486463,
-        "stop" : 1620053486643,
-        "duration" : 180
+        "start" : 1620053838025,
+        "stop" : 1620053838440,
+        "duration" : 415
       },
       "status" : "passed",
       "steps" : [ ],
@@ -56,9 +56,9 @@
     }, {
       "name" : "click delete book and confirm",
       "time" : {
-        "start" : 1620053486733,
-        "stop" : 1620053487433,
-        "duration" : 700
+        "start" : 1620053838718,
+        "stop" : 1620053841488,
+        "duration" : 2770
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,18 +69,18 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Enter username user0000000001149372362",
+      "name" : "Enter username user000000000692930563",
       "time" : {
-        "start" : 1620053487649,
-        "stop" : 1620053487919,
-        "duration" : 270
+        "start" : 1620053841976,
+        "stop" : 1620053843289,
+        "duration" : 1313
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000001149372362"
+        "value" : "user000000000692930563"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -89,9 +89,9 @@
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620053487919,
-        "stop" : 1620053488064,
-        "duration" : 145
+        "start" : 1620053843289,
+        "stop" : 1620053844124,
+        "duration" : 835
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "validating error message",
       "time" : {
-        "start" : 1620053488148,
-        "stop" : 1620053488391,
-        "duration" : 243
+        "start" : 1620053844599,
+        "stop" : 1620053845238,
+        "duration" : 639
       },
       "status" : "passed",
       "steps" : [ ],
@@ -151,7 +151,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -162,11 +162,11 @@
     "name" : "story",
     "value" : "Deleting user and validating with UI as well with API"
   }, {
-    "name" : "feature",
-    "value" : "Delete user"
-  }, {
     "name" : "epic",
     "value" : "Users and Authorization"
+  }, {
+    "name" : "feature",
+    "value" : "Delete user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -181,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d0fb78e5fa6b7479.json",
+  "source" : "bf04aa03c0576539.json",
   "parameterValues" : [ ]
 }

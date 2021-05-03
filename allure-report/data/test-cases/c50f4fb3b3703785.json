@@ -1,12 +1,12 @@
 {
-  "uid" : "af7bbd8c578b5cef",
+  "uid" : "c50f4fb3b3703785",
   "name" : "GenerateTokenTest",
   "fullName" : "Tests.GenerateTokenTest",
   "historyId" : "a215a5913eae04fd6198bb6335e3d5e3",
   "time" : {
-    "start" : 1620053460445,
-    "stop" : 1620053460757,
-    "duration" : 312
+    "start" : 1620053808625,
+    "stop" : 1620053809031,
+    "duration" : 406
   },
   "description" : "Description: Generate Token main test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620053460445,
-        "stop" : 1620053460757,
-        "duration" : 312
+        "start" : 1620053808625,
+        "stop" : 1620053809030,
+        "duration" : 405
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "9556@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,11 +84,11 @@
     "name" : "feature",
     "value" : "Negative Cases"
   }, {
-    "name" : "epic",
-    "value" : "Generate Token"
-  }, {
     "name" : "story",
     "value" : "GenerateToken"
+  }, {
+    "name" : "epic",
+    "value" : "Generate Token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af7bbd8c578b5cef.json",
+  "source" : "c50f4fb3b3703785.json",
   "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
 }

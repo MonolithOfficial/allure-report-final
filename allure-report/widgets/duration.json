@@ -1,160 +1,160 @@
 [ {
-  "uid" : "e1753c36c16cf2e8",
-  "name" : "booksListSizeByPublisher",
+  "uid" : "7f84ccbe08e34c98",
+  "name" : "NegativeScenario",
   "time" : {
-    "start" : 1620053472406,
-    "stop" : 1620053474253,
-    "duration" : 1847
+    "start" : 1620053817823,
+    "stop" : 1620053818137,
+    "duration" : 314
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "861d053d6ec2908f",
-  "name" : "GOBTest",
-  "time" : {
-    "start" : 1620053475608,
-    "stop" : 1620053477481,
-    "duration" : 1873
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d0558f2a8c7755e",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053458601,
-    "stop" : 1620053459984,
-    "duration" : 1383
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "57cce46418bddee7",
-  "name" : "lastBookTitleValue",
-  "time" : {
-    "start" : 1620053474725,
-    "stop" : 1620053475598,
-    "duration" : 873
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dabafc1551cd6439",
-  "name" : "GetBooksDataFromUIAndAPITest",
-  "time" : {
-    "start" : 1620053460769,
-    "stop" : 1620053470709,
-    "duration" : 9940
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af7bbd8c578b5cef",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053460445,
-    "stop" : 1620053460757,
-    "duration" : 312
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bee83ee2b21b2e15",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053460110,
-    "stop" : 1620053460438,
-    "duration" : 328
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6eb5f6fea4dfafc",
+  "uid" : "13e04c000a8604b",
   "name" : "Add an user",
   "time" : {
-    "start" : 1620053474257,
-    "stop" : 1620053474719,
-    "duration" : 462
+    "start" : 1620053820205,
+    "stop" : 1620053820501,
+    "duration" : 296
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8e756a3157009f3f",
-  "name" : "User is now authorized",
+  "uid" : "9f23f84e00e2f2a4",
+  "name" : "GenerateTokenTest",
   "time" : {
-    "start" : 1620053478101,
-    "stop" : 1620053478380,
-    "duration" : 279
+    "start" : 1620053808121,
+    "stop" : 1620053808618,
+    "duration" : 497
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cdeed98d74d30e63",
-  "name" : "Generate Token",
-  "time" : {
-    "start" : 1620053477805,
-    "stop" : 1620053478097,
-    "duration" : 292
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eef015161a9ea2cc",
+  "uid" : "30e7d19db8c3505",
   "name" : "User is not authorized",
   "time" : {
-    "start" : 1620053477489,
-    "stop" : 1620053477800,
-    "duration" : 311
+    "start" : 1620053823916,
+    "stop" : 1620053824213,
+    "duration" : 297
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f7849081c5a00626",
-  "name" : "getUserLoginAddBook",
+  "uid" : "5576d26dc9b6f8a4",
+  "name" : "booksListSizeByPublisher",
   "time" : {
-    "start" : 1620053478385,
-    "stop" : 1620053482086,
-    "duration" : 3701
+    "start" : 1620053818666,
+    "stop" : 1620053820199,
+    "duration" : 1533
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de48c4af985c4dff",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1620053471259,
-    "stop" : 1620053471648,
-    "duration" : 389
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0fb78e5fa6b7479",
+  "uid" : "bf04aa03c0576539",
   "name" : "userDeleteAndValidate",
   "time" : {
-    "start" : 1620053482092,
-    "stop" : 1620053488676,
-    "duration" : 6584
+    "start" : 1620053831448,
+    "stop" : 1620053845568,
+    "duration" : 14120
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8fc99e2576e36c8e",
-  "name" : "NegativeScenario",
+  "uid" : "346dae05e711ad5c",
+  "name" : "Generate Token",
   "time" : {
-    "start" : 1620053470723,
-    "stop" : 1620053471249,
-    "duration" : 526
+    "start" : 1620053824218,
+    "stop" : 1620053824525,
+    "duration" : 307
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5fd1a923fbe49a56",
+  "uid" : "c50f4fb3b3703785",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620053808625,
+    "stop" : 1620053809031,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1acef84a71bd67e1",
+  "name" : "GetBooksDataFromUIAndAPITest",
+  "time" : {
+    "start" : 1620053809039,
+    "stop" : 1620053817810,
+    "duration" : 8771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d66392c628c88a2c",
   "name" : "NegativeScenario",
   "time" : {
-    "start" : 1620053471653,
-    "stop" : 1620053472401,
-    "duration" : 748
+    "start" : 1620053818407,
+    "stop" : 1620053818661,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ac87849e3de17b1",
+  "name" : "GOBTest",
+  "time" : {
+    "start" : 1620053821472,
+    "stop" : 1620053823880,
+    "duration" : 2408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c135543a0b0d047e",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620053818145,
+    "stop" : 1620053818402,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9901480353a8c4fa",
+  "name" : "getUserLoginAddBook",
+  "time" : {
+    "start" : 1620053824822,
+    "stop" : 1620053831437,
+    "duration" : 6615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c550182fbeaa86da",
+  "name" : "User is now authorized",
+  "time" : {
+    "start" : 1620053824530,
+    "stop" : 1620053824817,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "342f808c2a6038df",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620053806601,
+    "stop" : 1620053808025,
+    "duration" : 1424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6a7a704552c4ad",
+  "name" : "lastBookTitleValue",
+  "time" : {
+    "start" : 1620053820507,
+    "stop" : 1620053821458,
+    "duration" : 951
   },
   "status" : "passed",
   "severity" : "normal"
