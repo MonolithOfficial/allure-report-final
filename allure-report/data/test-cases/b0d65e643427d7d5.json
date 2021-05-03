@@ -1,12 +1,12 @@
 {
-  "uid" : "1acef84a71bd67e1",
+  "uid" : "b0d65e643427d7d5",
   "name" : "GetBooksDataFromUIAndAPITest",
   "fullName" : "Tests.GetBooksDataFromUIAndAPITest",
   "historyId" : "e24627152c47e7d96616ebce2f8a80ac",
   "time" : {
-    "start" : 1620053809039,
-    "stop" : 1620053817810,
-    "duration" : 8771
+    "start" : 1620054102898,
+    "stop" : 1620054115291,
+    "duration" : 12393
   },
   "description" : "Get books data from ui and api ,validate title,author and publisher.",
   "descriptionHtml" : "<p>Get books data from ui and api ,validate title,author and publisher.</p>\n",
@@ -20,54 +20,54 @@
     "steps" : [ {
       "name" : "Get Book Titles From BookStore",
       "time" : {
-        "start" : 1620053814644,
-        "stop" : 1620053814644,
+        "start" : 1620054111452,
+        "stop" : 1620054111452,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Get Book Authors From BookStore",
       "time" : {
-        "start" : 1620053814644,
-        "stop" : 1620053814644,
+        "start" : 1620054111452,
+        "stop" : 1620054111452,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Get Book Publishers From BookStore",
       "time" : {
-        "start" : 1620053814644,
-        "stop" : 1620053814644,
+        "start" : 1620054111453,
+        "stop" : 1620054111453,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate title from BookStore and API",
       "time" : {
-        "start" : 1620053815584,
-        "stop" : 1620053815809,
-        "duration" : 225
+        "start" : 1620054112526,
+        "stop" : 1620054112790,
+        "duration" : 264
       },
       "status" : "passed",
       "steps" : [ ],
@@ -76,16 +76,16 @@
         "name" : "uiTitle",
         "value" : "[\r\n\t<a href=\"/books?book=9781449325862\" type>Git Pocket Guide</a>,\r\n\t<a href=\"/books?book=9781449331818\" type>Learning JavaScript Design Patterns</a>,\r\n\t<a href=\"/books?book=9781449337711\" type>Designing Evolvable Web APIs with ASP.NET</a>,\r\n\t<a href=\"/books?book=9781449365035\" type>Speaking JavaScript</a>,\r\n\t<a href=\"/books?book=9781491904244\" type>You Don't Know JS</a>,\r\n\t<a href=\"/books?book=9781491950296\" type>Programming JavaScript Applications</a>,\r\n\t<a href=\"/books?book=9781593275846\" type>Eloquent JavaScript, Second Edition</a>,\r\n\t<a href=\"/books?book=9781593277574\" type>Understanding ECMAScript 6</a>\r\n]"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate author from BookStore and API",
       "time" : {
-        "start" : 1620053816636,
-        "stop" : 1620053816811,
-        "duration" : 175
+        "start" : 1620054113866,
+        "stop" : 1620054114153,
+        "duration" : 287
       },
       "status" : "passed",
       "steps" : [ ],
@@ -94,16 +94,16 @@
         "name" : "uiAuthor",
         "value" : "[\r\n\t<div class=\"rt-td\" role=\"gridcell\">Richard E. Silverman</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Addy Osmani</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Glenn Block et al.</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Axel Rauschmayer</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Kyle Simpson</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Eric Elliott</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Marijn Haverbeke</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">Nicholas C. Zakas</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>\r\n]"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate publisher from BookStore and API",
       "time" : {
-        "start" : 1620053817612,
-        "stop" : 1620053817810,
-        "duration" : 198
+        "start" : 1620054115070,
+        "stop" : 1620054115290,
+        "duration" : 220
       },
       "status" : "passed",
       "steps" : [ ],
@@ -112,17 +112,17 @@
         "name" : "uiPublisher",
         "value" : "[\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">O'Reilly Media</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">No Starch Press</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\">No Starch Press</div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>,\r\n\t<div class=\"rt-td\" role=\"gridcell\"> </div>\r\n]"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,7 +148,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1acef84a71bd67e1.json",
+  "source" : "b0d65e643427d7d5.json",
   "parameterValues" : [ ]
 }

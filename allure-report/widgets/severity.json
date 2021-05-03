@@ -1,160 +1,160 @@
 [ {
-  "uid" : "9901480353a8c4fa",
-  "name" : "getUserLoginAddBook",
-  "time" : {
-    "start" : 1620053824822,
-    "stop" : 1620053831437,
-    "duration" : 6615
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf04aa03c0576539",
-  "name" : "userDeleteAndValidate",
-  "time" : {
-    "start" : 1620053831448,
-    "stop" : 1620053845568,
-    "duration" : 14120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c135543a0b0d047e",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1620053818145,
-    "stop" : 1620053818402,
-    "duration" : 257
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13e04c000a8604b",
+  "uid" : "108f655c3233a887",
   "name" : "Add an user",
   "time" : {
-    "start" : 1620053820205,
-    "stop" : 1620053820501,
-    "duration" : 296
+    "start" : 1620054119043,
+    "stop" : 1620054119468,
+    "duration" : 425
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d66392c628c88a2c",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1620053818407,
-    "stop" : 1620053818661,
-    "duration" : 254
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f84ccbe08e34c98",
-  "name" : "NegativeScenario",
-  "time" : {
-    "start" : 1620053817823,
-    "stop" : 1620053818137,
-    "duration" : 314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ac87849e3de17b1",
-  "name" : "GOBTest",
-  "time" : {
-    "start" : 1620053821472,
-    "stop" : 1620053823880,
-    "duration" : 2408
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "346dae05e711ad5c",
-  "name" : "Generate Token",
-  "time" : {
-    "start" : 1620053824218,
-    "stop" : 1620053824525,
-    "duration" : 307
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1acef84a71bd67e1",
-  "name" : "GetBooksDataFromUIAndAPITest",
-  "time" : {
-    "start" : 1620053809039,
-    "stop" : 1620053817810,
-    "duration" : 8771
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5576d26dc9b6f8a4",
-  "name" : "booksListSizeByPublisher",
-  "time" : {
-    "start" : 1620053818666,
-    "stop" : 1620053820199,
-    "duration" : 1533
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c50f4fb3b3703785",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053808625,
-    "stop" : 1620053809031,
-    "duration" : 406
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30e7d19db8c3505",
-  "name" : "User is not authorized",
-  "time" : {
-    "start" : 1620053823916,
-    "stop" : 1620053824213,
-    "duration" : 297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f23f84e00e2f2a4",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053808121,
-    "stop" : 1620053808618,
-    "duration" : 497
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "342f808c2a6038df",
-  "name" : "GenerateTokenTest",
-  "time" : {
-    "start" : 1620053806601,
-    "stop" : 1620053808025,
-    "duration" : 1424
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac6a7a704552c4ad",
+  "uid" : "edea306e3c18db25",
   "name" : "lastBookTitleValue",
   "time" : {
-    "start" : 1620053820507,
-    "stop" : 1620053821458,
-    "duration" : 951
+    "start" : 1620054119474,
+    "stop" : 1620054120744,
+    "duration" : 1270
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c550182fbeaa86da",
+  "uid" : "8dad214cf5c7b858",
   "name" : "User is now authorized",
   "time" : {
-    "start" : 1620053824530,
-    "stop" : 1620053824817,
-    "duration" : 287
+    "start" : 1620054124776,
+    "stop" : 1620054125193,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17ee487eb141fd75",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620054102409,
+    "stop" : 1620054102878,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6ba2595e5fda51",
+  "name" : "booksListSizeByPublisher",
+  "time" : {
+    "start" : 1620054117090,
+    "stop" : 1620054119038,
+    "duration" : 1948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dd9a41adc21e828",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620054115302,
+    "stop" : 1620054115781,
+    "duration" : 479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "badb4e11fd109c64",
+  "name" : "GOBTest",
+  "time" : {
+    "start" : 1620054120750,
+    "stop" : 1620054123343,
+    "duration" : 2593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e3c790b22340892",
+  "name" : "Generate Token",
+  "time" : {
+    "start" : 1620054123847,
+    "stop" : 1620054124772,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21a1c1318cc2301e",
+  "name" : "getUserLoginAddBook",
+  "time" : {
+    "start" : 1620054125198,
+    "stop" : 1620054129357,
+    "duration" : 4159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "847d8c17c21a7d37",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620054101927,
+    "stop" : 1620054102396,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "397b7bdfadcc3d62",
+  "name" : "userDeleteAndValidate",
+  "time" : {
+    "start" : 1620054129364,
+    "stop" : 1620054138536,
+    "duration" : 9172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e246f7ea7aa9b4b4",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620054116458,
+    "stop" : 1620054117085,
+    "duration" : 627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0d65e643427d7d5",
+  "name" : "GetBooksDataFromUIAndAPITest",
+  "time" : {
+    "start" : 1620054102898,
+    "stop" : 1620054115291,
+    "duration" : 12393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30660afbfc56e55f",
+  "name" : "GenerateTokenTest",
+  "time" : {
+    "start" : 1620054099907,
+    "stop" : 1620054101796,
+    "duration" : 1889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "738915f45d3c9e2d",
+  "name" : "NegativeScenario",
+  "time" : {
+    "start" : 1620054115791,
+    "stop" : 1620054116452,
+    "duration" : 661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ea7ef98e41629c0",
+  "name" : "User is not authorized",
+  "time" : {
+    "start" : 1620054123351,
+    "stop" : 1620054123843,
+    "duration" : 492
   },
   "status" : "passed",
   "severity" : "normal"

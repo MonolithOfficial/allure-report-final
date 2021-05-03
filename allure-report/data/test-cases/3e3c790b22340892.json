@@ -1,12 +1,12 @@
 {
-  "uid" : "346dae05e711ad5c",
+  "uid" : "3e3c790b22340892",
   "name" : "Generate Token",
   "fullName" : "Tests.generateToken",
   "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1620053824218,
-    "stop" : 1620053824525,
-    "duration" : 307
+    "start" : 1620054123847,
+    "stop" : 1620054124772,
+    "duration" : 925
   },
   "description" : "Authorize the user",
   "descriptionHtml" : "<p>Authorize the user</p>\n",
@@ -20,24 +20,24 @@
     "steps" : [ {
       "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1620053824219,
-        "stop" : 1620053824524,
-        "duration" : 305
+        "start" : 1620054123848,
+        "stop" : 1620054124771,
+        "duration" : 923
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate GenerateToken status",
       "time" : {
-        "start" : 1620053824524,
-        "stop" : 1620053824524,
-        "duration" : 0
+        "start" : 1620054124771,
+        "stop" : 1620054124772,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,16 +46,16 @@
         "name" : "status",
         "value" : "Success"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate GenerateToken result",
       "time" : {
-        "start" : 1620053824524,
-        "stop" : 1620053824525,
-        "duration" : 1
+        "start" : 1620054124772,
+        "stop" : 1620054124772,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,17 +64,17 @@
         "name" : "result",
         "value" : "User authorized successfully."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -100,7 +100,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "5804@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -130,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "346dae05e711ad5c.json",
+  "source" : "3e3c790b22340892.json",
   "parameterValues" : [ ]
 }
