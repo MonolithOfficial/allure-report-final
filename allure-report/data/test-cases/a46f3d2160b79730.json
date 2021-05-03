@@ -1,12 +1,12 @@
 {
-  "uid" : "3f2ae4073278954a",
+  "uid" : "a46f3d2160b79730",
   "name" : "NegativeScenario",
   "fullName" : "Tests.NegativeScenario",
-  "historyId" : "1ae13647e986e2fafa82036be6079a6a",
+  "historyId" : "c501cf2c3c9485d7f72f63e2588eb298",
   "time" : {
-    "start" : 1619851386702,
-    "stop" : 1619851386974,
-    "duration" : 272
+    "start" : 1619854222061,
+    "stop" : 1619854222327,
+    "duration" : 266
   },
   "description" : "Tests user web service with dataprovider",
   "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1619851386702,
-        "stop" : 1619851386702,
+        "start" : 1619854222061,
+        "stop" : 1619854222061,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,32 +32,32 @@
         "value" : "alinatkabladze"
       }, {
         "name" : "password",
-        "value" : ""
+        "value" : "Auto@2"
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1619851386702,
-        "stop" : 1619851386973,
-        "duration" : 271
+        "start" : 1619854222061,
+        "stop" : 1619854222327,
+        "duration" : 266
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1619851386974,
-        "stop" : 1619851386974,
+        "start" : 1619854222327,
+        "stop" : 1619854222327,
         "duration" : 0
       },
       "status" : "passed",
@@ -65,22 +65,22 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedCode",
-        "value" : "1200"
+        "value" : "1300"
       }, {
         "name" : "expectedMessage",
-        "value" : "UserName and Password required."
+        "value" : "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15584@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "6964@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -117,11 +117,11 @@
     "name" : "feature",
     "value" : "Negative Scenario"
   }, {
-    "name" : "story",
-    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
-  }, {
     "name" : "epic",
     "value" : "Post User"
+  }, {
+    "name" : "story",
+    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -131,13 +131,13 @@
     "value" : "alinatkabladze"
   }, {
     "name" : "arg1",
-    "value" : ""
+    "value" : "Auto@2"
   }, {
     "name" : "arg2",
-    "value" : "1200"
+    "value" : "1300"
   }, {
     "name" : "arg3",
-    "value" : "UserName and Password required."
+    "value" : "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3f2ae4073278954a.json",
-  "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
+  "source" : "a46f3d2160b79730.json",
+  "parameterValues" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
 }

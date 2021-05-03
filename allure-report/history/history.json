@@ -1,23 +1,4 @@
 {
-  "e24627152c47e7d96616ebce2f8a80ac" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "31b83570f2afae43",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619851381209,
-        "stop" : 1619851386120,
-        "duration" : 4911
-      }
-    } ]
-  },
   "e61010acb9117decf06e6761ca2b1c2e" : {
     "statistic" : {
       "failed" : 0,
@@ -28,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c487c4cccf7011a3",
+      "uid" : "61e9d88446d32b01",
       "status" : "passed",
       "time" : {
-        "start" : 1619851394636,
-        "stop" : 1619851394898,
-        "duration" : 262
+        "start" : 1619854235761,
+        "stop" : 1619854235995,
+        "duration" : 234
+      }
+    } ]
+  },
+  "e24627152c47e7d96616ebce2f8a80ac" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dc9579ba7a2cd8b",
+      "status" : "failed",
+      "statusDetails" : "WebDriverException: chrome not reachable\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619854213570.0.html\r\nTimeout: 4 s.\r\nCaused by: WebDriverException: chrome not reachable",
+      "time" : {
+        "start" : 1619854140507,
+        "stop" : 1619854221764,
+        "duration" : 81257
       }
     } ]
   },
@@ -47,31 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0923396b4bb115a",
+      "uid" : "a46f3d2160b79730",
       "status" : "passed",
       "time" : {
-        "start" : 1619851386432,
-        "stop" : 1619851386696,
-        "duration" : 264
-      }
-    } ]
-  },
-  "a4c547be2e71f6a12347861541bbeb3b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "91a76557999943ec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619851394331,
-        "stop" : 1619851394631,
-        "duration" : 300
+        "start" : 1619854222061,
+        "stop" : 1619854222327,
+        "duration" : 266
       }
     } ]
   },
@@ -85,12 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f276ec4a918c2a6",
+      "uid" : "6d5f76242471c91",
       "status" : "passed",
       "time" : {
-        "start" : 1619851380077,
-        "stop" : 1619851380580,
-        "duration" : 503
+        "start" : 1619854139360,
+        "stop" : 1619854139860,
+        "duration" : 500
+      }
+    } ]
+  },
+  "a4c547be2e71f6a12347861541bbeb3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26f2680d071c4ba7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619854235480,
+        "stop" : 1619854235745,
+        "duration" : 265
       }
     } ]
   },
@@ -104,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0e13d2cba3025d4",
+      "uid" : "32d49e872cff483b",
       "status" : "passed",
       "time" : {
-        "start" : 1619851380588,
-        "stop" : 1619851380878,
-        "duration" : 290
+        "start" : 1619854139860,
+        "stop" : 1619854140173,
+        "duration" : 313
       }
     } ]
   },
@@ -123,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "103cc4b9915466e3",
+      "uid" : "1e5df8e686762baa",
       "status" : "passed",
       "time" : {
-        "start" : 1619851386980,
-        "stop" : 1619851387279,
-        "duration" : 299
+        "start" : 1619854222577,
+        "stop" : 1619854222874,
+        "duration" : 297
       }
     } ]
   },
@@ -142,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f2ae4073278954a",
+      "uid" : "a74745844042331f",
       "status" : "passed",
       "time" : {
-        "start" : 1619851386702,
-        "stop" : 1619851386974,
-        "duration" : 272
+        "start" : 1619854222327,
+        "stop" : 1619854222577,
+        "duration" : 250
       }
     } ]
   },
@@ -161,12 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34e0e103ed5c4997",
+      "uid" : "8e4d9cc1256c03ca",
       "status" : "passed",
       "time" : {
-        "start" : 1619851380884,
-        "stop" : 1619851381202,
-        "duration" : 318
+        "start" : 1619854140189,
+        "stop" : 1619854140499,
+        "duration" : 310
       }
     } ]
   },
@@ -180,52 +181,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6eb19def708f4df9",
+      "uid" : "5681197fb18f0850",
       "status" : "passed",
       "time" : {
-        "start" : 1619851386132,
-        "stop" : 1619851386427,
-        "duration" : 295
+        "start" : 1619854221780,
+        "stop" : 1619854222061,
+        "duration" : 281
       }
     } ]
   },
   "d10b146bafe7595f82bb58eaa1c53007" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4534ea830dbed633",
-      "status" : "failed",
-      "statusDetails" : "expected [false] but found [true]",
+      "uid" : "f8c134859d7e9951",
+      "status" : "passed",
       "time" : {
-        "start" : 1619851394052,
-        "stop" : 1619851394327,
-        "duration" : 275
+        "start" : 1619854235198,
+        "stop" : 1619854235480,
+        "duration" : 282
       }
     } ]
   },
   "342bf8b6b09b7b90d99f2a393a838291" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c836f0f6f49aae5f",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619851393772.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/tion-bootcamp-2020_jenkins-ci-cd/build/reports/tests/1619851393772.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button id=\"gotoStore\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (579, 638). Other element would receive the click: <span>...</span>",
+      "uid" : "12fc1a945719eea5",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-BSJ5I2T', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/login\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\monolith\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://demoqa.com\nSession ID: 292237a3c988d1b342ce5d7d496dd52d",
       "time" : {
-        "start" : 1619851387284,
-        "stop" : 1619851394018,
-        "duration" : 6734
+        "start" : 1619854222889,
+        "stop" : 1619854235198,
+        "duration" : 12309
       }
     } ]
   },
@@ -239,12 +239,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d2f322344c8c4d00",
+      "uid" : "857ddbed0fb85ff0",
       "status" : "passed",
       "time" : {
-        "start" : 1619851369492,
-        "stop" : 1619851379889,
-        "duration" : 10397
+        "start" : 1619854131316,
+        "stop" : 1619854139235,
+        "duration" : 7919
       }
     } ]
   }
