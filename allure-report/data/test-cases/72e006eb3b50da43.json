@@ -1,60 +1,51 @@
 {
-  "uid" : "6ea7ef98e41629c0",
-  "name" : "User is not authorized",
-  "fullName" : "Tests.unauthorizedUser",
-  "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
+  "uid" : "72e006eb3b50da43",
+  "name" : "GenerateTokenTest",
+  "fullName" : "Tests.GenerateTokenTest",
+  "historyId" : "4cc262cd92460e286bc0787e2d087918",
   "time" : {
-    "start" : 1620054123351,
-    "stop" : 1620054123843,
-    "duration" : 492
+    "start" : 1620054478219,
+    "stop" : 1620054478507,
+    "duration" : 288
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Description: Generate Token main test, 3 iterations with validations",
+  "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Description: Generate Token main test, 3 iterations with validations",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620054123353,
-        "stop" : 1620054123842,
-        "duration" : 489
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Validate user Authorization",
-      "time" : {
-        "start" : 1620054123843,
-        "stop" : 1620054123843,
-        "duration" : 0
+        "start" : 1620054478219,
+        "stop" : 1620054478507,
+        "duration" : 288
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "false"
+        "name" : "name",
+        "value" : "tttt"
+      }, {
+        "name" : "password",
+        "value" : ""
+      }, {
+        "name" : "statusCode",
+        "value" : "400"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
     "hasContent" : true,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -67,7 +58,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "unauthorizedUser"
+    "value" : "GenerateTokenTest"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -82,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15844@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,19 +81,28 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "story",
+    "value" : "GenerateToken"
+  }, {
     "name" : "epic",
     "value" : "Generate Token"
   }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, before generating token"
-  }, {
     "name" : "feature",
-    "value" : "Generate token for unauthorized user"
+    "value" : "Negative Cases"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "tttt"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "400"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6ea7ef98e41629c0.json",
-  "parameterValues" : [ ]
+  "source" : "72e006eb3b50da43.json",
+  "parameterValues" : [ "tttt", "", "400" ]
 }

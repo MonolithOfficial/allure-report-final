@@ -1,12 +1,12 @@
 {
-  "uid" : "a6ba2595e5fda51",
+  "uid" : "171f7adfdfe8536e",
   "name" : "booksListSizeByPublisher",
   "fullName" : "Tests.booksListSizeByPublisher",
   "historyId" : "207da8ee0840a0d5e4ac4f75dd93387f",
   "time" : {
-    "start" : 1620054117090,
-    "stop" : 1620054119038,
-    "duration" : 1948
+    "start" : 1620054490383,
+    "stop" : 1620054492227,
+    "duration" : 1844
   },
   "description" : "Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches",
   "descriptionHtml" : "<p>Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "UI -find in input by value: O'Reilly Media",
       "time" : {
-        "start" : 1620054117743,
-        "stop" : 1620054118358,
-        "duration" : 615
+        "start" : 1620054491101,
+        "stop" : 1620054491666,
+        "duration" : 565
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,46 +31,46 @@
         "name" : "search",
         "value" : "O'Reilly Media"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620054118358,
-        "stop" : 1620054118358,
+        "start" : 1620054491666,
+        "stop" : 1620054491666,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "API - count the number of identical elements by key: publisher and value: O'Reilly Media and validate in and assert the result with the input (UI - item count) parameter: 6.",
       "time" : {
-        "start" : 1620054118413,
-        "stop" : 1620054119038,
-        "duration" : 625
+        "start" : 1620054491720,
+        "stop" : 1620054492227,
+        "duration" : 507
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "UI - return all books list",
         "time" : {
-          "start" : 1620054118994,
-          "stop" : 1620054118994,
+          "start" : 1620054492180,
+          "stop" : 1620054492180,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
@@ -85,15 +85,15 @@
         "name" : "publisherBooksSumInUI",
         "value" : "6"
       } ],
-      "stepsCount" : 1,
       "hasContent" : true,
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
     "hasContent" : true,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -121,7 +121,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15844@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -151,6 +151,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a6ba2595e5fda51.json",
+  "source" : "171f7adfdfe8536e.json",
   "parameterValues" : [ ]
 }

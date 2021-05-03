@@ -1,60 +1,78 @@
 {
-  "uid" : "edea306e3c18db25",
-  "name" : "lastBookTitleValue",
-  "fullName" : "Tests.lastBookTitleValue",
-  "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
+  "uid" : "da71050af1369881",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1620054119474,
-    "stop" : 1620054120744,
-    "duration" : 1270
+    "start" : 1620054495808,
+    "stop" : 1620054496095,
+    "duration" : 287
   },
-  "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
-  "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "UI - return all books list",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1620054120054,
-        "stop" : 1620054120054,
-        "duration" : 0
+        "start" : 1620054495809,
+        "stop" : 1620054496094,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
+      "name" : "Validate GenerateToken status",
       "time" : {
-        "start" : 1620054120176,
-        "stop" : 1620054120743,
-        "duration" : 567
+        "start" : 1620054496095,
+        "stop" : 1620054496095,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "lastBookTitleInUI",
-        "value" : "Understanding ECMAScript 6"
+        "name" : "status",
+        "value" : "Success"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate GenerateToken result",
+      "time" : {
+        "start" : 1620054496095,
+        "stop" : 1620054496095,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "result",
+        "value" : "User authorized successfully."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
     "hasContent" : true,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -67,7 +85,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "lastBookTitleValue"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -82,7 +100,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15844@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,13 +109,13 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
-  }, {
-    "name" : "story",
-    "value" : "Get books last item from the Site (UI) and API and compare them."
+    "value" : "Generate token for unauthorized user"
   }, {
     "name" : "epic",
-    "value" : "Search feature UI - Get Books API"
+    "value" : "Generate Token"
+  }, {
+    "name" : "story",
+    "value" : "Generates the token for given user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "edea306e3c18db25.json",
+  "source" : "da71050af1369881.json",
   "parameterValues" : [ ]
 }

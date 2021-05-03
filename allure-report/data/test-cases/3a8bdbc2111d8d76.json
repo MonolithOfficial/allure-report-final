@@ -1,60 +1,60 @@
 {
-  "uid" : "8dad214cf5c7b858",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "3a8bdbc2111d8d76",
+  "name" : "lastBookTitleValue",
+  "fullName" : "Tests.lastBookTitleValue",
+  "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620054124776,
-    "stop" : 1620054125193,
-    "duration" : 417
+    "start" : 1620054492532,
+    "stop" : 1620054493533,
+    "duration" : 1001
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
+  "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620054124776,
-        "stop" : 1620054125193,
-        "duration" : 417
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Validate user Authorization",
-      "time" : {
-        "start" : 1620054125193,
-        "stop" : 1620054125193,
+        "start" : 1620054492979,
+        "stop" : 1620054492979,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "true"
-      } ],
+      "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
+      "time" : {
+        "start" : 1620054493087,
+        "stop" : 1620054493531,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "lastBookTitleInUI",
+        "value" : "Understanding ECMAScript 6"
+      } ],
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
     "hasContent" : true,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -67,7 +67,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "lastBookTitleValue"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "6900@DESKTOP-BSJ5I2T.main(1)"
+    "value" : "15844@DESKTOP-BSJ5I2T.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,14 +90,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, after generating token"
-  }, {
     "name" : "feature",
-    "value" : "Generate token for unauthorized user"
+    "value" : "Test cases to compare UI and API results."
   }, {
     "name" : "epic",
-    "value" : "Generate Token"
+    "value" : "Search feature UI - Get Books API"
+  }, {
+    "name" : "story",
+    "value" : "Get books last item from the Site (UI) and API and compare them."
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8dad214cf5c7b858.json",
+  "source" : "3a8bdbc2111d8d76.json",
   "parameterValues" : [ ]
 }

@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1620054442454,3616,CreateUser,201,s6HdByCrNHj,Thread Group 1-1,text,true,,334,272,1,1,https://bookstore.toolsqa.com/Account/v1/User,3610,0,3487
+1620054449817,104,GenerateToken,200,OK,Thread Group 1-1,text,true,,534,281,1,1,https://bookstore.toolsqa.com/Account/v1/GenerateToken,104,0,0
+1620054449922,85,Authorized,200,OK,Thread Group 1-1,text,true,,246,278,1,1,https://bookstore.toolsqa.com/Account/v1/Authorized,85,0,0

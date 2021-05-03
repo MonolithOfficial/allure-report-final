@@ -9,39 +9,39 @@
         "name" : "GenerateToken",
         "children" : [ {
           "name" : "GenerateTokenTest",
-          "uid" : "30660afbfc56e55f",
+          "uid" : "18b85a15df87f618",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
-            "start" : 1620054099907,
-            "stop" : 1620054101796,
-            "duration" : 1889
+            "start" : 1620054477209,
+            "stop" : 1620054478159,
+            "duration" : 950
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "tttt", "TestAutomation1@#1", "200" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "847d8c17c21a7d37",
+          "uid" : "72e006eb3b50da43",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
-            "start" : 1620054101927,
-            "stop" : 1620054102396,
-            "duration" : 469
+            "start" : 1620054478219,
+            "stop" : 1620054478507,
+            "duration" : 288
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "tttt", "", "400" ]
         }, {
           "name" : "GenerateTokenTest",
-          "uid" : "17ee487eb141fd75",
+          "uid" : "ce304239a3ba0077",
           "parentUid" : "c8bc9255e2887fb35b184141ebf6f252",
           "status" : "passed",
           "time" : {
-            "start" : 1620054102409,
-            "stop" : 1620054102878,
-            "duration" : 469
+            "start" : 1620054478514,
+            "stop" : 1620054478840,
+            "duration" : 326
           },
           "flaky" : false,
           "newFailed" : false,
@@ -56,13 +56,13 @@
         "name" : "Adds an user and gets the list of books",
         "children" : [ {
           "name" : "Add an user",
-          "uid" : "108f655c3233a887",
+          "uid" : "5b73ec87d42b98be",
           "parentUid" : "23ca83cff5d495371ebb117289b3706c",
           "status" : "passed",
           "time" : {
-            "start" : 1620054119043,
-            "stop" : 1620054119468,
-            "duration" : 425
+            "start" : 1620054492233,
+            "stop" : 1620054492526,
+            "duration" : 293
           },
           "flaky" : false,
           "newFailed" : false,
@@ -73,13 +73,13 @@
         "name" : "Checks if the given user is authorized, before generating token",
         "children" : [ {
           "name" : "User is not authorized",
-          "uid" : "6ea7ef98e41629c0",
+          "uid" : "a069e33e52c07014",
           "parentUid" : "aaaf9de83a609701533aa444a91d384a",
           "status" : "passed",
           "time" : {
-            "start" : 1620054123351,
-            "stop" : 1620054123843,
-            "duration" : 492
+            "start" : 1620054495511,
+            "stop" : 1620054495804,
+            "duration" : 293
           },
           "flaky" : false,
           "newFailed" : false,
@@ -90,13 +90,13 @@
         "name" : "Generates the token for given user",
         "children" : [ {
           "name" : "Generate Token",
-          "uid" : "3e3c790b22340892",
+          "uid" : "da71050af1369881",
           "parentUid" : "408f4f730badbb21cb01003b40ee8525",
           "status" : "passed",
           "time" : {
-            "start" : 1620054123847,
-            "stop" : 1620054124772,
-            "duration" : 925
+            "start" : 1620054495808,
+            "stop" : 1620054496095,
+            "duration" : 287
           },
           "flaky" : false,
           "newFailed" : false,
@@ -107,13 +107,13 @@
         "name" : "Checks if the given user is authorized, after generating token",
         "children" : [ {
           "name" : "User is now authorized",
-          "uid" : "8dad214cf5c7b858",
+          "uid" : "e9f99c0b81985f74",
           "parentUid" : "7331e5e5de13b343dd8dbf78ac90722c",
           "status" : "passed",
           "time" : {
-            "start" : 1620054124776,
-            "stop" : 1620054125193,
-            "duration" : 417
+            "start" : 1620054496100,
+            "stop" : 1620054496361,
+            "duration" : 261
           },
           "flaky" : false,
           "newFailed" : false,
@@ -132,13 +132,13 @@
         "name" : "Validate that the data on the website and API is the same",
         "children" : [ {
           "name" : "GetBooksDataFromUIAndAPITest",
-          "uid" : "b0d65e643427d7d5",
+          "uid" : "640186b49c3cf408",
           "parentUid" : "b28c49b198ab3d5fe51d72108ea9028f",
           "status" : "passed",
           "time" : {
-            "start" : 1620054102898,
-            "stop" : 1620054115291,
-            "duration" : 12393
+            "start" : 1620054478859,
+            "stop" : 1620054489432,
+            "duration" : 10573
           },
           "flaky" : false,
           "newFailed" : false,
@@ -153,13 +153,13 @@
         "name" : "Get a book from the Site and the API and Compare the data sets",
         "children" : [ {
           "name" : "GOBTest",
-          "uid" : "badb4e11fd109c64",
+          "uid" : "2d9e00fafc7b71ac",
           "parentUid" : "a18f0835fdb8e001e8647b82de4c39ff",
           "status" : "passed",
           "time" : {
-            "start" : 1620054120750,
-            "stop" : 1620054123343,
-            "duration" : 2593
+            "start" : 1620054493543,
+            "stop" : 1620054495504,
+            "duration" : 1961
           },
           "flaky" : false,
           "newFailed" : false,
@@ -174,13 +174,13 @@
         "name" : "validate test",
         "children" : [ {
           "name" : "getUserLoginAddBook",
-          "uid" : "21a1c1318cc2301e",
+          "uid" : "71aeeece55ff6edc",
           "parentUid" : "785190113ee51a790546b5cb734fa6ea",
           "status" : "passed",
           "time" : {
-            "start" : 1620054125198,
-            "stop" : 1620054129357,
-            "duration" : 4159
+            "start" : 1620054496368,
+            "stop" : 1620054499976,
+            "duration" : 3608
           },
           "flaky" : false,
           "newFailed" : false,
@@ -199,39 +199,39 @@
         "name" : "Sends email and password, gets response and validates it, gets data from dataprovider",
         "children" : [ {
           "name" : "NegativeScenario",
-          "uid" : "8dd9a41adc21e828",
+          "uid" : "14d678fb2285fa2b",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
-            "start" : 1620054115302,
-            "stop" : 1620054115781,
-            "duration" : 479
+            "start" : 1620054489446,
+            "stop" : 1620054489765,
+            "duration" : 319
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "738915f45d3c9e2d",
+          "uid" : "2c88bb38c242576c",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
-            "start" : 1620054115791,
-            "stop" : 1620054116452,
-            "duration" : 661
+            "start" : 1620054489780,
+            "stop" : 1620054490097,
+            "duration" : 317
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
         }, {
           "name" : "NegativeScenario",
-          "uid" : "e246f7ea7aa9b4b4",
+          "uid" : "e56539ef8f53d107",
           "parentUid" : "4f36e8a696d1ad9de5c3db351a1f76ee",
           "status" : "passed",
           "time" : {
-            "start" : 1620054116458,
-            "stop" : 1620054117085,
-            "duration" : 627
+            "start" : 1620054490101,
+            "stop" : 1620054490378,
+            "duration" : 277
           },
           "flaky" : false,
           "newFailed" : false,
@@ -250,13 +250,13 @@
         "name" : "Find all books by publisher from the Site (UI) and API and compare them.",
         "children" : [ {
           "name" : "booksListSizeByPublisher",
-          "uid" : "a6ba2595e5fda51",
+          "uid" : "171f7adfdfe8536e",
           "parentUid" : "2fd7c77da6c102dde7d0220fbbc317bd",
           "status" : "passed",
           "time" : {
-            "start" : 1620054117090,
-            "stop" : 1620054119038,
-            "duration" : 1948
+            "start" : 1620054490383,
+            "stop" : 1620054492227,
+            "duration" : 1844
           },
           "flaky" : false,
           "newFailed" : false,
@@ -267,13 +267,13 @@
         "name" : "Get books last item from the Site (UI) and API and compare them.",
         "children" : [ {
           "name" : "lastBookTitleValue",
-          "uid" : "edea306e3c18db25",
+          "uid" : "3a8bdbc2111d8d76",
           "parentUid" : "82642eb13ede56ff9ab8f86e6b512e39",
           "status" : "passed",
           "time" : {
-            "start" : 1620054119474,
-            "stop" : 1620054120744,
-            "duration" : 1270
+            "start" : 1620054492532,
+            "stop" : 1620054493533,
+            "duration" : 1001
           },
           "flaky" : false,
           "newFailed" : false,
@@ -292,13 +292,13 @@
         "name" : "Deleting user and validating with UI as well with API",
         "children" : [ {
           "name" : "userDeleteAndValidate",
-          "uid" : "397b7bdfadcc3d62",
+          "uid" : "961419e441fc5df5",
           "parentUid" : "0cf8b436a132226af77f261252754305",
           "status" : "passed",
           "time" : {
-            "start" : 1620054129364,
-            "stop" : 1620054138536,
-            "duration" : 9172
+            "start" : 1620054499980,
+            "stop" : 1620054505439,
+            "duration" : 5459
           },
           "flaky" : false,
           "newFailed" : false,
