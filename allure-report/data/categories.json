@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140371324.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140371324.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>",
+      "name" : "Element not found {By.xpath: //*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]\"}",
       "children" : [ {
         "name" : "Add and delete all books",
-        "uid" : "6592a40d27a25edd",
-        "parentUid" : "5dbe5d163c3bf085dc56d59efea8e8b4",
+        "uid" : "a77e39ccc579ab70",
+        "parentUid" : "e8b3cc66063b186e41ca7e7ed4e8e429",
         "status" : "failed",
         "time" : {
-          "start" : 1620140357598,
-          "stop" : 1620140372196,
-          "duration" : 14598
+          "start" : 1620140953803,
+          "stop" : 1620140964303,
+          "duration" : 10500
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5dbe5d163c3bf085dc56d59efea8e8b4"
+      "uid" : "e8b3cc66063b186e41ca7e7ed4e8e429"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

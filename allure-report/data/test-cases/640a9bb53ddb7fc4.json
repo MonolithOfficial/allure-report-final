@@ -1,12 +1,12 @@
 {
-  "uid" : "7a3dcc5ec70355d0",
+  "uid" : "640a9bb53ddb7fc4",
   "name" : "Get single book",
   "fullName" : "Tests.getSingleBookTest",
   "historyId" : "aa7df703906ef300afcaf5775ea7e0a9",
   "time" : {
-    "start" : 1620140305396,
-    "stop" : 1620140316336,
-    "duration" : 10940
+    "start" : 1620140941694,
+    "stop" : 1620140946681,
+    "duration" : 4987
   },
   "description" : "Go to the site, get one book, store ISBN, call the API to get the same book and compare all the fields.",
   "descriptionHtml" : "<p>Go to the site, get one book, store ISBN, call the API to get the same book and compare all the fields.</p>\n",
@@ -20,76 +20,76 @@
     "steps" : [ {
       "name" : "moving to the information page",
       "time" : {
-        "start" : 1620140307465,
-        "stop" : 1620140310152,
-        "duration" : 2687
+        "start" : 1620140942908,
+        "stop" : 1620140944150,
+        "duration" : 1242
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Grabbing ISBN",
       "time" : {
-        "start" : 1620140310153,
-        "stop" : 1620140310335,
-        "duration" : 182
+        "start" : 1620140944150,
+        "stop" : 1620140944427,
+        "duration" : 277
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Grabbing all UI Values",
       "time" : {
-        "start" : 1620140310335,
-        "stop" : 1620140312936,
-        "duration" : 2601
+        "start" : 1620140944427,
+        "stop" : 1620140944996,
+        "duration" : 569
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Asserts Book via Query and the UI Object directly",
       "time" : {
-        "start" : 1620140312937,
-        "stop" : 1620140316336,
-        "duration" : 3399
+        "start" : 1620140944996,
+        "stop" : 1620140946680,
+        "duration" : 1684
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "book",
-        "value" : "backend.models.responses.Book@57d05994"
+        "value" : "backend.models.responses.Book@704a5eaa"
       }, {
         "name" : "FBD",
-        "value" : "frontend.pages.BookDetailsPage@777efb86"
+        "value" : "frontend.pages.BookDetailsPage@393f8412"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 4,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -115,7 +115,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14208@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7a3dcc5ec70355d0.json",
+  "source" : "640a9bb53ddb7fc4.json",
   "parameterValues" : [ ]
 }

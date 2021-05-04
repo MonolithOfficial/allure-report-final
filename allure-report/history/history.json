@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "93fd53a02fac4244",
+      "uid" : "28ed4ceef203c9f8",
       "status" : "passed",
       "time" : {
-        "start" : 1620140276379,
-        "stop" : 1620140340353,
-        "duration" : 63974
+        "start" : 1620140919913,
+        "stop" : 1620140952816,
+        "duration" : 32903
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1bf4f78166ce73cd",
+      "uid" : "4f254257c9eac38a",
       "status" : "passed",
       "time" : {
-        "start" : 1620140276383,
-        "stop" : 1620140278975,
-        "duration" : 2592
+        "start" : 1620140919913,
+        "stop" : 1620140922069,
+        "duration" : 2156
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c23d6b715e08442a",
+      "uid" : "aa432aef1c533b06",
       "status" : "passed",
       "time" : {
-        "start" : 1620140304961,
-        "stop" : 1620140305391,
-        "duration" : 430
+        "start" : 1620140941425,
+        "stop" : 1620140941688,
+        "duration" : 263
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ed7fa4d5f528512",
+      "uid" : "c6ba04c4e5175447",
       "status" : "passed",
       "time" : {
-        "start" : 1620140303554,
-        "stop" : 1620140304239,
-        "duration" : 685
+        "start" : 1620140940830,
+        "stop" : 1620140941120,
+        "duration" : 290
       }
     } ]
   },
@@ -85,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35491398dafb0a35",
+      "uid" : "af1527cf7aefd5ed",
       "status" : "passed",
       "time" : {
-        "start" : 1620140315394,
-        "stop" : 1620140315741,
-        "duration" : 347
+        "start" : 1620140944588,
+        "stop" : 1620140944889,
+        "duration" : 301
       }
     } ]
   },
@@ -104,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a92af59b0a518c77",
+      "uid" : "9605b6ddb42cb40c",
       "status" : "skipped",
-      "statusDetails" : "Method Tests.userDeleteAndValidate()[pri:0, instance:Tests@77430c79] depends on not successfully finished methods",
+      "statusDetails" : "Method Tests.userDeleteAndValidate()[pri:0, instance:Tests@2f650dae] depends on not successfully finished methods",
       "time" : {
-        "start" : 1620140372259,
-        "stop" : 1620140372260,
+        "start" : 1620140964318,
+        "stop" : 1620140964319,
         "duration" : 1
       }
     } ]
@@ -124,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d6b048ae073b887b",
+      "uid" : "932fa66ad77b27b3",
       "status" : "passed",
       "time" : {
-        "start" : 1620140316055,
-        "stop" : 1620140316343,
-        "duration" : 288
+        "start" : 1620140945189,
+        "stop" : 1620140945495,
+        "duration" : 306
       }
     } ]
   },
@@ -143,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "114a1c07e2c591d9",
+      "uid" : "fd90688e9b8a8abd",
       "status" : "passed",
       "time" : {
-        "start" : 1620140280228,
-        "stop" : 1620140303542,
-        "duration" : 23314
+        "start" : 1620140924153,
+        "stop" : 1620140940805,
+        "duration" : 16652
       }
     } ]
   },
@@ -162,13 +162,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6592a40d27a25edd",
+      "uid" : "a77e39ccc579ab70",
       "status" : "failed",
-      "statusDetails" : "Invalid element state: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140371324.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140371324.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>",
+      "statusDetails" : "Element not found {By.xpath: //*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]\"}",
       "time" : {
-        "start" : 1620140357598,
-        "stop" : 1620140372196,
-        "duration" : 14598
+        "start" : 1620140953803,
+        "stop" : 1620140964303,
+        "duration" : 10500
       }
     } ]
   },
@@ -182,12 +182,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df96db874cefec47",
+      "uid" : "94574ac3415e2a42",
       "status" : "passed",
       "time" : {
-        "start" : 1620140279171,
-        "stop" : 1620140279498,
-        "duration" : 327
+        "start" : 1620140922217,
+        "stop" : 1620140922796,
+        "duration" : 579
       }
     } ]
   },
@@ -201,12 +201,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8b6f298df32834bf",
+      "uid" : "619b63f45ef35f53",
       "status" : "passed",
       "time" : {
-        "start" : 1620140315747,
-        "stop" : 1620140316048,
-        "duration" : 301
+        "start" : 1620140944894,
+        "stop" : 1620140945184,
+        "duration" : 290
       }
     } ]
   },
@@ -220,12 +220,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a3dcc5ec70355d0",
+      "uid" : "640a9bb53ddb7fc4",
       "status" : "passed",
       "time" : {
-        "start" : 1620140305396,
-        "stop" : 1620140316336,
-        "duration" : 10940
+        "start" : 1620140941694,
+        "stop" : 1620140946681,
+        "duration" : 4987
       }
     } ]
   },
@@ -239,12 +239,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51ba5fa602e89341",
+      "uid" : "8eaeff33394a9ba3",
       "status" : "passed",
       "time" : {
-        "start" : 1620140276382,
-        "stop" : 1620140315336,
-        "duration" : 38954
+        "start" : 1620140919916,
+        "stop" : 1620140944581,
+        "duration" : 24665
       }
     } ]
   },
@@ -258,12 +258,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "668a9f46ec894fce",
+      "uid" : "7a5e9edf227711f7",
       "status" : "passed",
       "time" : {
-        "start" : 1620140279821,
-        "stop" : 1620140280197,
-        "duration" : 376
+        "start" : 1620140923433,
+        "stop" : 1620140924146,
+        "duration" : 713
       }
     } ]
   },
@@ -277,12 +277,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5e51d11c1b11745",
+      "uid" : "2c8b0673a9309734",
       "status" : "passed",
       "time" : {
-        "start" : 1620140304248,
-        "stop" : 1620140304956,
-        "duration" : 708
+        "start" : 1620140941128,
+        "stop" : 1620140941419,
+        "duration" : 291
       }
     } ]
   },
@@ -296,12 +296,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bb00c61db146ef20",
+      "uid" : "192a9831b3d275bb",
       "status" : "passed",
       "time" : {
-        "start" : 1620140279508,
-        "stop" : 1620140279812,
-        "duration" : 304
+        "start" : 1620140922810,
+        "stop" : 1620140923425,
+        "duration" : 615
       }
     } ]
   },
@@ -315,12 +315,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "befb61988d366975",
+      "uid" : "1d84e145cdeeace6",
       "status" : "passed",
       "time" : {
-        "start" : 1620140316349,
-        "stop" : 1620140357585,
-        "duration" : 41236
+        "start" : 1620140945502,
+        "stop" : 1620140953796,
+        "duration" : 8294
       }
     } ]
   }

@@ -1,12 +1,12 @@
 {
-  "uid" : "df96db874cefec47",
+  "uid" : "94574ac3415e2a42",
   "name" : "Generate Token Negative Cases",
   "fullName" : "Tests.generateTokenNegativeTest",
   "historyId" : "4f7f5596a1e72153868404dd824942e",
   "time" : {
-    "start" : 1620140279171,
-    "stop" : 1620140279498,
-    "duration" : 327
+    "start" : 1620140922217,
+    "stop" : 1620140922796,
+    "duration" : 579
   },
   "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token negative cases test, 3 iterations with validations</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620140279172,
-        "stop" : 1620140279497,
-        "duration" : 325
+        "start" : 1620140922218,
+        "stop" : 1620140922796,
+        "duration" : 578
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,17 +37,17 @@
         "name" : "statusCode",
         "value" : "400"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14208@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,14 +81,14 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "feature",
+    "value" : "Generate Token"
+  }, {
     "name" : "epic",
     "value" : "Account"
   }, {
     "name" : "story",
     "value" : "Negative Cases"
-  }, {
-    "name" : "feature",
-    "value" : "Generate Token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "df96db874cefec47.json",
+  "source" : "94574ac3415e2a42.json",
   "parameterValues" : [ "tttt", "", "400" ]
 }

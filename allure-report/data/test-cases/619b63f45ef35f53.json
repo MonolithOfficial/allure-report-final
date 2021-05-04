@@ -1,77 +1,80 @@
 {
-  "uid" : "668a9f46ec894fce",
-  "name" : "Add an user",
-  "fullName" : "Tests.getBooksForUser",
-  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
+  "uid" : "619b63f45ef35f53",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1620140279821,
-    "stop" : 1620140280197,
-    "duration" : 376
+    "start" : 1620140944894,
+    "stop" : 1620140945184,
+    "duration" : 290
   },
-  "description" : "Get books for current user",
-  "descriptionHtml" : "<p>Get books for current user</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Get books for current user",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'User' request",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1620140279822,
-        "stop" : 1620140280197,
-        "duration" : 375
+        "start" : 1620140944894,
+        "stop" : 1620140945183,
+        "duration" : 289
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Validates that list is empty",
-      "time" : {
-        "start" : 1620140280197,
-        "stop" : 1620140280197,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
-      "name" : "Validate Username",
+      "name" : "Validate GenerateToken status",
       "time" : {
-        "start" : 1620140280197,
-        "stop" : 1620140280197,
+        "start" : 1620140945183,
+        "stop" : 1620140945183,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "username",
-        "value" : "user0000000001925925345"
+        "name" : "status",
+        "value" : "Success"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Validate GenerateToken result",
+      "time" : {
+        "start" : 1620140945183,
+        "stop" : 1620140945183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "result",
+        "value" : "User authorized successfully."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 3,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +85,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "getBooksForUser"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -97,7 +100,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "14208@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -105,14 +108,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Adds an user and gets the list of books"
-  }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
   }, {
     "name" : "epic",
     "value" : "Account"
+  }, {
+    "name" : "story",
+    "value" : "Generates the token for given user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -127,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "668a9f46ec894fce.json",
+  "source" : "619b63f45ef35f53.json",
   "parameterValues" : [ ]
 }
