@@ -1,12 +1,12 @@
 {
-  "uid" : "8db3f945e032dad",
+  "uid" : "bb00c61db146ef20",
   "name" : "Generate Token Negative Cases",
   "fullName" : "Tests.generateTokenNegativeTest",
-  "historyId" : "b4737aef98c4bf0e562d7ae6bfbe7868",
+  "historyId" : "b4c5af3f440d87280745d92c49beb6ab",
   "time" : {
-    "start" : 1620139682213,
-    "stop" : 1620139684408,
-    "duration" : 2195
+    "start" : 1620140279508,
+    "stop" : 1620140279812,
+    "duration" : 304
   },
   "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token negative cases test, 3 iterations with validations</p>\n",
@@ -20,19 +20,19 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620139682391,
-        "stop" : 1620139684367,
-        "duration" : 1976
+        "start" : 1620140279509,
+        "stop" : 1620140279812,
+        "duration" : 303
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "tttt"
+        "value" : "alinatkabladze"
       }, {
         "name" : "password",
-        "value" : "TestAutomation1@#1"
+        "value" : "Automation@!@1234"
       }, {
         "name" : "statusCode",
         "value" : "200"
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "14208@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,11 +81,11 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Negative Cases"
-  }, {
     "name" : "epic",
     "value" : "Account"
+  }, {
+    "name" : "story",
+    "value" : "Negative Cases"
   }, {
     "name" : "feature",
     "value" : "Generate Token"
@@ -95,10 +95,10 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "tttt"
+    "value" : "alinatkabladze"
   }, {
     "name" : "arg1",
-    "value" : "TestAutomation1@#1"
+    "value" : "Automation@!@1234"
   }, {
     "name" : "arg2",
     "value" : "200"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8db3f945e032dad.json",
-  "parameterValues" : [ "tttt", "TestAutomation1@#1", "200" ]
+  "source" : "bb00c61db146ef20.json",
+  "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
 }

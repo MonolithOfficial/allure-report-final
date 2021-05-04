@@ -1,170 +1,170 @@
 [ {
-  "uid" : "eac70e1567164c00",
-  "name" : "User is now authorized",
+  "uid" : "114a1c07e2c591d9",
+  "name" : "Get last book from the site, compare to API",
   "time" : {
-    "start" : 1620139703488,
-    "stop" : 1620139703885,
-    "duration" : 397
+    "start" : 1620140280228,
+    "stop" : 1620140303542,
+    "duration" : 23314
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54d69a1858f42dd7",
-  "name" : "Add an user",
-  "time" : {
-    "start" : 1620139685372,
-    "stop" : 1620139685773,
-    "duration" : 401
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c970ddb06a1aa23",
-  "name" : "Get all books",
-  "time" : {
-    "start" : 1620139682214,
-    "stop" : 1620139711668,
-    "duration" : 29454
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89b4faedb8a775f6",
+  "uid" : "d5e51d11c1b11745",
   "name" : "POST User negative cases",
   "time" : {
-    "start" : 1620139700832,
-    "stop" : 1620139701591,
-    "duration" : 759
+    "start" : 1620140304248,
+    "stop" : 1620140304956,
+    "duration" : 708
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7faabf58d61d92a8",
+  "uid" : "bb00c61db146ef20",
+  "name" : "Generate Token Negative Cases",
+  "time" : {
+    "start" : 1620140279508,
+    "stop" : 1620140279812,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6592a40d27a25edd",
+  "name" : "Add and delete all books",
+  "time" : {
+    "start" : 1620140357598,
+    "stop" : 1620140372196,
+    "duration" : 14598
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ed7fa4d5f528512",
+  "name" : "POST User negative cases",
+  "time" : {
+    "start" : 1620140303554,
+    "stop" : 1620140304239,
+    "duration" : 685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51ba5fa602e89341",
+  "name" : "Search books by publisher, compare to API",
+  "time" : {
+    "start" : 1620140276382,
+    "stop" : 1620140315336,
+    "duration" : 38954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c23d6b715e08442a",
+  "name" : "POST User negative cases",
+  "time" : {
+    "start" : 1620140304961,
+    "stop" : 1620140305391,
+    "duration" : 430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6b048ae073b887b",
+  "name" : "User is now authorized",
+  "time" : {
+    "start" : 1620140316055,
+    "stop" : 1620140316343,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bf4f78166ce73cd",
+  "name" : "Generate Token Negative Cases",
+  "time" : {
+    "start" : 1620140276383,
+    "stop" : 1620140278975,
+    "duration" : 2592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a92af59b0a518c77",
   "name" : "Delete user",
   "time" : {
-    "start" : 1620139727231,
-    "stop" : 1620139727232,
+    "start" : 1620140372259,
+    "stop" : 1620140372260,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "ec72fa304b757fa8",
+  "uid" : "7a3dcc5ec70355d0",
   "name" : "Get single book",
   "time" : {
-    "start" : 1620139702116,
-    "stop" : 1620139707040,
-    "duration" : 4924
+    "start" : 1620140305396,
+    "stop" : 1620140316336,
+    "duration" : 10940
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "23c1586bfd732332",
-  "name" : "POST User negative cases",
-  "time" : {
-    "start" : 1620139701597,
-    "stop" : 1620139702111,
-    "duration" : 514
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79c94a5d318f89d9",
-  "name" : "Add and delete all books",
-  "time" : {
-    "start" : 1620139713201,
-    "stop" : 1620139727175,
-    "duration" : 13974
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b04f15a0bbb278ec",
+  "uid" : "8b6f298df32834bf",
   "name" : "Generate Token",
   "time" : {
-    "start" : 1620139703132,
-    "stop" : 1620139703480,
-    "duration" : 348
+    "start" : 1620140315747,
+    "stop" : 1620140316048,
+    "duration" : 301
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "40181b51b469e0aa",
-  "name" : "POST User negative cases",
-  "time" : {
-    "start" : 1620139700492,
-    "stop" : 1620139700822,
-    "duration" : 330
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9deedf0f4216c8c",
-  "name" : "User is not authorized",
-  "time" : {
-    "start" : 1620139702710,
-    "stop" : 1620139703125,
-    "duration" : 415
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d1e0d978728b3f30",
-  "name" : "Generate Token Negative Cases",
-  "time" : {
-    "start" : 1620139684631,
-    "stop" : 1620139684996,
-    "duration" : 365
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8db3f945e032dad",
-  "name" : "Generate Token Negative Cases",
-  "time" : {
-    "start" : 1620139682213,
-    "stop" : 1620139684408,
-    "duration" : 2195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a63f82c2dc486a",
-  "name" : "Get last book from the site, compare to API",
-  "time" : {
-    "start" : 1620139685788,
-    "stop" : 1620139700455,
-    "duration" : 14667
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7648c344f03930e3",
-  "name" : "Generate Token Negative Cases",
-  "time" : {
-    "start" : 1620139685006,
-    "stop" : 1620139685351,
-    "duration" : 345
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1d42f391d58621d",
+  "uid" : "befb61988d366975",
   "name" : "Log in and add book",
   "time" : {
-    "start" : 1620139703892,
-    "stop" : 1620139713194,
-    "duration" : 9302
+    "start" : 1620140316349,
+    "stop" : 1620140357585,
+    "duration" : 41236
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a6ce3b7fd957105e",
-  "name" : "Search books by publisher, compare to API",
+  "uid" : "668a9f46ec894fce",
+  "name" : "Add an user",
   "time" : {
-    "start" : 1620139682213,
-    "stop" : 1620139702701,
-    "duration" : 20488
+    "start" : 1620140279821,
+    "stop" : 1620140280197,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df96db874cefec47",
+  "name" : "Generate Token Negative Cases",
+  "time" : {
+    "start" : 1620140279171,
+    "stop" : 1620140279498,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35491398dafb0a35",
+  "name" : "User is not authorized",
+  "time" : {
+    "start" : 1620140315394,
+    "stop" : 1620140315741,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93fd53a02fac4244",
+  "name" : "Get all books",
+  "time" : {
+    "start" : 1620140276379,
+    "stop" : 1620140340353,
+    "duration" : 63974
   },
   "status" : "passed",
   "severity" : "normal"

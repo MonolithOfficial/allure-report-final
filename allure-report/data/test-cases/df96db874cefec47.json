@@ -1,50 +1,41 @@
 {
-  "uid" : "eac70e1567164c00",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "df96db874cefec47",
+  "name" : "Generate Token Negative Cases",
+  "fullName" : "Tests.generateTokenNegativeTest",
+  "historyId" : "4f7f5596a1e72153868404dd824942e",
   "time" : {
-    "start" : 1620139703488,
-    "stop" : 1620139703885,
-    "duration" : 397
+    "start" : 1620140279171,
+    "stop" : 1620140279498,
+    "duration" : 327
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
+  "descriptionHtml" : "<p>Description: Generate Token negative cases test, 3 iterations with validations</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620139703488,
-        "stop" : 1620139703885,
-        "duration" : 397
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Validate user Authorization",
-      "time" : {
-        "start" : 1620139703885,
-        "stop" : 1620139703885,
-        "duration" : 0
+        "start" : 1620140279172,
+        "stop" : 1620140279497,
+        "duration" : 325
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "true"
+        "name" : "name",
+        "value" : "tttt"
+      }, {
+        "name" : "password",
+        "value" : ""
+      }, {
+        "name" : "statusCode",
+        "value" : "400"
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
@@ -54,7 +45,7 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
@@ -67,7 +58,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "generateTokenNegativeTest"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -82,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "14208@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,19 +81,28 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "After generating token, Checks if the given user is authorized"
-  }, {
-    "name" : "feature",
-    "value" : "Generate token for unauthorized user"
-  }, {
     "name" : "epic",
     "value" : "Account"
+  }, {
+    "name" : "story",
+    "value" : "Negative Cases"
+  }, {
+    "name" : "feature",
+    "value" : "Generate Token"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "tttt"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "400"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eac70e1567164c00.json",
-  "parameterValues" : [ ]
+  "source" : "df96db874cefec47.json",
+  "parameterValues" : [ "tttt", "", "400" ]
 }
