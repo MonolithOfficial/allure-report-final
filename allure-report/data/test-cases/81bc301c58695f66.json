@@ -1,12 +1,12 @@
 {
-  "uid" : "ab64b1cb486d0b82",
+  "uid" : "81bc301c58695f66",
   "name" : "POST User negative cases",
   "fullName" : "Tests.postUserNegativeScenario",
-  "historyId" : "45f7b4a09b60f29fae28b047e4a0cb07",
+  "historyId" : "6623b5558337967d940da90249fee5a",
   "time" : {
-    "start" : 1620141802348,
-    "stop" : 1620141802660,
-    "duration" : 312
+    "start" : 1620143064208,
+    "stop" : 1620143064478,
+    "duration" : 270
   },
   "description" : "Sends various negative cases to PostUser via dataprovider",
   "descriptionHtml" : "<p>Sends various negative cases to PostUser via dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1620141802349,
-        "stop" : 1620141802349,
+        "start" : 1620143064209,
+        "stop" : 1620143064209,
         "duration" : 0
       },
       "status" : "passed",
@@ -32,32 +32,32 @@
         "value" : "alinatkabladze"
       }, {
         "name" : "password",
-        "value" : "Automation@!@123"
+        "value" : ""
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1620141802349,
-        "stop" : 1620141802659,
-        "duration" : 310
+        "start" : 1620143064209,
+        "stop" : 1620143064477,
+        "duration" : 268
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1620141802659,
-        "stop" : 1620141802659,
+        "start" : 1620143064477,
+        "stop" : 1620143064477,
         "duration" : 0
       },
       "status" : "passed",
@@ -65,22 +65,22 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedCode",
-        "value" : "1204"
+        "value" : "1200"
       }, {
         "name" : "expectedMessage",
-        "value" : "User exists!"
+        "value" : "UserName and Password required."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -117,11 +117,11 @@
     "name" : "epic",
     "value" : "Account"
   }, {
-    "name" : "story",
-    "value" : "Negative Cases with dataprovider"
-  }, {
     "name" : "feature",
     "value" : "Post User"
+  }, {
+    "name" : "story",
+    "value" : "Negative Cases with dataprovider"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -131,13 +131,13 @@
     "value" : "alinatkabladze"
   }, {
     "name" : "arg1",
-    "value" : "Automation@!@123"
+    "value" : ""
   }, {
     "name" : "arg2",
-    "value" : "1204"
+    "value" : "1200"
   }, {
     "name" : "arg3",
-    "value" : "User exists!"
+    "value" : "UserName and Password required."
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab64b1cb486d0b82.json",
-  "parameterValues" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+  "source" : "81bc301c58695f66.json",
+  "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }

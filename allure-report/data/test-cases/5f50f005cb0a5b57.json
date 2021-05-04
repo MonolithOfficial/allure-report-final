@@ -1,12 +1,12 @@
 {
-  "uid" : "38c50fc9859c56ca",
+  "uid" : "5f50f005cb0a5b57",
   "name" : "Get last book from the site, compare to API",
   "fullName" : "Tests.lastBookTitleValue",
   "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620141790222,
-    "stop" : 1620141802336,
-    "duration" : 12114
+    "start" : 1620143052539,
+    "stop" : 1620143063582,
+    "duration" : 11043
   },
   "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
   "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
@@ -20,24 +20,24 @@
     "steps" : [ {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620141800344,
-        "stop" : 1620141800344,
+        "start" : 1620143062491,
+        "stop" : 1620143062491,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
       "time" : {
-        "start" : 1620141801493,
-        "stop" : 1620141802323,
-        "duration" : 830
+        "start" : 1620143062891,
+        "stop" : 1620143063582,
+        "duration" : 691
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,17 +46,17 @@
         "name" : "lastBookTitleInUI",
         "value" : "Understanding ECMAScript 6"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,14 +90,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Get books last item from the Site (UI) and API and compare them."
-  }, {
     "name" : "epic",
     "value" : "Books"
   }, {
     "name" : "feature",
     "value" : "Test cases to compare UI and API results."
+  }, {
+    "name" : "story",
+    "value" : "Get books last item from the Site (UI) and API and compare them."
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "38c50fc9859c56ca.json",
+  "source" : "5f50f005cb0a5b57.json",
   "parameterValues" : [ ]
 }

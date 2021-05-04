@@ -1,62 +1,77 @@
 {
-  "uid" : "6078476ecb49072a",
-  "name" : "User is now authorized",
-  "fullName" : "Tests.authorizedUser",
-  "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
+  "uid" : "ea846f339c232c9d",
+  "name" : "Add an user",
+  "fullName" : "Tests.getBooksForUser",
+  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1620141805958,
-    "stop" : 1620141806241,
-    "duration" : 283
+    "start" : 1620143052115,
+    "stop" : 1620143052531,
+    "duration" : 416
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Get books for current user",
+  "descriptionHtml" : "<p>Get books for current user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Get books for current user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1620141805958,
-        "stop" : 1620141806240,
-        "duration" : 282
+        "start" : 1620143052115,
+        "stop" : 1620143052529,
+        "duration" : 414
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Validate user Authorization",
+      "name" : "Validates that list is empty",
       "time" : {
-        "start" : 1620141806240,
-        "stop" : 1620141806240,
+        "start" : 1620143052530,
+        "stop" : 1620143052530,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate Username",
+      "time" : {
+        "start" : 1620143052530,
+        "stop" : 1620143052530,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "true"
+        "name" : "username",
+        "value" : "user0000000001869960291"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "stepsCount" : 2,
-    "hasContent" : true
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +82,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "authorizedUser"
+    "value" : "getBooksForUser"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -82,7 +97,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -93,11 +108,11 @@
     "name" : "epic",
     "value" : "Account"
   }, {
-    "name" : "story",
-    "value" : "After generating token, Checks if the given user is authorized"
-  }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
+  }, {
+    "name" : "story",
+    "value" : "Adds an user and gets the list of books"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6078476ecb49072a.json",
+  "source" : "ea846f339c232c9d.json",
   "parameterValues" : [ ]
 }

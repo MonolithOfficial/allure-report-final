@@ -1,12 +1,12 @@
 {
-  "uid" : "771e54aaae93c494",
+  "uid" : "314a5f6192d69390",
   "name" : "POST User negative cases",
   "fullName" : "Tests.postUserNegativeScenario",
   "historyId" : "210672077815b2a62f8e1dd5014f51e5",
   "time" : {
-    "start" : 1620141802670,
-    "stop" : 1620141802952,
-    "duration" : 282
+    "start" : 1620143063916,
+    "stop" : 1620143064202,
+    "duration" : 286
   },
   "description" : "Sends various negative cases to PostUser via dataprovider",
   "descriptionHtml" : "<p>Sends various negative cases to PostUser via dataprovider</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1620141802670,
-        "stop" : 1620141802670,
+        "start" : 1620143063916,
+        "stop" : 1620143063916,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,30 +34,30 @@
         "name" : "password",
         "value" : "Auto@2"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1620141802670,
-        "stop" : 1620141802952,
-        "duration" : 282
+        "start" : 1620143063916,
+        "stop" : 1620143064201,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1620141802952,
-        "stop" : 1620141802952,
+        "start" : 1620143064202,
+        "stop" : 1620143064202,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,17 +70,17 @@
         "name" : "expectedMessage",
         "value" : "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,11 +114,11 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Negative Cases with dataprovider"
-  }, {
     "name" : "feature",
     "value" : "Post User"
+  }, {
+    "name" : "story",
+    "value" : "Negative Cases with dataprovider"
   }, {
     "name" : "epic",
     "value" : "Account"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "771e54aaae93c494.json",
+  "source" : "314a5f6192d69390.json",
   "parameterValues" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
 }

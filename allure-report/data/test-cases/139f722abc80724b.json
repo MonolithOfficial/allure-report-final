@@ -1,12 +1,12 @@
 {
-  "uid" : "f64edd8b2b33b2f1",
+  "uid" : "139f722abc80724b",
   "name" : "Add and delete all books",
   "fullName" : "Tests.loginAddAndDeleteBooks",
   "historyId" : "de3021ed13eb1081eea1afdaa54ab142",
   "time" : {
-    "start" : 1620141814856,
-    "stop" : 1620141830289,
-    "duration" : 15433
+    "start" : 1620143074411,
+    "stop" : 1620143089907,
+    "duration" : 15496
   },
   "description" : "This test logs user in, adds books from bookstore and then deletes books differently from profile",
   "descriptionHtml" : "<p>This test logs user in, adds books from bookstore and then deletes books differently from profile</p>\n",
@@ -18,29 +18,29 @@
     "description" : "This test logs user in, adds books from bookstore and then deletes books differently from profile",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user0000000001334620074",
+      "name" : "Enter username user0000000001869960291",
       "time" : {
-        "start" : 1620141820173,
-        "stop" : 1620141820711,
-        "duration" : 538
+        "start" : 1620143079675,
+        "stop" : 1620143080278,
+        "duration" : 603
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000001334620074"
+        "value" : "user0000000001869960291"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620141820711,
-        "stop" : 1620141820953,
-        "duration" : 242
+        "start" : 1620143080279,
+        "stop" : 1620143080533,
+        "duration" : 254
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,77 +49,77 @@
         "name" : "password",
         "value" : "Automation@!@123"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Goes to bookstore from login page",
       "time" : {
-        "start" : 1620141821155,
-        "stop" : 1620141822042,
-        "duration" : 887
+        "start" : 1620143080721,
+        "stop" : 1620143081443,
+        "duration" : 722
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "AddTwoBooksAndValidatePopup",
       "time" : {
-        "start" : 1620141822043,
-        "stop" : 1620141826165,
-        "duration" : 4122
+        "start" : 1620143081443,
+        "stop" : 1620143085895,
+        "duration" : 4452
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Delete book by clicking delete icon and validate there is only one book",
       "time" : {
-        "start" : 1620141826717,
-        "stop" : 1620141828168,
-        "duration" : 1451
+        "start" : 1620143086386,
+        "stop" : 1620143087879,
+        "duration" : 1493
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Delete using 'Delete All Books' button and validate that collection is empty",
       "time" : {
-        "start" : 1620141828168,
-        "stop" : 1620141828959,
-        "duration" : 791
+        "start" : 1620143087879,
+        "stop" : 1620143088765,
+        "duration" : 886
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -145,13 +145,16 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
   }, {
     "name" : "language",
     "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Delete books"
   }, {
     "name" : "story",
     "value" : "Add books for a new user, delete one and then delete all."
@@ -161,9 +164,6 @@
   }, {
     "name" : "feature",
     "value" : "Add books"
-  }, {
-    "name" : "feature",
-    "value" : "Delete books"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f64edd8b2b33b2f1.json",
+  "source" : "139f722abc80724b.json",
   "parameterValues" : [ ]
 }

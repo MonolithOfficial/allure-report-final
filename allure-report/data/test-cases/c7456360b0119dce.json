@@ -1,12 +1,12 @@
 {
-  "uid" : "173a1121dfe192cb",
+  "uid" : "c7456360b0119dce",
   "name" : "Delete user",
   "fullName" : "Tests.userDeleteAndValidate",
   "historyId" : "ee843f48650f418464c449fb41152c24",
   "time" : {
-    "start" : 1620141830309,
-    "stop" : 1620141838100,
-    "duration" : 7791
+    "start" : 1620143089919,
+    "stop" : 1620143097776,
+    "duration" : 7857
   },
   "description" : "Deletes user and validates end-to-end",
   "descriptionHtml" : "<p>Deletes user and validates end-to-end</p>\n",
@@ -18,29 +18,29 @@
     "description" : "Deletes user and validates end-to-end",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user0000000001334620074",
+      "name" : "Enter username user0000000001869960291",
       "time" : {
-        "start" : 1620141835262,
-        "stop" : 1620141835643,
-        "duration" : 381
+        "start" : 1620143094570,
+        "stop" : 1620143095030,
+        "duration" : 460
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000001334620074"
+        "value" : "user0000000001869960291"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620141835643,
-        "stop" : 1620141835868,
-        "duration" : 225
+        "start" : 1620143095031,
+        "stop" : 1620143095228,
+        "duration" : 197
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,49 +49,49 @@
         "name" : "password",
         "value" : "Automation@!@123"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click delete book and confirm",
       "time" : {
-        "start" : 1620141836015,
-        "stop" : 1620141836736,
-        "duration" : 721
+        "start" : 1620143095355,
+        "stop" : 1620143096216,
+        "duration" : 861
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Enter username user0000000001334620074",
+      "name" : "Enter username user0000000001869960291",
       "time" : {
-        "start" : 1620141836952,
-        "stop" : 1620141837283,
-        "duration" : 331
+        "start" : 1620143096436,
+        "stop" : 1620143096946,
+        "duration" : 510
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000001334620074"
+        "value" : "user0000000001869960291"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620141837284,
-        "stop" : 1620141837447,
-        "duration" : 163
+        "start" : 1620143096946,
+        "stop" : 1620143097126,
+        "duration" : 180
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,32 +100,32 @@
         "name" : "password",
         "value" : "Automation@!@123"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "validating error message",
       "time" : {
-        "start" : 1620141837553,
-        "stop" : 1620141837801,
-        "duration" : 248
+        "start" : 1620143097223,
+        "stop" : 1620143097473,
+        "duration" : 250
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -151,7 +151,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "10500@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -159,14 +159,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "epic",
-    "value" : "Account"
-  }, {
     "name" : "story",
     "value" : "Deleting user and validating with UI as well with API"
   }, {
     "name" : "feature",
     "value" : "Delete user"
+  }, {
+    "name" : "epic",
+    "value" : "Account"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -181,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "173a1121dfe192cb.json",
+  "source" : "c7456360b0119dce.json",
   "parameterValues" : [ ]
 }
