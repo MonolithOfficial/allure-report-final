@@ -1,27 +1,27 @@
 {
-  "uid" : "cc8ceceec3556c61",
-  "name" : "NegativeScenario",
-  "fullName" : "Tests.NegativeScenario",
-  "historyId" : "1ae13647e986e2fafa82036be6079a6a",
+  "uid" : "23c1586bfd732332",
+  "name" : "POST User negative cases",
+  "fullName" : "Tests.postUserNegativeScenario",
+  "historyId" : "6623b5558337967d940da90249fee5a",
   "time" : {
-    "start" : 1620112019110,
-    "stop" : 1620112019458,
-    "duration" : 348
+    "start" : 1620139701597,
+    "stop" : 1620139702111,
+    "duration" : 514
   },
-  "description" : "Tests user web service with dataprovider",
-  "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
+  "description" : "Sends various negative cases to PostUser via dataprovider",
+  "descriptionHtml" : "<p>Sends various negative cases to PostUser via dataprovider</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Tests user web service with dataprovider",
+    "description" : "Sends various negative cases to PostUser via dataprovider",
     "status" : "passed",
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1620112019110,
-        "stop" : 1620112019110,
+        "start" : 1620139701597,
+        "stop" : 1620139701597,
         "duration" : 0
       },
       "status" : "passed",
@@ -34,30 +34,30 @@
         "name" : "password",
         "value" : ""
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1620112019110,
-        "stop" : 1620112019457,
-        "duration" : 347
+        "start" : 1620139701597,
+        "stop" : 1620139702110,
+        "duration" : 513
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1620112019457,
-        "stop" : 1620112019457,
+        "start" : 1620139702110,
+        "stop" : 1620139702110,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,17 +70,17 @@
         "name" : "expectedMessage",
         "value" : "UserName and Password required."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 3
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -91,7 +91,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "NegativeScenario"
+    "value" : "postUserNegativeScenario"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,14 +114,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "epic",
-    "value" : "Post User"
-  }, {
     "name" : "story",
-    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
+    "value" : "Negative Cases with dataprovider"
   }, {
     "name" : "feature",
-    "value" : "Negative Scenario"
+    "value" : "Post User"
+  }, {
+    "name" : "epic",
+    "value" : "Account"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cc8ceceec3556c61.json",
+  "source" : "23c1586bfd732332.json",
   "parameterValues" : [ "alinatkabladze", "", "1200", "UserName and Password required." ]
 }

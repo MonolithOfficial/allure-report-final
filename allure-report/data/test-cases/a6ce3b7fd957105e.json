@@ -1,12 +1,12 @@
 {
-  "uid" : "697a831892e4586e",
-  "name" : "booksListSizeByPublisher",
+  "uid" : "a6ce3b7fd957105e",
+  "name" : "Search books by publisher, compare to API",
   "fullName" : "Tests.booksListSizeByPublisher",
   "historyId" : "207da8ee0840a0d5e4ac4f75dd93387f",
   "time" : {
-    "start" : 1620112019460,
-    "stop" : 1620112049017,
-    "duration" : 29557
+    "start" : 1620139682213,
+    "stop" : 1620139702701,
+    "duration" : 20488
   },
   "description" : "Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches",
   "descriptionHtml" : "<p>Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "UI -find in input by value: O'Reilly Media",
       "time" : {
-        "start" : 1620112040772,
-        "stop" : 1620112045319,
-        "duration" : 4547
+        "start" : 1620139699670,
+        "stop" : 1620139701249,
+        "duration" : 1579
       },
       "status" : "passed",
       "steps" : [ ],
@@ -31,48 +31,48 @@
         "name" : "search",
         "value" : "O'Reilly Media"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620112045319,
-        "stop" : 1620112045319,
+        "start" : 1620139701249,
+        "stop" : 1620139701249,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "API - count the number of identical elements by key: publisher and value: O'Reilly Media and validate in and assert the result with the input (UI - item count) parameter: 6.",
       "time" : {
-        "start" : 1620112045610,
-        "stop" : 1620112049016,
-        "duration" : 3406
+        "start" : 1620139701334,
+        "stop" : 1620139702701,
+        "duration" : 1367
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "UI - return all books list",
         "time" : {
-          "start" : 1620112046552,
-          "stop" : 1620112046553,
-          "duration" : 1
+          "start" : 1620139702328,
+          "stop" : 1620139702328,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0,
         "hasContent" : false,
-        "stepsCount" : 0
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
@@ -85,17 +85,17 @@
         "name" : "publisherBooksSumInUI",
         "value" : "6"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 1
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 4
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -121,7 +121,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-1(15)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -132,11 +132,11 @@
     "name" : "story",
     "value" : "Find all books by publisher from the Site (UI) and API and compare them."
   }, {
-    "name" : "epic",
-    "value" : "Search feature UI - Get Books API"
-  }, {
     "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
+    "value" : "Search (website)"
+  }, {
+    "name" : "epic",
+    "value" : "Books"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -151,6 +151,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "697a831892e4586e.json",
+  "source" : "a6ce3b7fd957105e.json",
   "parameterValues" : [ ]
 }

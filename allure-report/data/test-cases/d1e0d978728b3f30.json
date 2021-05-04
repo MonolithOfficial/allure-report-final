@@ -1,28 +1,28 @@
 {
-  "uid" : "81852790d1c97e1e",
-  "name" : "GenerateTokenTest",
-  "fullName" : "Tests.GenerateTokenTest",
-  "historyId" : "4cc262cd92460e286bc0787e2d087918",
+  "uid" : "d1e0d978728b3f30",
+  "name" : "Generate Token Negative Cases",
+  "fullName" : "Tests.generateTokenNegativeTest",
+  "historyId" : "4f7f5596a1e72153868404dd824942e",
   "time" : {
-    "start" : 1620112018654,
-    "stop" : 1620112019043,
-    "duration" : 389
+    "start" : 1620139684631,
+    "stop" : 1620139684996,
+    "duration" : 365
   },
-  "description" : "Description: Generate Token main test, 3 iterations with validations",
-  "descriptionHtml" : "<p>Description: Generate Token main test, 3 iterations with validations</p>\n",
+  "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
+  "descriptionHtml" : "<p>Description: Generate Token negative cases test, 3 iterations with validations</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Description: Generate Token main test, 3 iterations with validations",
+    "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
     "status" : "passed",
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620112018655,
-        "stop" : 1620112019043,
-        "duration" : 388
+        "start" : 1620139684633,
+        "stop" : 1620139684995,
+        "duration" : 362
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,17 +37,17 @@
         "name" : "statusCode",
         "value" : "400"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 1
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -58,7 +58,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "GenerateTokenTest"
+    "value" : "generateTokenNegativeTest"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-1(15)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,13 +82,13 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Negative Cases"
+    "value" : "Generate Token"
   }, {
     "name" : "story",
-    "value" : "GenerateToken"
+    "value" : "Negative Cases"
   }, {
     "name" : "epic",
-    "value" : "Generate Token"
+    "value" : "Account"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "81852790d1c97e1e.json",
+  "source" : "d1e0d978728b3f30.json",
   "parameterValues" : [ "tttt", "", "400" ]
 }

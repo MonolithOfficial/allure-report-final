@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620139726805.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620139726805.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"text-right fullButton\">...</div> is not clickable at point (895, 638). Other element would receive the click: <footer>...</footer>",
+      "children" : [ {
+        "name" : "Add and delete all books",
+        "uid" : "79c94a5d318f89d9",
+        "parentUid" : "a97073e8ef57bcff0230adf799253bf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620139713201,
+          "stop" : 1620139727175,
+          "duration" : 13974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a97073e8ef57bcff0230adf799253bf5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

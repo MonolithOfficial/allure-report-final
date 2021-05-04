@@ -1,28 +1,28 @@
 {
-  "uid" : "e3e51bbda3e38843",
-  "name" : "NegativeScenario",
-  "fullName" : "Tests.NegativeScenario",
-  "historyId" : "c501cf2c3c9485d7f72f63e2588eb298",
+  "uid" : "89b4faedb8a775f6",
+  "name" : "POST User negative cases",
+  "fullName" : "Tests.postUserNegativeScenario",
+  "historyId" : "210672077815b2a62f8e1dd5014f51e5",
   "time" : {
-    "start" : 1620112018646,
-    "stop" : 1620112019103,
-    "duration" : 457
+    "start" : 1620139700832,
+    "stop" : 1620139701591,
+    "duration" : 759
   },
-  "description" : "Tests user web service with dataprovider",
-  "descriptionHtml" : "<p>Tests user web service with dataprovider</p>\n",
+  "description" : "Sends various negative cases to PostUser via dataprovider",
+  "descriptionHtml" : "<p>Sends various negative cases to PostUser via dataprovider</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Tests user web service with dataprovider",
+    "description" : "Sends various negative cases to PostUser via dataprovider",
     "status" : "passed",
     "steps" : [ {
       "name" : "Sends User Request with email and password",
       "time" : {
-        "start" : 1620112018646,
-        "stop" : 1620112018646,
-        "duration" : 0
+        "start" : 1620139700832,
+        "stop" : 1620139700833,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,30 +34,30 @@
         "name" : "password",
         "value" : "Auto@2"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Gets Response and deserilizes it",
       "time" : {
-        "start" : 1620112018647,
-        "stop" : 1620112019102,
-        "duration" : 455
+        "start" : 1620139700835,
+        "stop" : 1620139701591,
+        "duration" : 756
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validates Response Code and Message",
       "time" : {
-        "start" : 1620112019102,
-        "stop" : 1620112019102,
+        "start" : 1620139701591,
+        "stop" : 1620139701591,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,17 +70,17 @@
         "name" : "expectedMessage",
         "value" : "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 3
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -91,7 +91,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "NegativeScenario"
+    "value" : "postUserNegativeScenario"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -106,7 +106,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -115,13 +115,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Sends email and password, gets response and validates it, gets data from dataprovider"
+    "value" : "Negative Cases with dataprovider"
   }, {
     "name" : "epic",
-    "value" : "Post User"
+    "value" : "Account"
   }, {
     "name" : "feature",
-    "value" : "Negative Scenario"
+    "value" : "Post User"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -148,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e3e51bbda3e38843.json",
+  "source" : "89b4faedb8a775f6.json",
   "parameterValues" : [ "alinatkabladze", "Auto@2", "1300", "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer." ]
 }

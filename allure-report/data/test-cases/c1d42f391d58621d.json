@@ -1,46 +1,46 @@
 {
-  "uid" : "4a634b24f6015832",
-  "name" : "getUserLoginAddBook",
+  "uid" : "c1d42f391d58621d",
+  "name" : "Log in and add book",
   "fullName" : "Tests.getUserLoginAddBook",
   "historyId" : "342bf8b6b09b7b90d99f2a393a838291",
   "time" : {
-    "start" : 1620112046036,
-    "stop" : 1620112059586,
-    "duration" : 13550
+    "start" : 1620139703892,
+    "stop" : 1620139713194,
+    "duration" : 9302
   },
-  "description" : "login user, add book, validate book with title",
-  "descriptionHtml" : "<p>login user, add book, validate book with title</p>\n",
+  "description" : "Log in user, add book, validate book with title",
+  "descriptionHtml" : "<p>Log in user, add book, validate book with title</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "login user, add book, validate book with title",
+    "description" : "Log in user, add book, validate book with title",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user0000000002076793661",
+      "name" : "Enter username user0000000001559985607",
       "time" : {
-        "start" : 1620112047934,
-        "stop" : 1620112049010,
-        "duration" : 1076
+        "start" : 1620139705078,
+        "stop" : 1620139705463,
+        "duration" : 385
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000002076793661"
+        "value" : "user0000000001559985607"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620112049011,
-        "stop" : 1620112049768,
-        "duration" : 757
+        "start" : 1620139705463,
+        "stop" : 1620139707021,
+        "duration" : 1558
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,124 +49,124 @@
         "name" : "password",
         "value" : "Automation@!@123"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "check username: user0000000002076793661",
+      "name" : "check username: user0000000001559985607",
       "time" : {
-        "start" : 1620112050120,
-        "stop" : 1620112050837,
-        "duration" : 717
+        "start" : 1620139707333,
+        "stop" : 1620139708042,
+        "duration" : 709
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000002076793661"
+        "value" : "user0000000001559985607"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "scroll to book store",
       "time" : {
-        "start" : 1620112050838,
-        "stop" : 1620112050901,
-        "duration" : 63
+        "start" : 1620139708042,
+        "stop" : 1620139708150,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "jump to book store",
       "time" : {
-        "start" : 1620112050902,
-        "stop" : 1620112051080,
-        "duration" : 178
+        "start" : 1620139708150,
+        "stop" : 1620139708330,
+        "duration" : 180
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "scroll to YouDontKnowJS",
       "time" : {
-        "start" : 1620112051080,
-        "stop" : 1620112051736,
-        "duration" : 656
+        "start" : 1620139708330,
+        "stop" : 1620139708715,
+        "duration" : 385
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click 'you don't know JS'",
       "time" : {
-        "start" : 1620112051736,
-        "stop" : 1620112052507,
-        "duration" : 771
+        "start" : 1620139708715,
+        "stop" : 1620139709341,
+        "duration" : 626
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "scroll to add book",
       "time" : {
-        "start" : 1620112052507,
-        "stop" : 1620112052583,
-        "duration" : 76
+        "start" : 1620139709341,
+        "stop" : 1620139709431,
+        "duration" : 90
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "add book",
       "time" : {
-        "start" : 1620112052583,
-        "stop" : 1620112052759,
-        "duration" : 176
+        "start" : 1620139709432,
+        "stop" : 1620139709668,
+        "duration" : 236
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "validate popup text: Book added to your collection.",
       "time" : {
-        "start" : 1620112052760,
-        "stop" : 1620112053077,
-        "duration" : 317
+        "start" : 1620139709669,
+        "stop" : 1620139709923,
+        "duration" : 254
       },
       "status" : "passed",
       "steps" : [ ],
@@ -175,77 +175,77 @@
         "name" : "text",
         "value" : "Book added to your collection."
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "accept popup",
       "time" : {
-        "start" : 1620112053077,
-        "stop" : 1620112053273,
-        "duration" : 196
+        "start" : 1620139709923,
+        "stop" : 1620139710010,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "scroll to profile",
       "time" : {
-        "start" : 1620112053273,
-        "stop" : 1620112053567,
-        "duration" : 294
+        "start" : 1620139710010,
+        "stop" : 1620139710109,
+        "duration" : 99
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "jump to profile",
       "time" : {
-        "start" : 1620112053567,
-        "stop" : 1620112053752,
-        "duration" : 185
+        "start" : 1620139710109,
+        "stop" : 1620139710299,
+        "duration" : 190
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "validate book title",
       "time" : {
-        "start" : 1620112053753,
-        "stop" : 1620112054363,
-        "duration" : 610
+        "start" : 1620139710299,
+        "stop" : 1620139710717,
+        "duration" : 418
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 14
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -271,7 +271,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -280,13 +280,13 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "login and validate add book"
+    "value" : "Add book"
+  }, {
+    "name" : "story",
+    "value" : "Log in and validate add book"
   }, {
     "name" : "epic",
     "value" : "Books"
-  }, {
-    "name" : "story",
-    "value" : "validate test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -301,6 +301,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4a634b24f6015832.json",
+  "source" : "c1d42f391d58621d.json",
   "parameterValues" : [ ]
 }

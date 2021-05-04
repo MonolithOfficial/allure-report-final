@@ -1,12 +1,12 @@
 {
-  "uid" : "49dc6f8b2c04bf4",
+  "uid" : "d9deedf0f4216c8c",
   "name" : "User is not authorized",
   "fullName" : "Tests.unauthorizedUser",
   "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
   "time" : {
-    "start" : 1620112044957,
-    "stop" : 1620112045360,
-    "duration" : 403
+    "start" : 1620139702710,
+    "stop" : 1620139703125,
+    "duration" : 415
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -20,23 +20,23 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1620112044958,
-        "stop" : 1620112045359,
-        "duration" : 401
+        "start" : 1620139702710,
+        "stop" : 1620139703125,
+        "duration" : 415
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Validate user Authorization",
       "time" : {
-        "start" : 1620112045360,
-        "stop" : 1620112045360,
+        "start" : 1620139703125,
+        "stop" : 1620139703125,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,17 +46,17 @@
         "name" : "isAuthorized",
         "value" : "false"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "hasContent" : true,
-    "stepsCount" : 2
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "11408@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,10 +91,10 @@
     "value" : "java"
   }, {
     "name" : "epic",
-    "value" : "Generate Token"
+    "value" : "Account"
   }, {
     "name" : "story",
-    "value" : "Checks if the given user is authorized, before generating token"
+    "value" : "Before generating token, check if the given user is authorized"
   }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "49dc6f8b2c04bf4.json",
+  "source" : "d9deedf0f4216c8c.json",
   "parameterValues" : [ ]
 }
