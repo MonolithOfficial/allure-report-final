@@ -1,12 +1,12 @@
 {
-  "uid" : "18e2269df5387c3e",
+  "uid" : "20a387cc4f669f18",
   "name" : "userDeleteAndValidate",
   "fullName" : "Tests.userDeleteAndValidate",
   "historyId" : "ee843f48650f418464c449fb41152c24",
   "time" : {
-    "start" : 1620074416648,
-    "stop" : 1620074423539,
-    "duration" : 6891
+    "start" : 1620112059591,
+    "stop" : 1620112074994,
+    "duration" : 15403
   },
   "description" : "deletes user and validates",
   "descriptionHtml" : "<p>deletes user and validates</p>\n",
@@ -18,29 +18,29 @@
     "description" : "deletes user and validates",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Enter username user0000000002084167456",
+      "name" : "Enter username user0000000002076793661",
       "time" : {
-        "start" : 1620074420133,
-        "stop" : 1620074420479,
-        "duration" : 346
+        "start" : 1620112065241,
+        "stop" : 1620112065866,
+        "duration" : 625
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000002084167456"
+        "value" : "user0000000002076793661"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620074420479,
-        "stop" : 1620074420698,
-        "duration" : 219
+        "start" : 1620112065867,
+        "stop" : 1620112066269,
+        "duration" : 402
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,14 +51,14 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "click delete book and confirm",
       "time" : {
-        "start" : 1620074420883,
-        "stop" : 1620074421906,
-        "duration" : 1023
+        "start" : 1620112066634,
+        "stop" : 1620112069954,
+        "duration" : 3320
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,32 +66,32 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Enter username user0000000002084167456",
+      "name" : "Enter username user0000000002076793661",
       "time" : {
-        "start" : 1620074422220,
-        "stop" : 1620074422602,
-        "duration" : 382
+        "start" : 1620112070632,
+        "stop" : 1620112072345,
+        "duration" : 1713
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user0000000002084167456"
+        "value" : "user0000000002076793661"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Enter password Automation@!@123",
       "time" : {
-        "start" : 1620074422602,
-        "stop" : 1620074422819,
-        "duration" : 217
+        "start" : 1620112072345,
+        "stop" : 1620112073342,
+        "duration" : 997
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,14 +102,14 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "validating error message",
       "time" : {
-        "start" : 1620074422969,
-        "stop" : 1620074423250,
-        "duration" : 281
+        "start" : 1620112074406,
+        "stop" : 1620112074692,
+        "duration" : 286
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,15 +117,15 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -151,7 +151,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "10552@DESKTOP-BSJ5I2T.TestNG-test=Groups-1(15)"
+    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -181,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "18e2269df5387c3e.json",
+  "source" : "20a387cc4f669f18.json",
   "parameterValues" : [ ]
 }

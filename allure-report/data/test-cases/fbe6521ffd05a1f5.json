@@ -1,28 +1,28 @@
 {
-  "uid" : "3a999b1dc06862fa",
-  "name" : "User is not authorized",
-  "fullName" : "Tests.unauthorizedUser",
-  "historyId" : "d10b146bafe7595f82bb58eaa1c53007",
+  "uid" : "fbe6521ffd05a1f5",
+  "name" : "Generate Token",
+  "fullName" : "Tests.generateToken",
+  "historyId" : "a4c547be2e71f6a12347861541bbeb3b",
   "time" : {
-    "start" : 1620074409689,
-    "stop" : 1620074409970,
-    "duration" : 281
+    "start" : 1620112045367,
+    "stop" : 1620112045699,
+    "duration" : 332
   },
-  "description" : "Check user authorization",
-  "descriptionHtml" : "<p>Check user authorization</p>\n",
+  "description" : "Authorize the user",
+  "descriptionHtml" : "<p>Authorize the user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Check user authorization",
+    "description" : "Authorize the user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get response for 'Authorize' request",
+      "name" : "Get response for 'GenerateToken' request",
       "time" : {
-        "start" : 1620074409690,
-        "stop" : 1620074409970,
-        "duration" : 280
+        "start" : 1620112045367,
+        "stop" : 1620112045698,
+        "duration" : 331
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,33 +30,51 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Validate user Authorization",
+      "name" : "Validate GenerateToken status",
       "time" : {
-        "start" : 1620074409970,
-        "stop" : 1620074409970,
+        "start" : 1620112045699,
+        "stop" : 1620112045699,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "isAuthorized",
-        "value" : "false"
+        "name" : "status",
+        "value" : "Success"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate GenerateToken result",
+      "time" : {
+        "start" : 1620112045699,
+        "stop" : 1620112045699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "result",
+        "value" : "User authorized successfully."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +85,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "unauthorizedUser"
+    "value" : "generateToken"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -82,7 +100,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "10552@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,11 +108,11 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "story",
+    "value" : "Generates the token for given user"
+  }, {
     "name" : "epic",
     "value" : "Generate Token"
-  }, {
-    "name" : "story",
-    "value" : "Checks if the given user is authorized, before generating token"
   }, {
     "name" : "feature",
     "value" : "Generate token for unauthorized user"
@@ -112,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a999b1dc06862fa.json",
+  "source" : "fbe6521ffd05a1f5.json",
   "parameterValues" : [ ]
 }

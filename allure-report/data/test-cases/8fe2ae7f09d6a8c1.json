@@ -1,12 +1,12 @@
 {
-  "uid" : "e96a475189f065f8",
+  "uid" : "8fe2ae7f09d6a8c1",
   "name" : "GOBTest",
   "fullName" : "Tests.GOBTest",
   "historyId" : "59cf34f3f833b794a0ad4e591600aa0e",
   "time" : {
-    "start" : 1620074395569,
-    "stop" : 1620074409883,
-    "duration" : 14314
+    "start" : 1620112019793,
+    "stop" : 1620112044949,
+    "duration" : 25156
   },
   "description" : "This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data",
   "descriptionHtml" : "<p>This test moves to book details page, grabs the isbn needed to access the query dynamically and then proceeds to graball the information in UI and Query. at the end of the execution it compared the two data sets in two different ways1st, by moving the Query information to the BookAPI POJO class and comparing its values to the Book POJO class that has UI Data stored in it, and 2nd, by directly accessing Query information with fluent and comparing it with Book POJO class UI data</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "moving to the information page",
       "time" : {
-        "start" : 1620074407000,
-        "stop" : 1620074408043,
-        "duration" : 1043
+        "start" : 1620112038555,
+        "stop" : 1620112041724,
+        "duration" : 3169
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,14 +30,14 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Grabbing ISBN",
       "time" : {
-        "start" : 1620074408043,
-        "stop" : 1620074408089,
-        "duration" : 46
+        "start" : 1620112041724,
+        "stop" : 1620112041793,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,14 +45,14 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Grabbing all UI Values",
       "time" : {
-        "start" : 1620074408090,
-        "stop" : 1620074408516,
-        "duration" : 426
+        "start" : 1620112041793,
+        "stop" : 1620112042635,
+        "duration" : 842
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,36 +60,36 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Asserts Book via Query and the UI Object directly",
       "time" : {
-        "start" : 1620074408530,
-        "stop" : 1620074409868,
-        "duration" : 1338
+        "start" : 1620112042650,
+        "stop" : 1620112044868,
+        "duration" : 2218
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "book",
-        "value" : "backend.models.responses.Book@6d3c4ce6"
+        "value" : "backend.models.responses.Book@5e5921a6"
       }, {
         "name" : "FBD",
-        "value" : "frontend.pages.BookDetailsPage@7e109dfa"
+        "value" : "frontend.pages.BookDetailsPage@240a59c5"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 4,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -115,7 +115,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "10552@DESKTOP-BSJ5I2T.TestNG-test=Groups-1(15)"
+    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e96a475189f065f8.json",
+  "source" : "8fe2ae7f09d6a8c1.json",
   "parameterValues" : [ ]
 }

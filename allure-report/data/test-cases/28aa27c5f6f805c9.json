@@ -1,12 +1,12 @@
 {
-  "uid" : "bf465d7b5d5d0e2a",
+  "uid" : "28aa27c5f6f805c9",
   "name" : "GetBooksDataFromUIAndAPITest",
   "fullName" : "Tests.GetBooksDataFromUIAndAPITest",
   "historyId" : "e24627152c47e7d96616ebce2f8a80ac",
   "time" : {
-    "start" : 1620074392441,
-    "stop" : 1620074413868,
-    "duration" : 21427
+    "start" : 1620112015649,
+    "stop" : 1620112059258,
+    "duration" : 43609
   },
   "description" : "Get books data from ui and api ,validate title,author and publisher.",
   "descriptionHtml" : "<p>Get books data from ui and api ,validate title,author and publisher.</p>\n",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "Get Book Titles From BookStore",
       "time" : {
-        "start" : 1620074406504,
-        "stop" : 1620074406504,
+        "start" : 1620112040259,
+        "stop" : 1620112040259,
         "duration" : 0
       },
       "status" : "passed",
@@ -30,14 +30,14 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Get Book Authors From BookStore",
       "time" : {
-        "start" : 1620074406504,
-        "stop" : 1620074406504,
-        "duration" : 0
+        "start" : 1620112040259,
+        "stop" : 1620112040260,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,13 +45,13 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Get Book Publishers From BookStore",
       "time" : {
-        "start" : 1620074406504,
-        "stop" : 1620074406504,
+        "start" : 1620112040260,
+        "stop" : 1620112040260,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,14 +60,14 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Validate title from BookStore and API",
       "time" : {
-        "start" : 1620074408893,
-        "stop" : 1620074409896,
-        "duration" : 1003
+        "start" : 1620112050971,
+        "stop" : 1620112051922,
+        "duration" : 951
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,14 +78,14 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Validate author from BookStore and API",
       "time" : {
-        "start" : 1620074411457,
-        "stop" : 1620074411861,
-        "duration" : 404
+        "start" : 1620112055570,
+        "stop" : 1620112056016,
+        "duration" : 446
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,14 +96,14 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Validate publisher from BookStore and API",
       "time" : {
-        "start" : 1620074413455,
-        "stop" : 1620074413867,
-        "duration" : 412
+        "start" : 1620112058664,
+        "stop" : 1620112059257,
+        "duration" : 593
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,15 +114,15 @@
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,7 +148,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "10552@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "7504@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -156,11 +156,11 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Get all books"
-  }, {
     "name" : "story",
     "value" : "Validate that the data on the website and API is the same"
+  }, {
+    "name" : "feature",
+    "value" : "Get all books"
   }, {
     "name" : "epic",
     "value" : "Books"
@@ -178,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bf465d7b5d5d0e2a.json",
+  "source" : "28aa27c5f6f805c9.json",
   "parameterValues" : [ ]
 }
