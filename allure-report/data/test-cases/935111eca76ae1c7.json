@@ -1,49 +1,28 @@
 {
-  "uid" : "c6ba04c4e5175447",
-  "name" : "POST User negative cases",
-  "fullName" : "Tests.postUserNegativeScenario",
-  "historyId" : "45f7b4a09b60f29fae28b047e4a0cb07",
+  "uid" : "935111eca76ae1c7",
+  "name" : "Add an user",
+  "fullName" : "Tests.getBooksForUser",
+  "historyId" : "de7785ef83c5be1e30f12322fa50b4d4",
   "time" : {
-    "start" : 1620140940830,
-    "stop" : 1620140941120,
-    "duration" : 290
+    "start" : 1620141789568,
+    "stop" : 1620141790204,
+    "duration" : 636
   },
-  "description" : "Sends various negative cases to PostUser via dataprovider",
-  "descriptionHtml" : "<p>Sends various negative cases to PostUser via dataprovider</p>\n",
+  "description" : "Get books for current user",
+  "descriptionHtml" : "<p>Get books for current user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Sends various negative cases to PostUser via dataprovider",
+    "description" : "Get books for current user",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Sends User Request with email and password",
+      "name" : "Get response for 'User' request",
       "time" : {
-        "start" : 1620140940830,
-        "stop" : 1620140940830,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "email",
-        "value" : "alinatkabladze"
-      }, {
-        "name" : "password",
-        "value" : "Automation@!@123"
-      } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Gets Response and deserilizes it",
-      "time" : {
-        "start" : 1620140940831,
-        "stop" : 1620140941119,
-        "duration" : 288
+        "start" : 1620141789568,
+        "stop" : 1620141790202,
+        "duration" : 634
       },
       "status" : "passed",
       "steps" : [ ],
@@ -54,21 +33,33 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Validates Response Code and Message",
+      "name" : "Validates that list is empty",
       "time" : {
-        "start" : 1620140941119,
-        "stop" : 1620140941120,
-        "duration" : 1
+        "start" : 1620141790203,
+        "stop" : 1620141790203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate Username",
+      "time" : {
+        "start" : 1620141790203,
+        "stop" : 1620141790203,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "expectedCode",
-        "value" : "1204"
-      }, {
-        "name" : "expectedMessage",
-        "value" : "User exists!"
+        "name" : "username",
+        "value" : "user0000000001334620074"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -91,7 +82,7 @@
     "value" : "Tests"
   }, {
     "name" : "testMethod",
-    "value" : "postUserNegativeScenario"
+    "value" : "getBooksForUser"
   }, {
     "name" : "parentSuite",
     "value" : "test_suite"
@@ -106,7 +97,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -115,30 +106,18 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Negative Cases with dataprovider"
-  }, {
-    "name" : "feature",
-    "value" : "Post User"
+    "value" : "Adds an user and gets the list of books"
   }, {
     "name" : "epic",
     "value" : "Account"
   }, {
+    "name" : "feature",
+    "value" : "Generate token for unauthorized user"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "arg0",
-    "value" : "alinatkabladze"
-  }, {
-    "name" : "arg1",
-    "value" : "Automation@!@123"
-  }, {
-    "name" : "arg2",
-    "value" : "1204"
-  }, {
-    "name" : "arg3",
-    "value" : "User exists!"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -148,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6ba04c4e5175447.json",
-  "parameterValues" : [ "alinatkabladze", "Automation@!@123", "1204", "User exists!" ]
+  "source" : "935111eca76ae1c7.json",
+  "parameterValues" : [ ]
 }

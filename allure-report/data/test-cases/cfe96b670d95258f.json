@@ -1,12 +1,12 @@
 {
-  "uid" : "192a9831b3d275bb",
+  "uid" : "cfe96b670d95258f",
   "name" : "Generate Token Negative Cases",
   "fullName" : "Tests.generateTokenNegativeTest",
-  "historyId" : "b4c5af3f440d87280745d92c49beb6ab",
+  "historyId" : "4f7f5596a1e72153868404dd824942e",
   "time" : {
-    "start" : 1620140922810,
-    "stop" : 1620140923425,
-    "duration" : 615
+    "start" : 1620141788683,
+    "stop" : 1620141789078,
+    "duration" : 395
   },
   "description" : "Description: Generate Token negative cases test, 3 iterations with validations",
   "descriptionHtml" : "<p>Description: Generate Token negative cases test, 3 iterations with validations</p>\n",
@@ -20,22 +20,22 @@
     "steps" : [ {
       "name" : "GenerateTokenStep",
       "time" : {
-        "start" : 1620140922813,
-        "stop" : 1620140923424,
-        "duration" : 611
+        "start" : 1620141788692,
+        "stop" : 1620141789077,
+        "duration" : 385
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "alinatkabladze"
+        "value" : "tttt"
       }, {
         "name" : "password",
-        "value" : "Automation@!@1234"
+        "value" : ""
       }, {
         "name" : "statusCode",
-        "value" : "200"
+        "value" : "400"
       } ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
@@ -73,7 +73,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -95,13 +95,13 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "alinatkabladze"
+    "value" : "tttt"
   }, {
     "name" : "arg1",
-    "value" : "Automation@!@1234"
+    "value" : ""
   }, {
     "name" : "arg2",
-    "value" : "200"
+    "value" : "400"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "192a9831b3d275bb.json",
-  "parameterValues" : [ "alinatkabladze", "Automation@!@1234", "200" ]
+  "source" : "cfe96b670d95258f.json",
+  "parameterValues" : [ "tttt", "", "400" ]
 }

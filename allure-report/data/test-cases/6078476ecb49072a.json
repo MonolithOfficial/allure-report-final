@@ -1,12 +1,12 @@
 {
-  "uid" : "932fa66ad77b27b3",
+  "uid" : "6078476ecb49072a",
   "name" : "User is now authorized",
   "fullName" : "Tests.authorizedUser",
   "historyId" : "e61010acb9117decf06e6761ca2b1c2e",
   "time" : {
-    "start" : 1620140945189,
-    "stop" : 1620140945495,
-    "duration" : 306
+    "start" : 1620141805958,
+    "stop" : 1620141806241,
+    "duration" : 283
   },
   "description" : "Check user authorization",
   "descriptionHtml" : "<p>Check user authorization</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Get response for 'Authorize' request",
       "time" : {
-        "start" : 1620140945189,
-        "stop" : 1620140945495,
-        "duration" : 306
+        "start" : 1620141805958,
+        "stop" : 1620141806240,
+        "duration" : 282
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,8 +35,8 @@
     }, {
       "name" : "Validate user Authorization",
       "time" : {
-        "start" : 1620140945495,
-        "stop" : 1620140945495,
+        "start" : 1620141806240,
+        "stop" : 1620141806240,
         "duration" : 0
       },
       "status" : "passed",
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "932fa66ad77b27b3.json",
+  "source" : "6078476ecb49072a.json",
   "parameterValues" : [ ]
 }

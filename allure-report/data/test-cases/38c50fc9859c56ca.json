@@ -1,12 +1,12 @@
 {
-  "uid" : "fd90688e9b8a8abd",
+  "uid" : "38c50fc9859c56ca",
   "name" : "Get last book from the site, compare to API",
   "fullName" : "Tests.lastBookTitleValue",
   "historyId" : "e2b7d15e70dd38359b63f3b31a71adfc",
   "time" : {
-    "start" : 1620140924153,
-    "stop" : 1620140940805,
-    "duration" : 16652
+    "start" : 1620141790222,
+    "stop" : 1620141802336,
+    "duration" : 12114
   },
   "description" : "Test case lastBookTitleValue validate UI books list last element equal or not with API",
   "descriptionHtml" : "<p>Test case lastBookTitleValue validate UI books list last element equal or not with API</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620140939089,
-        "stop" : 1620140939090,
-        "duration" : 1
+        "start" : 1620141800344,
+        "stop" : 1620141800344,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +35,9 @@
     }, {
       "name" : "API - last item title value compare with input Understanding ECMAScript 6 parameter.",
       "time" : {
-        "start" : 1620140940117,
-        "stop" : 1620140940804,
-        "duration" : 687
+        "start" : 1620141801493,
+        "stop" : 1620141802323,
+        "duration" : 830
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,7 +82,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
+    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-3(17)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -90,14 +90,14 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "feature",
-    "value" : "Test cases to compare UI and API results."
-  }, {
     "name" : "story",
     "value" : "Get books last item from the Site (UI) and API and compare them."
   }, {
     "name" : "epic",
     "value" : "Books"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases to compare UI and API results."
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fd90688e9b8a8abd.json",
+  "source" : "38c50fc9859c56ca.json",
   "parameterValues" : [ ]
 }

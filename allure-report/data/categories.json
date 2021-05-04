@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {By.xpath: //*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.png\r\nPage source: file:/C:/Users/monolith/.jenkins/workspace/mation-2020_jenkins-ci-cd-reboot/build/reports/tests/1620140963887.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='addNewRecordButton']//parent::div[contains(@class, 'text-right')]\"}",
-      "children" : [ {
-        "name" : "Add and delete all books",
-        "uid" : "a77e39ccc579ab70",
-        "parentUid" : "e8b3cc66063b186e41ca7e7ed4e8e429",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620140953803,
-          "stop" : 1620140964303,
-          "duration" : 10500
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e8b3cc66063b186e41ca7e7ed4e8e429"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

@@ -4,10 +4,10 @@
     "uid" : "76792ac41856d3b07e291a15774523c5",
     "name" : "Books",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 7,
       "unknown" : 0,
       "total" : 7
     }
@@ -17,8 +17,8 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 3,
+      "skipped" : 0,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 4
     }

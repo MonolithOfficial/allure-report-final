@@ -1,12 +1,12 @@
 {
-  "uid" : "8eaeff33394a9ba3",
+  "uid" : "f8a69cb65a02c2d6",
   "name" : "Search books by publisher, compare to API",
   "fullName" : "Tests.booksListSizeByPublisher",
   "historyId" : "207da8ee0840a0d5e4ac4f75dd93387f",
   "time" : {
-    "start" : 1620140919916,
-    "stop" : 1620140944581,
-    "duration" : 24665
+    "start" : 1620141786035,
+    "stop" : 1620141805257,
+    "duration" : 19222
   },
   "description" : "Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches",
   "descriptionHtml" : "<p>Test case booksListSizeByPublisher to filter UI and API elements validate them and compare.whether the number of publications matches</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "UI -find in input by value: O'Reilly Media",
       "time" : {
-        "start" : 1620140938853,
-        "stop" : 1620140943435,
-        "duration" : 4582
+        "start" : 1620141801385,
+        "stop" : 1620141803856,
+        "duration" : 2471
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,8 +38,8 @@
     }, {
       "name" : "UI - return all books list",
       "time" : {
-        "start" : 1620140943436,
-        "stop" : 1620140943436,
+        "start" : 1620141803856,
+        "stop" : 1620141803856,
         "duration" : 0
       },
       "status" : "passed",
@@ -53,16 +53,16 @@
     }, {
       "name" : "API - count the number of identical elements by key: publisher and value: O'Reilly Media and validate in and assert the result with the input (UI - item count) parameter: 6.",
       "time" : {
-        "start" : 1620140943674,
-        "stop" : 1620140944581,
-        "duration" : 907
+        "start" : 1620141804093,
+        "stop" : 1620141805257,
+        "duration" : 1164
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "UI - return all books list",
         "time" : {
-          "start" : 1620140944326,
-          "stop" : 1620140944326,
+          "start" : 1620141804769,
+          "stop" : 1620141804769,
           "duration" : 0
         },
         "status" : "passed",
@@ -121,7 +121,7 @@
     "value" : "DESKTOP-BSJ5I2T"
   }, {
     "name" : "thread",
-    "value" : "8624@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
+    "value" : "15544@DESKTOP-BSJ5I2T.TestNG-test=Groups-2(16)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -151,6 +151,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8eaeff33394a9ba3.json",
+  "source" : "f8a69cb65a02c2d6.json",
   "parameterValues" : [ ]
 }

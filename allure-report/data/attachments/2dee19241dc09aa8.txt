@@ -1,1 +1,0 @@
-loginAddAndDeleteBooks failed and screenshot taken
